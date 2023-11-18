@@ -1,9 +1,9 @@
-import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
+import { Test, TestingModule } from '@nestjs/testing';
 import request from 'supertest';
 import { beforeEach, describe, expect, it } from 'vitest';
-import { AppModule } from '../../../src/app.module';
-import { getAccessToken } from 'test/get-access-token';
+import { AppModule } from '../../../src/app.module.js';
+import { getAccessToken } from '../../get-access-token.js';
 
 let app: INestApplication;
 

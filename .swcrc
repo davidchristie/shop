@@ -9,5 +9,8 @@
     }
   },
   "minify": false,
+  "module": {
+    "type": "es6"
+  },
   "sourceMaps": true
 }

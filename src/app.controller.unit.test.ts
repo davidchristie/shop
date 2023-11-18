@@ -1,10 +1,10 @@
 import { JwtService } from '@nestjs/jwt';
 import { Test, TestingModule } from '@nestjs/testing';
 import { beforeEach, describe, expect, it } from 'vitest';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
-import { AuthService } from './auth/auth.service';
-import { UsersService } from './users/users.service';
+import { AppController } from './app.controller.js';
+import { AppService } from './app.service.js';
+import { AuthService } from './auth/auth.service.js';
+import { UsersService } from './users/users.service.js';
 
 describe('AppController', () => {
   let appController: AppController;

@@ -1,8 +1,8 @@
-import { Test, TestingModule } from '@nestjs/testing';
-import { beforeEach, describe, expect, it } from 'vitest';
-import { AuthService } from './auth.service';
-import { UsersModule } from 'src/users/users.module';
 import { JwtService } from '@nestjs/jwt';
+import { Test, TestingModule } from '@nestjs/testing';
+import { UsersModule } from 'src/users/users.module.js';
+import { beforeEach, describe, expect, it } from 'vitest';
+import { AuthService } from './auth.service.js';
 
 describe('AuthService', () => {
   let service: AuthService;

@@ -5,9 +5,5 @@ export default defineConfig({
   test: {
     root: './',
   },
-  plugins: [
-    swc.vite({
-      module: { type: 'es6' },
-    }),
-  ],
+  plugins: [swc.vite()],
 });
