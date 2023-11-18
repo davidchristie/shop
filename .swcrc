@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "jsc": {
+    "baseUrl": "./",
+    "parser": {
+      "decorators": true,
+      "dynamicImport": true,
+      "syntax": "typescript"
+    }
+  },
+  "minify": false,
+  "sourceMaps": true
+}
