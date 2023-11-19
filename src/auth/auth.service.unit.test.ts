@@ -1,6 +1,6 @@
 import { JwtService } from '@nestjs/jwt';
 import { Test, TestingModule } from '@nestjs/testing';
-import { UsersModule } from 'src/users/users.module.js';
+import { UsersModule } from '../users/users.module.js';
 import { beforeEach, describe, expect, it } from 'vitest';
 import { AuthService } from './auth.service.js';
 
