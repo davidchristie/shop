@@ -5,11 +5,11 @@ import { IS_PUBLIC_KEY } from './public.js';
 
 @Injectable()
 export class JwtAuthGuard extends AuthGuard('jwt') {
-  constructor(private reflector: Reflector) {
+  public constructor(private readonly reflector: Reflector) {
     super();
   }
 
-  canActivate(context: ExecutionContext) {
+  public canActivate(context: ExecutionContext) {
     const isPublic = this.reflector.getAllAndOverride<boolean>(IS_PUBLIC_KEY, [
       context.getHandler(),
       context.getClass(),

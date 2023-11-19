@@ -4,6 +4,7 @@ import { beforeEach, describe, expect, it } from 'vitest';
 import { AppController } from './app.controller.js';
 import { AppService } from './app.service.js';
 import { AuthService } from './auth/auth.service.js';
+import { PrismaService } from './prisma.service.js';
 import { UsersService } from './users/users.service.js';
 
 describe('AppController', () => {
@@ -12,7 +13,13 @@ describe('AppController', () => {
   beforeEach(async () => {
     const app: TestingModule = await Test.createTestingModule({
       controllers: [AppController],
-      providers: [AppService, AuthService, JwtService, UsersService],
+      providers: [
+        AppService,
+        AuthService,
+        JwtService,
+        PrismaService,
+        UsersService,
+      ],
     }).compile();
     appController = app.get<AppController>(AppController);
   });

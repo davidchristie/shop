@@ -13,7 +13,7 @@ import { Public } from './auth/public.js';
 
 @Controller('api/v1')
 export class AppController {
-  constructor(
+  public constructor(
     private readonly authService: AuthService,
     private readonly appService: AppService,
   ) {}
@@ -22,17 +22,17 @@ export class AppController {
   @Public()
   @HttpCode(200)
   @UseGuards(LocalAuthGuard)
-  async login(@Request() request: any) {
+  public async login(@Request() request: any) {
     return this.authService.login(request.user);
   }
 
   @Get('profile')
-  getProfile(@Request() request: any) {
+  public getProfile(@Request() request: any) {
     return request.user;
   }
 
   @Get('hello')
-  getHello(): string {
+  public getHello(): string {
     return this.appService.getHello();
   }
 }

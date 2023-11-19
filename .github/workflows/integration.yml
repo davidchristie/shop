@@ -47,5 +47,8 @@ jobs:
         with:
           cache: npm
           node-version: 20
+      - run: docker compose up --detach
       - run: npm ci
+      - run: npm run migrate
+      - run: npm run seed
       - run: npm run test:integration

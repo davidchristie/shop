@@ -18,7 +18,7 @@ describe('POST /api/v1/login', () => {
   it('returns status 200 for valid credentials', async () => {
     const response = await request(app.getHttpServer())
       .post('/api/v1/login')
-      .send({ username: 'john', password: 'Pa$$word123' })
+      .send({ username: 'jane.doe@domain.com', password: 'Pa$$word123' })
       .set('Content-Type', 'application/json');
     expect(response.status).toBe(200);
     expect(response.body).toMatchObject({
