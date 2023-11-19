@@ -6,22 +6,22 @@ import { User, UsersService } from '../users/users.service.js';
 @Injectable()
 export class AuthService {
   public constructor(
-    private usersService: UsersService,
-    private jwtService: JwtService,
+    private readonly usersService: UsersService,
+    private readonly jwtService: JwtService,
   ) {}
 
   public async login(user: User) {
-    const payload = { username: user.username, sub: user.userId };
+    const payload = { sub: user.id };
     return {
       accessToken: this.jwtService.sign(payload),
     };
   }
 
   public async validateUser(
-    username: string,
+    email: string,
     password: string,
   ): Promise<User | null> {
-    const user = await this.usersService.findOne(username);
+    const user = await this.usersService.findOneByEmail(email);
     if (user === null) {
       return null;
     }

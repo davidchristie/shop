@@ -23,8 +23,15 @@ describe('POST /api/v1/profile', () => {
       .set('Authorization', `Bearer ${accessToken}`);
     expect(response.status).toBe(200);
     expect(response.body).toMatchObject({
-      userId: 1,
-      username: 'john',
+      createdAt: '2023-11-19T06:31:46.208Z',
+      deletedAt: null,
+      email: 'jane.doe@domain.com',
+      familyName: 'Doe',
+      givenName: 'Jane',
+      id: '24af37e5-a17e-4826-830c-8240314dd160',
+      passwordHash:
+        '$2b$10$ASLNQYd1Q/r8DBgAg3ZfzeTgVtuch5xw9ZGqvay/YThvBTn3NSPy.',
+      updatedAt: '2023-11-19T06:31:46.208Z',
     });
   });
 
