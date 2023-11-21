@@ -1,0 +1,6 @@
+/coverage/
+/dist/
+/node_modules/
+.env
+compose.yml
+dockerfile

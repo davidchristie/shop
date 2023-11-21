@@ -47,8 +47,24 @@ jobs:
         with:
           cache: npm
           node-version: 20
-      - run: docker compose up --detach
+      - run: docker compose up postgres --detach
       - run: npm ci
       - run: npm run migrate
       - run: npm run seed
       - run: npm run test:integration
+
+  system-tests:
+    name: System Tests
+    needs: [audit]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          cache: npm
+          node-version: 20
+      - run: docker compose up --detach
+      - run: npm ci
+      - run: npm run migrate
+      - run: npm run seed
+      - run: npm run test:system

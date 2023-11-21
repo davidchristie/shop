@@ -4,6 +4,7 @@
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "generate": "prisma generate",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
     "migrate": "prisma db push",
     "nest": "nest",
@@ -13,6 +14,7 @@
     "start:dev": "nest start --watch",
     "start:prod": "node dist/main",
     "test:integration": "vitest integration",
+    "test:system": "vitest system",
     "test:unit": "vitest unit",
     "verify": "tsc --noEmit && eslint \"{src,test}/**/*.ts\""
   },
