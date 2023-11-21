@@ -1,12 +1,12 @@
-import { INestApplication } from '@nestjs/common';
-import { Test, TestingModule } from '@nestjs/testing';
-import request from 'supertest';
-import { beforeEach, describe, expect, it } from 'vitest';
-import { AppModule } from '../../../../src/app.module.js';
-import { getAdminAccessToken } from '../../../get-admin-access-token.js';
-import { getUserAccessToken } from '../../../get-user-access-token.js';
+import { INestApplication } from "@nestjs/common";
+import { Test, TestingModule } from "@nestjs/testing";
+import request from "supertest";
+import { beforeEach, describe, expect, it } from "vitest";
+import { AppModule } from "../../../../src/app.module.js";
+import { getAdminAccessToken } from "../../../get-admin-access-token.js";
+import { getUserAccessToken } from "../../../get-user-access-token.js";
 
-const baseUrl = '/api/v1/admin/users';
+const baseUrl = "/api/v1/admin/users";
 
 let app: INestApplication;
 
@@ -19,11 +19,11 @@ beforeEach(async () => {
 });
 
 describe(`GET ${baseUrl}`, () => {
-  it('returns status 200 when authenticated as admin', async () => {
+  it("returns status 200 when authenticated as admin", async () => {
     const accessToken = await getAdminAccessToken(app);
     const response = await request(app.getHttpServer())
       .get(baseUrl)
-      .set('Authorization', `Bearer ${accessToken}`);
+      .set("Authorization", `Bearer ${accessToken}`);
     expect(response.status).toBe(200);
     expect(response.body).toMatchInlineSnapshot(`
       [
@@ -51,11 +51,11 @@ describe(`GET ${baseUrl}`, () => {
     `);
   });
 
-  it('returns status 403 when authenticated as user', async () => {
+  it("returns status 403 when authenticated as user", async () => {
     const accessToken = await getUserAccessToken(app);
     const response = await request(app.getHttpServer())
       .get(baseUrl)
-      .set('Authorization', `Bearer ${accessToken}`);
+      .set("Authorization", `Bearer ${accessToken}`);
     expect(response.status).toBe(403);
     expect(response.body).toMatchInlineSnapshot(`
       {
@@ -66,7 +66,7 @@ describe(`GET ${baseUrl}`, () => {
     `);
   });
 
-  it('returns status 401 when unauthenticated', async () => {
+  it("returns status 401 when unauthenticated", async () => {
     const response = await request(app.getHttpServer()).get(baseUrl);
     expect(response.status).toBe(401);
     expect(response.body).toMatchInlineSnapshot(`
