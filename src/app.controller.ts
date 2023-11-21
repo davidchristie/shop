@@ -5,20 +5,20 @@ import {
   Post,
   Request,
   UseGuards,
-} from '@nestjs/common';
-import { AppService } from './app.service.js';
-import { AuthService } from './auth/auth.service.js';
-import { LocalAuthGuard } from './auth/local-auth.guard.js';
-import { Public } from './auth/public.decorator.js';
+} from "@nestjs/common";
+import { AppService } from "./app.service.js";
+import { AuthService } from "./auth/auth.service.js";
+import { LocalAuthGuard } from "./auth/local-auth.guard.js";
+import { Public } from "./auth/public.decorator.js";
 
-@Controller('api/v1')
+@Controller("api/v1")
 export class AppController {
   public constructor(
     private readonly authService: AuthService,
     private readonly appService: AppService,
   ) {}
 
-  @Post('login')
+  @Post("login")
   @Public()
   @HttpCode(200)
   @UseGuards(LocalAuthGuard)
@@ -26,7 +26,7 @@ export class AppController {
     return this.authService.login(request.user);
   }
 
-  @Get('profile')
+  @Get("profile")
   public getProfile(@Request() request: any) {
     return {
       id: request.user.id,
@@ -37,7 +37,7 @@ export class AppController {
     };
   }
 
-  @Get('hello')
+  @Get("hello")
   public getHello(): string {
     return this.appService.getHello();
   }
