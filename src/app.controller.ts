@@ -28,7 +28,13 @@ export class AppController {
 
   @Get('profile')
   public getProfile(@Request() request: any) {
-    return request.user;
+    return {
+      id: request.user.id,
+      givenName: request.user.givenName,
+      familyName: request.user.familyName,
+      email: request.user.email,
+      role: request.user.role,
+    };
   }
 
   @Get('hello')
