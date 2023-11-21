@@ -41,4 +41,12 @@ export class AppController {
   public getHello(): string {
     return this.appService.getHello();
   }
+
+  @Get("healthcheck")
+  @Public()
+  public getHealthcheck() {
+    return {
+      status: "OK",
+    };
+  }
 }

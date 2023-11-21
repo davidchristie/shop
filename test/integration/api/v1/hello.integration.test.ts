@@ -2,7 +2,7 @@ import { INestApplication } from "@nestjs/common";
 import { Test, TestingModule } from "@nestjs/testing";
 import request from "supertest";
 import { beforeEach, describe, expect, it } from "vitest";
-import { AppModule } from "../../../src/app.module.js";
+import { AppModule } from "../../../../src/app.module.js";
 import { getUserAccessToken } from "../../get-user-access-token.js";
 
 let app: INestApplication;
@@ -15,26 +15,18 @@ beforeEach(async () => {
   await app.init();
 });
 
-describe("POST /api/v1/profile", () => {
+describe("POST /api/v1/hello", () => {
   it("returns status 200 when authenticated", async () => {
     const accessToken = await getUserAccessToken(app);
     const response = await request(app.getHttpServer())
-      .get("/api/v1/profile")
+      .get("/api/v1/hello")
       .set("Authorization", `Bearer ${accessToken}`);
     expect(response.status).toBe(200);
-    expect(response.body).toMatchInlineSnapshot(`
-      {
-        "email": "john.doe@domain.com",
-        "familyName": "Doe",
-        "givenName": "John",
-        "id": "1678d317-6f84-4c13-8629-2d9b00f2ff01",
-        "role": "USER",
-      }
-    `);
+    expect(response.text).toBe("Hello World!");
   });
 
   it("returns status 401 when unauthenticated", async () => {
-    const response = await request(app.getHttpServer()).get("/api/v1/profile");
+    const response = await request(app.getHttpServer()).get("/api/v1/hello");
     expect(response.status).toBe(401);
     expect(response.body).toMatchInlineSnapshot(`
       {
