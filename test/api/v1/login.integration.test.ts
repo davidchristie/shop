@@ -32,9 +32,11 @@ describe('POST /api/v1/login', () => {
       .send({ username: 'john', password: 'wrong_password' })
       .set('Content-Type', 'application/json');
     expect(response.status).toBe(401);
-    expect(response.body).toEqual({
-      message: 'Unauthorized',
-      statusCode: 401,
-    });
+    expect(response.body).toMatchInlineSnapshot(`
+      {
+        "message": "Unauthorized",
+        "statusCode": 401,
+      }
+    `);
   });
 });

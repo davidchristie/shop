@@ -9,7 +9,7 @@ import {
 import { AppService } from './app.service.js';
 import { AuthService } from './auth/auth.service.js';
 import { LocalAuthGuard } from './auth/local-auth.guard.js';
-import { Public } from './auth/public.js';
+import { Public } from './auth/public.decorator.js';
 
 @Controller('api/v1')
 export class AppController {
