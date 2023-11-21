@@ -8,6 +8,10 @@ export type { User };
 export class UsersService {
   public constructor(private readonly prisma: PrismaService) {}
 
+  public findMany(): Promise<User[]> {
+    return this.prisma.user.findMany();
+  }
+
   public findOneByEmail(email: string): Promise<User | null> {
     return this.prisma.user.findUnique({ where: { email } });
   }

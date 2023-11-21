@@ -7,6 +7,11 @@ generator client {
   provider = "prisma-client-js"
 }
 
+enum Role {
+  ADMIN
+  USER
+}
+
 model User {
   id           String    @id @default(uuid()) @db.Uuid
   createdAt    DateTime  @default(now()) @map("created_at")
@@ -16,6 +21,7 @@ model User {
   familyName   String    @map("family_name")
   email        String    @unique
   passwordHash String    @map("password_hash")
+  role         Role      @default(USER)
 
   @@map("users")
 }

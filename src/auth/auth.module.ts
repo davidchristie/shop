@@ -9,6 +9,7 @@ import { JWT_SECRET_ENVIRONMENT_NAME } from './constants.js';
 import { JwtAuthGuard } from './jwt-auth.guard.js';
 import { JwtStrategy } from './jwt.strategy.js';
 import { LocalStrategy } from './local.strategy.js';
+import { RolesGuard } from './roles.guard.js';
 
 @Module({
   imports: [
@@ -33,6 +34,10 @@ import { LocalStrategy } from './local.strategy.js';
     {
       provide: APP_GUARD,
       useClass: JwtAuthGuard,
+    },
+    {
+      provide: APP_GUARD,
+      useClass: RolesGuard,
     },
   ],
   exports: [AuthService],

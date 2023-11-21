@@ -3,7 +3,7 @@ import { Test, TestingModule } from '@nestjs/testing';
 import request from 'supertest';
 import { beforeEach, describe, expect, it } from 'vitest';
 import { AppModule } from '../../../src/app.module.js';
-import { getAccessToken } from '../../get-access-token.js';
+import { getUserAccessToken } from '../../get-user-access-token.js';
 
 let app: INestApplication;
 
@@ -17,7 +17,7 @@ beforeEach(async () => {
 
 describe('POST /api/v1/hello', () => {
   it('returns status 200 when authenticated', async () => {
-    const accessToken = await getAccessToken(app);
+    const accessToken = await getUserAccessToken(app);
     const response = await request(app.getHttpServer())
       .get('/api/v1/hello')
       .set('Authorization', `Bearer ${accessToken}`);
@@ -28,9 +28,11 @@ describe('POST /api/v1/hello', () => {
   it('returns status 401 when unauthenticated', async () => {
     const response = await request(app.getHttpServer()).get('/api/v1/hello');
     expect(response.status).toBe(401);
-    expect(response.body).toMatchObject({
-      message: 'Unauthorized',
-      statusCode: 401,
-    });
+    expect(response.body).toMatchInlineSnapshot(`
+      {
+        "message": "Unauthorized",
+        "statusCode": 401,
+      }
+    `);
   });
 });

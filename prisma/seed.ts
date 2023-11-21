@@ -13,6 +13,7 @@ async function seed(): Promise<void> {
         email: 'jane.doe@domain.com',
         passwordHash:
           '$2b$10$ASLNQYd1Q/r8DBgAg3ZfzeTgVtuch5xw9ZGqvay/YThvBTn3NSPy.', // Pa$$word123
+        role: 'ADMIN',
       },
       {
         id: '1678d317-6f84-4c13-8629-2d9b00f2ff01',

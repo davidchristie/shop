@@ -9,7 +9,7 @@ import {
 import { AppService } from './app.service.js';
 import { AuthService } from './auth/auth.service.js';
 import { LocalAuthGuard } from './auth/local-auth.guard.js';
-import { Public } from './auth/public.js';
+import { Public } from './auth/public.decorator.js';
 
 @Controller('api/v1')
 export class AppController {
@@ -28,7 +28,13 @@ export class AppController {
 
   @Get('profile')
   public getProfile(@Request() request: any) {
-    return request.user;
+    return {
+      id: request.user.id,
+      givenName: request.user.givenName,
+      familyName: request.user.familyName,
+      email: request.user.email,
+      role: request.user.role,
+    };
   }
 
   @Get('hello')
