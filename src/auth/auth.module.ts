@@ -4,6 +4,7 @@ import { APP_GUARD } from "@nestjs/core";
 import { JwtModule } from "@nestjs/jwt";
 import { PassportModule } from "@nestjs/passport";
 import { UsersModule } from "../users/users.module.js";
+import { AuthController } from "./auth.controller.js";
 import { AuthService } from "./auth.service.js";
 import { JWT_SECRET_ENVIRONMENT_NAME } from "./constants.js";
 import { JwtAuthGuard } from "./jwt-auth.guard.js";
@@ -12,6 +13,7 @@ import { LocalStrategy } from "./local.strategy.js";
 import { RolesGuard } from "./roles.guard.js";
 
 @Module({
+  controllers: [AuthController],
   imports: [
     ConfigModule,
     JwtModule.registerAsync({

@@ -6,17 +6,13 @@ import {
   Request,
   UseGuards,
 } from "@nestjs/common";
-import { AppService } from "./app.service.js";
-import { AuthService } from "./auth/auth.service.js";
-import { LocalAuthGuard } from "./auth/local-auth.guard.js";
-import { Public } from "./auth/public.decorator.js";
+import { AuthService } from "./auth.service.js";
+import { LocalAuthGuard } from "./local-auth.guard.js";
+import { Public } from "./public.decorator.js";
 
 @Controller("api/v1")
-export class AppController {
-  public constructor(
-    private readonly authService: AuthService,
-    private readonly appService: AppService,
-  ) {}
+export class AuthController {
+  public constructor(private readonly authService: AuthService) {}
 
   @Post("login")
   @Public()
@@ -35,10 +31,5 @@ export class AppController {
       email: request.user.email,
       role: request.user.role,
     };
-  }
-
-  @Get("hello")
-  public getHello(): string {
-    return this.appService.getHello();
   }
 }
