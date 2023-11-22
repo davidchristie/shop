@@ -2,14 +2,11 @@ import { ConfigModuleOptions } from "@nestjs/config";
 import { ConfigSchema } from "./config.schema.js";
 
 export const configModuleOptions: ConfigModuleOptions = {
-  validationSchema: {
-    validate(value: unknown) {
-      const result = ConfigSchema.safeParse(value);
-      if (result.success) {
-        return { value: result.data, error: undefined };
-      } else {
-        return { value: undefined, error: result.error };
-      }
-    },
+  validate: (config) => {
+    const result = ConfigSchema.safeParse(config);
+    if (!result.success) {
+      throw new Error(`Config validation error: ${result.error.message}`);
+    }
+    return result.data;
   },
 };
