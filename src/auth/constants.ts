@@ -1,1 +1,0 @@
-export const JWT_SECRET_ENVIRONMENT_NAME = "JWT_SECRET";
