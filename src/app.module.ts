@@ -4,12 +4,13 @@ import { AdminModule } from "./admin/admin.module.js";
 import { AuthModule } from "./auth/auth.module.js";
 import { HealthModule } from "./health/health.module.js";
 import { UsersModule } from "./users/users.module.js";
+import { configModuleOptions } from "./config/config-module-options.js";
 
 @Module({
   imports: [
     AdminModule,
     AuthModule,
-    ConfigModule.forRoot(),
+    ConfigModule.forRoot(configModuleOptions),
     HealthModule,
     UsersModule,
   ],

@@ -6,11 +6,11 @@ import { PassportModule } from "@nestjs/passport";
 import { UsersModule } from "../users/users.module.js";
 import { AuthController } from "./auth.controller.js";
 import { AuthService } from "./auth.service.js";
-import { JWT_SECRET_ENVIRONMENT_NAME } from "./constants.js";
 import { JwtAuthGuard } from "./jwt-auth.guard.js";
 import { JwtStrategy } from "./jwt.strategy.js";
 import { LocalStrategy } from "./local.strategy.js";
 import { RolesGuard } from "./roles.guard.js";
+import { Config } from "../config/config.schema.js";
 
 @Module({
   controllers: [AuthController],
@@ -18,8 +18,8 @@ import { RolesGuard } from "./roles.guard.js";
     ConfigModule,
     JwtModule.registerAsync({
       imports: [ConfigModule],
-      useFactory: async (configService: ConfigService) => ({
-        secretOrPrivateKey: configService.get(JWT_SECRET_ENVIRONMENT_NAME),
+      useFactory: async (configService: ConfigService<Config>) => ({
+        secretOrPrivateKey: configService.get("JWT_SECRET"),
         signOptions: {
           expiresIn: "60s",
         },
