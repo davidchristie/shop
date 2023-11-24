@@ -1,6 +1,8 @@
+import { faker } from "@faker-js/faker";
 import { PrismaClient } from "@prisma/client";
 
 async function seed(): Promise<void> {
+  faker.seed(0);
   const prisma = new PrismaClient();
   await prisma.user.createMany({
     data: [
@@ -26,6 +28,16 @@ async function seed(): Promise<void> {
           "$2b$10$Vjbw2X0s7gkwE.ctQHOyWOZtlwZ4G1zqDiuYe5QSjoxB31saQ8K7S", // guess
       },
     ],
+  });
+  await prisma.product.createMany({
+    data: Array(1000)
+      .fill(null)
+      .map(() => ({
+        id: faker.string.uuid(),
+        createdAt: new Date("2023-11-19T06:31:46.208Z"),
+        updatedAt: new Date("2023-11-19T06:31:46.208Z"),
+        name: faker.commerce.product(),
+      })),
   });
 }
 
