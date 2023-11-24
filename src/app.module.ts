@@ -2,9 +2,10 @@ import { Module } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
 import { AdminModule } from "./admin/admin.module.js";
 import { AuthModule } from "./auth/auth.module.js";
-import { HealthModule } from "./health/health.module.js";
-import { UsersModule } from "./users/users.module.js";
 import { configModuleOptions } from "./config/config-module-options.js";
+import { HealthModule } from "./health/health.module.js";
+import { ProductsModule } from "./products/products.module.js";
+import { UsersModule } from "./users/users.module.js";
 
 @Module({
   imports: [
@@ -12,6 +13,7 @@ import { configModuleOptions } from "./config/config-module-options.js";
     AuthModule,
     ConfigModule.forRoot(configModuleOptions),
     HealthModule,
+    ProductsModule,
     UsersModule,
   ],
 })
