@@ -1,20 +1,14 @@
-import { INestApplication, ValidationPipe } from "@nestjs/common";
-import { Test, TestingModule } from "@nestjs/testing";
+import { INestApplication } from "@nestjs/common";
 import request from "supertest";
 import { beforeEach, describe, expect, it } from "vitest";
-import { AppModule } from "../../../../src/app.module.js";
+import { createApp } from "../../create-app.js";
 
 const baseUrl = "/api/v1/products";
 
 let app: INestApplication;
 
 beforeEach(async () => {
-  const moduleFixture: TestingModule = await Test.createTestingModule({
-    imports: [AppModule],
-  }).compile();
-  app = moduleFixture.createNestApplication();
-  app.useGlobalPipes(new ValidationPipe({ transform: true }));
-  await app.init();
+  app = await createApp();
 });
 
 describe(`GET ${baseUrl}`, () => {

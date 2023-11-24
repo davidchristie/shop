@@ -1,8 +1,7 @@
 import { INestApplication } from "@nestjs/common";
-import { Test, TestingModule } from "@nestjs/testing";
 import request from "supertest";
 import { beforeEach, describe, expect, it } from "vitest";
-import { AppModule } from "../../../../../src/app.module.js";
+import { createApp } from "../../../create-app.js";
 import { getAdminAccessToken } from "../../../get-admin-access-token.js";
 import { getUserAccessToken } from "../../../get-user-access-token.js";
 
@@ -11,11 +10,7 @@ const baseUrl = "/api/v1/admin/users";
 let app: INestApplication;
 
 beforeEach(async () => {
-  const moduleFixture: TestingModule = await Test.createTestingModule({
-    imports: [AppModule],
-  }).compile();
-  app = moduleFixture.createNestApplication();
-  await app.init();
+  app = await createApp();
 });
 
 describe(`GET ${baseUrl}`, () => {
