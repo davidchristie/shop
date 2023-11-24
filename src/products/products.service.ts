@@ -1,6 +1,10 @@
-import { Product } from "@prisma/client";
+import { Product, Variant } from "@prisma/client";
 import { Injectable } from "@nestjs/common";
 import { PrismaService } from "../prisma.service.js";
+
+export type ProductWithVariants = Product & {
+  variants: Variant[];
+};
 
 @Injectable()
 export class ProductsService {
@@ -9,8 +13,11 @@ export class ProductsService {
   public findMany(input: {
     limit?: number;
     offset?: number;
-  }): Promise<Product[]> {
+  }): Promise<ProductWithVariants[]> {
     return this.prismaService.product.findMany({
+      include: {
+        variants: true,
+      },
       skip: input.offset,
       take: input.limit,
     });

@@ -39,6 +39,18 @@ async function seed(): Promise<void> {
         name: faker.commerce.product(),
       })),
   });
+  const products = await prisma.product.findMany();
+  await prisma.variant.createMany({
+    data: Array(3000)
+      .fill(null)
+      .map((_, index) => ({
+        id: faker.string.uuid(),
+        createdAt: new Date("2023-11-19T06:31:46.208Z"),
+        updatedAt: new Date("2023-11-19T06:31:46.208Z"),
+        name: faker.commerce.productAdjective(),
+        productId: products[Math.floor(index / 3)].id,
+      })),
+  });
 }
 
 seed();

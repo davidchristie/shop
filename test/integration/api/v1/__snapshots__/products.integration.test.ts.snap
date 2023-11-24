@@ -5,42 +5,182 @@ exports[`GET /api/v1/products > respects 'limit' query parameter 1`] = `
   {
     "id": "000a5b36-a222-4e3f-9f77-0a2b42e5edf6",
     "name": "Tuna",
+    "variants": [
+      {
+        "id": "f33dcff3-a759-4550-8bda-b122266ad7be",
+        "name": "f33dcff3-a759-4550-8bda-b122266ad7be",
+      },
+      {
+        "id": "69738daf-873c-45dd-8a24-ac6a479657b7",
+        "name": "69738daf-873c-45dd-8a24-ac6a479657b7",
+      },
+      {
+        "id": "0e137a4a-6936-4e97-9e4d-9fcc1c4cd5a7",
+        "name": "0e137a4a-6936-4e97-9e4d-9fcc1c4cd5a7",
+      },
+    ],
   },
   {
     "id": "0081090f-6706-4673-9f3a-681c5768dce7",
     "name": "Keyboard",
+    "variants": [
+      {
+        "id": "bcb06707-1fa5-41f2-95b3-5eb3d252de61",
+        "name": "bcb06707-1fa5-41f2-95b3-5eb3d252de61",
+      },
+      {
+        "id": "88183c3e-cdd2-40dd-af23-b422b6cf0d1e",
+        "name": "88183c3e-cdd2-40dd-af23-b422b6cf0d1e",
+      },
+      {
+        "id": "4bc1097e-db77-4f11-9f42-9d8b35d0cf6a",
+        "name": "4bc1097e-db77-4f11-9f42-9d8b35d0cf6a",
+      },
+    ],
   },
   {
     "id": "00ae6b6b-c9b8-4f75-89ea-c55a9741d311",
     "name": "Gloves",
+    "variants": [
+      {
+        "id": "c5eb0e3c-b7ec-4044-92cb-78146a8b896c",
+        "name": "c5eb0e3c-b7ec-4044-92cb-78146a8b896c",
+      },
+      {
+        "id": "c512fdfc-2088-4822-9938-619ba7b40345",
+        "name": "c512fdfc-2088-4822-9938-619ba7b40345",
+      },
+      {
+        "id": "904906c0-da27-43a0-87cf-669e83bbd3ea",
+        "name": "904906c0-da27-43a0-87cf-669e83bbd3ea",
+      },
+    ],
   },
   {
     "id": "00c2caeb-1ae1-4ecf-a8c3-4946bba7a05a",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "0afd543c-3ade-411a-9918-da6fe03c107c",
+        "name": "0afd543c-3ade-411a-9918-da6fe03c107c",
+      },
+      {
+        "id": "670483ed-d458-40ac-98f7-a88626915154",
+        "name": "670483ed-d458-40ac-98f7-a88626915154",
+      },
+      {
+        "id": "45ba0d4e-9fc2-48b3-8737-ffe5c611a0ba",
+        "name": "45ba0d4e-9fc2-48b3-8737-ffe5c611a0ba",
+      },
+    ],
   },
   {
     "id": "00c428cb-9d7a-47b1-8232-a0d735102232",
     "name": "Towels",
+    "variants": [
+      {
+        "id": "5c8b24c4-9f3a-4bce-b505-9c26ae2bdd6e",
+        "name": "5c8b24c4-9f3a-4bce-b505-9c26ae2bdd6e",
+      },
+      {
+        "id": "6eef599a-f2cf-45a3-94cf-e58c6f85bd61",
+        "name": "6eef599a-f2cf-45a3-94cf-e58c6f85bd61",
+      },
+      {
+        "id": "7120e6bc-8b25-4607-a1c7-6ade331743ad",
+        "name": "7120e6bc-8b25-4607-a1c7-6ade331743ad",
+      },
+    ],
   },
   {
     "id": "00c58d67-d63e-44aa-b568-464579cfc6c0",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "d1a1b744-7016-4c8f-aecb-7b4fa7edc6f6",
+        "name": "d1a1b744-7016-4c8f-aecb-7b4fa7edc6f6",
+      },
+      {
+        "id": "29b7e76d-6b22-4f75-986b-9e0b71c6dfce",
+        "name": "29b7e76d-6b22-4f75-986b-9e0b71c6dfce",
+      },
+      {
+        "id": "f8192853-8499-40ab-939e-a78de6babc91",
+        "name": "f8192853-8499-40ab-939e-a78de6babc91",
+      },
+    ],
   },
   {
     "id": "00e966ec-736d-4431-b943-98c783c92398",
     "name": "Pizza",
+    "variants": [
+      {
+        "id": "9095862a-2665-41b1-8101-6ecfb2440fc7",
+        "name": "9095862a-2665-41b1-8101-6ecfb2440fc7",
+      },
+      {
+        "id": "5265730e-a72c-44f6-be06-7e9b8aa830cd",
+        "name": "5265730e-a72c-44f6-be06-7e9b8aa830cd",
+      },
+      {
+        "id": "1dab1bb9-2d41-4ac2-8168-089cd447c674",
+        "name": "1dab1bb9-2d41-4ac2-8168-089cd447c674",
+      },
+    ],
   },
   {
     "id": "0172c5ec-d757-438c-8046-221d87e546c9",
     "name": "Salad",
+    "variants": [
+      {
+        "id": "5c81c89d-b84c-4ff8-8654-73d42f43c112",
+        "name": "5c81c89d-b84c-4ff8-8654-73d42f43c112",
+      },
+      {
+        "id": "ce9c6d8d-42d9-4855-b694-36109f91643e",
+        "name": "ce9c6d8d-42d9-4855-b694-36109f91643e",
+      },
+      {
+        "id": "4366025c-0658-4898-8ceb-df96807e3088",
+        "name": "4366025c-0658-4898-8ceb-df96807e3088",
+      },
+    ],
   },
   {
     "id": "01749f2c-5465-4549-bb83-8f43c3f3cd18",
     "name": "Chair",
+    "variants": [
+      {
+        "id": "6fcaccf3-561c-445d-abd2-29c9635f0206",
+        "name": "6fcaccf3-561c-445d-abd2-29c9635f0206",
+      },
+      {
+        "id": "e4dd16d5-83dd-4f65-b852-1779e5782445",
+        "name": "e4dd16d5-83dd-4f65-b852-1779e5782445",
+      },
+      {
+        "id": "7696ae5c-2add-4194-88cd-4deaee94daae",
+        "name": "7696ae5c-2add-4194-88cd-4deaee94daae",
+      },
+    ],
   },
   {
     "id": "01f2bd89-c8a3-4263-a9da-5b7b6902b881",
     "name": "Soap",
+    "variants": [
+      {
+        "id": "c9ad7cdd-1884-4458-ad8d-bf69eacd0315",
+        "name": "c9ad7cdd-1884-4458-ad8d-bf69eacd0315",
+      },
+      {
+        "id": "45209f93-e42e-4688-a270-95693e8966ab",
+        "name": "45209f93-e42e-4688-a270-95693e8966ab",
+      },
+      {
+        "id": "0ccca6b4-8d05-449e-a093-fe001927aa00",
+        "name": "0ccca6b4-8d05-449e-a093-fe001927aa00",
+      },
+    ],
   },
 ]
 `;
@@ -50,402 +190,1802 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   {
     "id": "021a5204-6b64-4e99-9fb0-e67e094fdfed",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "f490598e-dc27-4512-bb5e-4526bedf2477",
+        "name": "f490598e-dc27-4512-bb5e-4526bedf2477",
+      },
+      {
+        "id": "b3085a44-6b84-47fa-86a5-62d45db9751c",
+        "name": "b3085a44-6b84-47fa-86a5-62d45db9751c",
+      },
+      {
+        "id": "5374db34-53b7-41bb-96be-990deaae956b",
+        "name": "5374db34-53b7-41bb-96be-990deaae956b",
+      },
+    ],
   },
   {
     "id": "02294725-d881-438d-8ace-6dd2a0991b6d",
     "name": "Table",
+    "variants": [
+      {
+        "id": "4009cbd1-0cfe-4866-8c88-dc70ddbb6a92",
+        "name": "4009cbd1-0cfe-4866-8c88-dc70ddbb6a92",
+      },
+      {
+        "id": "9a0c8053-571e-4ff0-9b3e-dee379137ec5",
+        "name": "9a0c8053-571e-4ff0-9b3e-dee379137ec5",
+      },
+      {
+        "id": "5ec396ab-2972-4090-af8a-808d135e1e6f",
+        "name": "5ec396ab-2972-4090-af8a-808d135e1e6f",
+      },
+    ],
   },
   {
     "id": "02ee8863-f1b9-4469-9486-6d0ad18b1f3f",
     "name": "Bike",
+    "variants": [
+      {
+        "id": "9c926518-3d76-4ac0-b376-202954a32a9c",
+        "name": "9c926518-3d76-4ac0-b376-202954a32a9c",
+      },
+      {
+        "id": "1222af86-efdc-4756-8c38-6132c58d7331",
+        "name": "1222af86-efdc-4756-8c38-6132c58d7331",
+      },
+      {
+        "id": "78c4d6c5-761f-4048-b22a-bcdc44d4d1c4",
+        "name": "78c4d6c5-761f-4048-b22a-bcdc44d4d1c4",
+      },
+    ],
   },
   {
     "id": "02f3702c-5c8e-42d3-a0ea-d3104fa44707",
     "name": "Chips",
+    "variants": [
+      {
+        "id": "a85eb95a-c4f2-49fe-b47b-55944520125a",
+        "name": "a85eb95a-c4f2-49fe-b47b-55944520125a",
+      },
+      {
+        "id": "c1294ac4-16dd-4b90-897d-195bbe1b4f8e",
+        "name": "c1294ac4-16dd-4b90-897d-195bbe1b4f8e",
+      },
+      {
+        "id": "7ceec285-69af-4200-a8d4-b7ed90de9638",
+        "name": "7ceec285-69af-4200-a8d4-b7ed90de9638",
+      },
+    ],
   },
   {
     "id": "03004978-a61f-4a1c-8f20-688f77c1ffc7",
     "name": "Bacon",
+    "variants": [
+      {
+        "id": "17af28b9-7a89-4e5a-8f60-7e8fa712ba79",
+        "name": "17af28b9-7a89-4e5a-8f60-7e8fa712ba79",
+      },
+      {
+        "id": "6df92f20-6de9-4bf1-b9bc-8ec5e58a3d09",
+        "name": "6df92f20-6de9-4bf1-b9bc-8ec5e58a3d09",
+      },
+      {
+        "id": "defed715-e62c-45b6-9603-14e6e5d92d45",
+        "name": "defed715-e62c-45b6-9603-14e6e5d92d45",
+      },
+    ],
   },
   {
     "id": "030e0f62-19d1-4e54-835e-687bf6472600",
     "name": "Chips",
+    "variants": [
+      {
+        "id": "5c7bdeac-8e34-4d6a-8e14-760d05fb4aa6",
+        "name": "5c7bdeac-8e34-4d6a-8e14-760d05fb4aa6",
+      },
+      {
+        "id": "30ef20c3-1ef5-433c-8789-8d67cbd0b043",
+        "name": "30ef20c3-1ef5-433c-8789-8d67cbd0b043",
+      },
+      {
+        "id": "31e3fc90-4310-4a2f-8227-cc8b9b0d72cb",
+        "name": "31e3fc90-4310-4a2f-8227-cc8b9b0d72cb",
+      },
+    ],
   },
   {
     "id": "03212f7b-59b7-4154-b642-b9e37c84c3d3",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "7812d40a-75b1-48c3-80c4-12c5423de9ec",
+        "name": "7812d40a-75b1-48c3-80c4-12c5423de9ec",
+      },
+      {
+        "id": "574075cc-658e-4162-bbd8-b58c7c58246a",
+        "name": "574075cc-658e-4162-bbd8-b58c7c58246a",
+      },
+      {
+        "id": "0fbb8f78-eac0-4f9e-9223-c0738e7a7cf6",
+        "name": "0fbb8f78-eac0-4f9e-9223-c0738e7a7cf6",
+      },
+    ],
   },
   {
     "id": "03425c14-86b3-4213-ac75-2beb47c78c96",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "e64ebc36-09be-4309-98df-e2f455d58c0d",
+        "name": "e64ebc36-09be-4309-98df-e2f455d58c0d",
+      },
+      {
+        "id": "c0c0afd6-8b42-4bd1-b6f0-7c342afc331f",
+        "name": "c0c0afd6-8b42-4bd1-b6f0-7c342afc331f",
+      },
+      {
+        "id": "1525b1b1-3e6a-4091-8bc8-05ab91def65b",
+        "name": "1525b1b1-3e6a-4091-8bc8-05ab91def65b",
+      },
+    ],
   },
   {
     "id": "036f5c38-8664-4f69-b855-30a2e2aed6aa",
     "name": "Hat",
+    "variants": [
+      {
+        "id": "41d84f58-d275-4114-a800-87b4d1271dbe",
+        "name": "41d84f58-d275-4114-a800-87b4d1271dbe",
+      },
+      {
+        "id": "264e2e93-ac16-4465-a47a-627719da39d0",
+        "name": "264e2e93-ac16-4465-a47a-627719da39d0",
+      },
+      {
+        "id": "3d74717a-1409-4b2b-9bc3-0d4b35fbed2b",
+        "name": "3d74717a-1409-4b2b-9bc3-0d4b35fbed2b",
+      },
+    ],
   },
   {
     "id": "038b1d18-7b51-4eb5-8fd3-0bfe03490cf2",
     "name": "Keyboard",
+    "variants": [
+      {
+        "id": "945b0d58-e418-4bd0-bb2c-d18931ef09c9",
+        "name": "945b0d58-e418-4bd0-bb2c-d18931ef09c9",
+      },
+      {
+        "id": "7a577476-5c41-44c8-ac84-1ffbe134a1a2",
+        "name": "7a577476-5c41-44c8-ac84-1ffbe134a1a2",
+      },
+      {
+        "id": "1c46212a-9022-4ea8-acd7-be47501f6108",
+        "name": "1c46212a-9022-4ea8-acd7-be47501f6108",
+      },
+    ],
   },
   {
     "id": "03dfc338-397f-4ffa-b6d1-d32090fc157a",
     "name": "Towels",
+    "variants": [
+      {
+        "id": "d8789e40-31f1-4351-b3d2-9af71b3ae270",
+        "name": "d8789e40-31f1-4351-b3d2-9af71b3ae270",
+      },
+      {
+        "id": "2bbf6ee8-75d1-4da6-b137-c595ef1d21bd",
+        "name": "2bbf6ee8-75d1-4da6-b137-c595ef1d21bd",
+      },
+      {
+        "id": "7ee1f83a-8bbb-4a5b-b467-6adf89e92ce1",
+        "name": "7ee1f83a-8bbb-4a5b-b467-6adf89e92ce1",
+      },
+    ],
   },
   {
     "id": "03f1a40c-0f3e-4c86-b88f-d8ec6fc03128",
     "name": "Chair",
+    "variants": [
+      {
+        "id": "54b0899d-ba2b-4469-b1bd-bb0c8eeaa0f8",
+        "name": "54b0899d-ba2b-4469-b1bd-bb0c8eeaa0f8",
+      },
+      {
+        "id": "ea0e5337-4ff6-4abb-b5a2-357a8f5ed1e6",
+        "name": "ea0e5337-4ff6-4abb-b5a2-357a8f5ed1e6",
+      },
+      {
+        "id": "b9d28236-37e1-4fb9-9db3-2b1c7560a9fd",
+        "name": "b9d28236-37e1-4fb9-9db3-2b1c7560a9fd",
+      },
+    ],
   },
   {
     "id": "03f56831-f1d8-4ed8-87b2-8e8afabc986e",
     "name": "Gloves",
+    "variants": [
+      {
+        "id": "fc46f6bc-04b3-461b-ba30-f5ac8476e0ad",
+        "name": "fc46f6bc-04b3-461b-ba30-f5ac8476e0ad",
+      },
+      {
+        "id": "ca6db226-41bd-4d74-83b5-d3f75e28d323",
+        "name": "ca6db226-41bd-4d74-83b5-d3f75e28d323",
+      },
+      {
+        "id": "edb2a3cb-81c3-4b09-8d3e-1df276697009",
+        "name": "edb2a3cb-81c3-4b09-8d3e-1df276697009",
+      },
+    ],
   },
   {
     "id": "04356ca7-0d8d-44f5-bd60-746411237b62",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "26bb2194-d067-4bbb-a3a1-0eb52345677d",
+        "name": "26bb2194-d067-4bbb-a3a1-0eb52345677d",
+      },
+      {
+        "id": "ac0517d1-0a56-4dfc-9202-98c067610be2",
+        "name": "ac0517d1-0a56-4dfc-9202-98c067610be2",
+      },
+      {
+        "id": "ba56cfc3-ae9b-4722-a0b2-9aaf10b43c95",
+        "name": "ba56cfc3-ae9b-4722-a0b2-9aaf10b43c95",
+      },
+    ],
   },
   {
     "id": "0441d2c3-b808-4094-b373-e060459bebba",
     "name": "Chair",
+    "variants": [
+      {
+        "id": "ec5faf9b-4a25-4937-bfe1-8e8aa265607c",
+        "name": "ec5faf9b-4a25-4937-bfe1-8e8aa265607c",
+      },
+      {
+        "id": "fc0f538a-36e5-4b89-8768-7d60b20f6896",
+        "name": "fc0f538a-36e5-4b89-8768-7d60b20f6896",
+      },
+      {
+        "id": "d7ac70f7-d29e-4a30-a9ff-76b02301c89c",
+        "name": "d7ac70f7-d29e-4a30-a9ff-76b02301c89c",
+      },
+    ],
   },
   {
     "id": "04c40ac2-b4ad-4825-94fd-e37724350ed8",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "2fc48c8d-72d6-495f-956a-41d37aef6a40",
+        "name": "2fc48c8d-72d6-495f-956a-41d37aef6a40",
+      },
+      {
+        "id": "294528c9-ea8c-47e3-b74c-02fcad8435fb",
+        "name": "294528c9-ea8c-47e3-b74c-02fcad8435fb",
+      },
+      {
+        "id": "00974287-f2ba-4d3f-9e86-e27452a4a724",
+        "name": "00974287-f2ba-4d3f-9e86-e27452a4a724",
+      },
+    ],
   },
   {
     "id": "04e10d3a-62f1-47b3-92cb-96c33853758f",
     "name": "Shirt",
+    "variants": [
+      {
+        "id": "43d7d1ad-fd34-4667-8048-0478a295fbc9",
+        "name": "43d7d1ad-fd34-4667-8048-0478a295fbc9",
+      },
+      {
+        "id": "985ff917-da4b-4ac0-ae88-b575959335ce",
+        "name": "985ff917-da4b-4ac0-ae88-b575959335ce",
+      },
+      {
+        "id": "9435b6a8-b08b-41bf-9194-e8ae2b61d763",
+        "name": "9435b6a8-b08b-41bf-9194-e8ae2b61d763",
+      },
+    ],
   },
   {
     "id": "04e54c82-f168-4a36-b3c8-873e484380b1",
     "name": "Table",
+    "variants": [
+      {
+        "id": "50e51ca0-23d0-4818-a39b-bef2b7437c5e",
+        "name": "50e51ca0-23d0-4818-a39b-bef2b7437c5e",
+      },
+      {
+        "id": "6d07e965-f3bf-4e9d-a9a9-1ed2b8f8281d",
+        "name": "6d07e965-f3bf-4e9d-a9a9-1ed2b8f8281d",
+      },
+      {
+        "id": "57feb27c-367a-4770-a040-3a676a471424",
+        "name": "57feb27c-367a-4770-a040-3a676a471424",
+      },
+    ],
   },
   {
     "id": "04f8c512-caab-4ea7-808e-d5798d385d46",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "64518c51-0f1b-4860-a942-1daa11bf0f4b",
+        "name": "64518c51-0f1b-4860-a942-1daa11bf0f4b",
+      },
+      {
+        "id": "1faa524e-2989-40ce-8e67-f711c5d10f62",
+        "name": "1faa524e-2989-40ce-8e67-f711c5d10f62",
+      },
+      {
+        "id": "ae6eec1c-e08d-4200-b336-4354f851fd50",
+        "name": "ae6eec1c-e08d-4200-b336-4354f851fd50",
+      },
+    ],
   },
   {
     "id": "051b56e9-522b-4f0a-8a68-b0e52289b6f6",
     "name": "Keyboard",
+    "variants": [
+      {
+        "id": "c1e7c5a3-9610-467d-834b-999577da1df5",
+        "name": "c1e7c5a3-9610-467d-834b-999577da1df5",
+      },
+      {
+        "id": "feb5784e-33ea-42a7-a359-5e0d699c85a3",
+        "name": "feb5784e-33ea-42a7-a359-5e0d699c85a3",
+      },
+      {
+        "id": "0566a178-6a29-4099-a3d1-38b5f0dde4de",
+        "name": "0566a178-6a29-4099-a3d1-38b5f0dde4de",
+      },
+    ],
   },
   {
     "id": "053876e3-9def-49c7-a65d-fd7354e5cb94",
     "name": "Table",
+    "variants": [
+      {
+        "id": "bb3e45ed-d8f6-4546-b3f7-d1da499888a2",
+        "name": "bb3e45ed-d8f6-4546-b3f7-d1da499888a2",
+      },
+      {
+        "id": "3e45f480-b7a0-40d0-9817-52ec923ed02a",
+        "name": "3e45f480-b7a0-40d0-9817-52ec923ed02a",
+      },
+      {
+        "id": "9568d99b-b189-4039-b242-16eaf6b17a87",
+        "name": "9568d99b-b189-4039-b242-16eaf6b17a87",
+      },
+    ],
   },
   {
     "id": "05dfc2dd-f7cc-478c-ba1b-a928fc816742",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "c4405d8e-ee91-4b2b-8a34-370fc0dc5b55",
+        "name": "c4405d8e-ee91-4b2b-8a34-370fc0dc5b55",
+      },
+      {
+        "id": "3fd38e31-cbe9-44dc-a5e1-d41f41ea15e3",
+        "name": "3fd38e31-cbe9-44dc-a5e1-d41f41ea15e3",
+      },
+      {
+        "id": "e62ce60a-14bd-4fb3-88cd-2b5346d7c169",
+        "name": "e62ce60a-14bd-4fb3-88cd-2b5346d7c169",
+      },
+    ],
   },
   {
     "id": "06278aac-6134-44ba-87b3-f7bd633e88b6",
     "name": "Mouse",
+    "variants": [
+      {
+        "id": "4b75d7e1-40cc-44d3-8181-4adf073c9992",
+        "name": "4b75d7e1-40cc-44d3-8181-4adf073c9992",
+      },
+      {
+        "id": "c518839a-52bc-410f-a921-4be2efb03250",
+        "name": "c518839a-52bc-410f-a921-4be2efb03250",
+      },
+      {
+        "id": "b0ac869e-dda6-4042-ba81-78e0d072e2f4",
+        "name": "b0ac869e-dda6-4042-ba81-78e0d072e2f4",
+      },
+    ],
   },
   {
     "id": "06451077-d19e-4a83-9d49-2ed14b8a2c19",
     "name": "Gloves",
+    "variants": [
+      {
+        "id": "3d89c676-1065-4a51-a357-7287e6c4489a",
+        "name": "3d89c676-1065-4a51-a357-7287e6c4489a",
+      },
+      {
+        "id": "be47bd9d-7f1a-4198-a221-cd9813e5ca0a",
+        "name": "be47bd9d-7f1a-4198-a221-cd9813e5ca0a",
+      },
+      {
+        "id": "cb96ab11-1e5d-49dd-8212-e412dbec4c48",
+        "name": "cb96ab11-1e5d-49dd-8212-e412dbec4c48",
+      },
+    ],
   },
   {
     "id": "0659468c-e304-4d88-a49b-f8214c337f96",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "09842356-19f9-4937-818f-6de3016f2a63",
+        "name": "09842356-19f9-4937-818f-6de3016f2a63",
+      },
+      {
+        "id": "763925ec-88b1-4123-92ee-c45afdd3d0fe",
+        "name": "763925ec-88b1-4123-92ee-c45afdd3d0fe",
+      },
+      {
+        "id": "dcf6acbe-c88d-47c2-bcdd-3d58940caa68",
+        "name": "dcf6acbe-c88d-47c2-bcdd-3d58940caa68",
+      },
+    ],
   },
   {
     "id": "06d1263d-48e9-435c-82c9-e81f30be3e43",
     "name": "Car",
+    "variants": [
+      {
+        "id": "7abdf1fa-b00c-41ee-9b67-91d4d26590be",
+        "name": "7abdf1fa-b00c-41ee-9b67-91d4d26590be",
+      },
+      {
+        "id": "8687cbc7-eef3-4fa0-9e35-8714fad007eb",
+        "name": "8687cbc7-eef3-4fa0-9e35-8714fad007eb",
+      },
+      {
+        "id": "ff50354a-9486-4841-a6b2-5489a6d54f72",
+        "name": "ff50354a-9486-4841-a6b2-5489a6d54f72",
+      },
+    ],
   },
   {
     "id": "06ef890a-54b4-475f-916f-56d385a3c4ac",
     "name": "Bike",
+    "variants": [
+      {
+        "id": "edcda93f-1a03-4689-b26d-b3834ff46d11",
+        "name": "edcda93f-1a03-4689-b26d-b3834ff46d11",
+      },
+      {
+        "id": "351ba5c3-05af-4bea-b9d2-0efaa9771c07",
+        "name": "351ba5c3-05af-4bea-b9d2-0efaa9771c07",
+      },
+      {
+        "id": "802e4e85-c36d-4eb2-86ce-365de6921637",
+        "name": "802e4e85-c36d-4eb2-86ce-365de6921637",
+      },
+    ],
   },
   {
     "id": "072c5d26-dffa-4577-a403-383a66db6bb7",
     "name": "Tuna",
+    "variants": [
+      {
+        "id": "34d01a78-ba3b-4fbc-89cf-6ccb74ea864a",
+        "name": "34d01a78-ba3b-4fbc-89cf-6ccb74ea864a",
+      },
+      {
+        "id": "4b051b38-632f-4a3e-a39c-dccd9b397181",
+        "name": "4b051b38-632f-4a3e-a39c-dccd9b397181",
+      },
+      {
+        "id": "e5ec7511-2b8c-4626-ba3b-d074883144f1",
+        "name": "e5ec7511-2b8c-4626-ba3b-d074883144f1",
+      },
+    ],
   },
   {
     "id": "07621c58-f4d7-4396-b564-c20a0711a961",
     "name": "Keyboard",
+    "variants": [
+      {
+        "id": "bfc7a8b9-cd5b-4d02-8e69-5de3b9fbc7ac",
+        "name": "bfc7a8b9-cd5b-4d02-8e69-5de3b9fbc7ac",
+      },
+      {
+        "id": "8ed78d6d-0b86-4cb7-9cae-6bf2fc9986ef",
+        "name": "8ed78d6d-0b86-4cb7-9cae-6bf2fc9986ef",
+      },
+      {
+        "id": "079e80e2-28e7-4157-8aa8-8c15350759de",
+        "name": "079e80e2-28e7-4157-8aa8-8c15350759de",
+      },
+    ],
   },
   {
     "id": "0763b4fc-7b4f-4a02-83ed-cd221ee3f14b",
     "name": "Car",
+    "variants": [
+      {
+        "id": "f8b4cb08-2d50-4551-bfc1-1d088867de94",
+        "name": "f8b4cb08-2d50-4551-bfc1-1d088867de94",
+      },
+      {
+        "id": "9e2a7a45-ad4f-4f46-8960-1948f1b5a846",
+        "name": "9e2a7a45-ad4f-4f46-8960-1948f1b5a846",
+      },
+      {
+        "id": "9e041fa1-6657-4355-b3bb-46f8b1b7a5bc",
+        "name": "9e041fa1-6657-4355-b3bb-46f8b1b7a5bc",
+      },
+    ],
   },
   {
     "id": "07888ec6-6183-4bfe-9965-9eb40ec16faf",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "9b84ffcb-75c7-4d0c-b758-bb5b38d7fb7d",
+        "name": "9b84ffcb-75c7-4d0c-b758-bb5b38d7fb7d",
+      },
+      {
+        "id": "5e80510e-ac10-435e-a606-643ffbaa2cac",
+        "name": "5e80510e-ac10-435e-a606-643ffbaa2cac",
+      },
+      {
+        "id": "13988b47-5f6b-488c-9039-ed172c3a26cd",
+        "name": "13988b47-5f6b-488c-9039-ed172c3a26cd",
+      },
+    ],
   },
   {
     "id": "0849e466-7c67-4b36-9584-12bc86f9dd56",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "b249e0cf-21aa-4f53-9aa6-2124cf6b7a0e",
+        "name": "b249e0cf-21aa-4f53-9aa6-2124cf6b7a0e",
+      },
+      {
+        "id": "bb0394f5-bc11-4cdc-9a6a-3f48b95e8be2",
+        "name": "bb0394f5-bc11-4cdc-9a6a-3f48b95e8be2",
+      },
+      {
+        "id": "ac8f1212-3329-45d3-9eb9-31e98e5e7d41",
+        "name": "ac8f1212-3329-45d3-9eb9-31e98e5e7d41",
+      },
+    ],
   },
   {
     "id": "08bb3aa9-e368-404e-8148-b35fdea24520",
     "name": "Shoes",
+    "variants": [
+      {
+        "id": "000f1bdc-d8b3-4925-a2c4-791e53efc288",
+        "name": "000f1bdc-d8b3-4925-a2c4-791e53efc288",
+      },
+      {
+        "id": "39802348-7ed8-40ff-9515-342854202d1e",
+        "name": "39802348-7ed8-40ff-9515-342854202d1e",
+      },
+      {
+        "id": "f5297f22-6b73-4430-a03f-125b5ef68f66",
+        "name": "f5297f22-6b73-4430-a03f-125b5ef68f66",
+      },
+    ],
   },
   {
     "id": "08d03c53-bc11-4ca0-b3db-8be98a3b3171",
     "name": "Cheese",
+    "variants": [
+      {
+        "id": "4ed1657e-ef79-4a20-bbe1-ec2e6750832d",
+        "name": "4ed1657e-ef79-4a20-bbe1-ec2e6750832d",
+      },
+      {
+        "id": "fe733c48-b7f8-408c-9788-d5a6a9b65dc9",
+        "name": "fe733c48-b7f8-408c-9788-d5a6a9b65dc9",
+      },
+      {
+        "id": "69ed1899-f182-442b-8074-597ec7a6742b",
+        "name": "69ed1899-f182-442b-8074-597ec7a6742b",
+      },
+    ],
   },
   {
     "id": "0936d9f1-2ba4-42d5-b7aa-6bac3eda887e",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "62372bed-4a70-45bd-8080-918124975849",
+        "name": "62372bed-4a70-45bd-8080-918124975849",
+      },
+      {
+        "id": "31c217a1-20ac-4c5e-834d-535e8e3a01b3",
+        "name": "31c217a1-20ac-4c5e-834d-535e8e3a01b3",
+      },
+      {
+        "id": "72796e7d-797d-4cdf-944b-5cb2483df679",
+        "name": "72796e7d-797d-4cdf-944b-5cb2483df679",
+      },
+    ],
   },
   {
     "id": "097fa30e-9af7-425b-a291-22030d83f5ae",
     "name": "Shoes",
+    "variants": [
+      {
+        "id": "4e6fdcf0-f862-4837-a40e-ecac203eba9d",
+        "name": "4e6fdcf0-f862-4837-a40e-ecac203eba9d",
+      },
+      {
+        "id": "c92f26c3-9cb8-4320-9e8c-c113db579e50",
+        "name": "c92f26c3-9cb8-4320-9e8c-c113db579e50",
+      },
+      {
+        "id": "1b41745f-50c6-4078-9772-ad9b3d260438",
+        "name": "1b41745f-50c6-4078-9772-ad9b3d260438",
+      },
+    ],
   },
   {
     "id": "09d852b5-3b32-4c8c-97c3-c710e1673d90",
     "name": "Cheese",
+    "variants": [
+      {
+        "id": "e3158b5d-6437-488d-8014-2cdd7677fc42",
+        "name": "e3158b5d-6437-488d-8014-2cdd7677fc42",
+      },
+      {
+        "id": "a3cb48b7-f924-41b4-bafd-0aa2b212bf56",
+        "name": "a3cb48b7-f924-41b4-bafd-0aa2b212bf56",
+      },
+      {
+        "id": "d8ffdf75-5484-4dcb-af18-5a304ac8995f",
+        "name": "d8ffdf75-5484-4dcb-af18-5a304ac8995f",
+      },
+    ],
   },
   {
     "id": "0a26c7cd-c981-4f06-9898-1d6bb33cfaa3",
     "name": "Hat",
+    "variants": [
+      {
+        "id": "3dadf120-6388-4ab2-bb82-254b50aa46b0",
+        "name": "3dadf120-6388-4ab2-bb82-254b50aa46b0",
+      },
+      {
+        "id": "4b586de4-426f-4295-bccc-9787d61fb707",
+        "name": "4b586de4-426f-4295-bccc-9787d61fb707",
+      },
+      {
+        "id": "38931f8a-3acc-44d4-9863-3f9ceeb9c4aa",
+        "name": "38931f8a-3acc-44d4-9863-3f9ceeb9c4aa",
+      },
+    ],
   },
   {
     "id": "0a5a1742-e33c-4ca6-a95f-d560f937e24d",
     "name": "Table",
+    "variants": [
+      {
+        "id": "3456a92a-0a87-46a5-a58d-e7344ec614fb",
+        "name": "3456a92a-0a87-46a5-a58d-e7344ec614fb",
+      },
+      {
+        "id": "42279f73-ad64-4a20-8202-43d97b8c9f22",
+        "name": "42279f73-ad64-4a20-8202-43d97b8c9f22",
+      },
+      {
+        "id": "ded43082-2d64-4ebd-a8d4-e185b87e6893",
+        "name": "ded43082-2d64-4ebd-a8d4-e185b87e6893",
+      },
+    ],
   },
   {
     "id": "0a77eceb-26d1-40f1-8ef2-631c7c0f0f87",
     "name": "Chips",
+    "variants": [
+      {
+        "id": "f5b2f8b3-42db-4c00-b86a-49ac6044bdc6",
+        "name": "f5b2f8b3-42db-4c00-b86a-49ac6044bdc6",
+      },
+      {
+        "id": "3502bf7c-235e-4158-9dd9-60ba5ee828f4",
+        "name": "3502bf7c-235e-4158-9dd9-60ba5ee828f4",
+      },
+      {
+        "id": "f83f2631-d772-45a5-a33c-d67d6e2c1a07",
+        "name": "f83f2631-d772-45a5-a33c-d67d6e2c1a07",
+      },
+    ],
   },
   {
     "id": "0a91fe9d-9655-43b8-89e0-009c6692de7b",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "20f88e45-5b22-47ce-b2cf-c2a3ef10eb00",
+        "name": "20f88e45-5b22-47ce-b2cf-c2a3ef10eb00",
+      },
+      {
+        "id": "7e91f2e0-3a9c-49c6-834e-e97708df7ed5",
+        "name": "7e91f2e0-3a9c-49c6-834e-e97708df7ed5",
+      },
+      {
+        "id": "69622d96-a9f3-4cdf-9962-a0c701ae7947",
+        "name": "69622d96-a9f3-4cdf-9962-a0c701ae7947",
+      },
+    ],
   },
   {
     "id": "0ab355db-3391-42ce-a024-a534ce21c081",
     "name": "Computer",
+    "variants": [
+      {
+        "id": "e63426cf-8ae7-417f-8013-9c23afc3f879",
+        "name": "e63426cf-8ae7-417f-8013-9c23afc3f879",
+      },
+      {
+        "id": "dcd70b2f-ceee-4e82-8fea-48f9769edc21",
+        "name": "dcd70b2f-ceee-4e82-8fea-48f9769edc21",
+      },
+      {
+        "id": "46ad13f9-243d-413c-8256-4a94780820b7",
+        "name": "46ad13f9-243d-413c-8256-4a94780820b7",
+      },
+    ],
   },
   {
     "id": "0ac1e04d-2ace-4b0c-8de0-0e8ecf818a93",
     "name": "Bike",
+    "variants": [
+      {
+        "id": "02860671-d0fc-4432-a505-32d5547152b2",
+        "name": "02860671-d0fc-4432-a505-32d5547152b2",
+      },
+      {
+        "id": "29424b22-5eec-412a-9010-74fcff998ad6",
+        "name": "29424b22-5eec-412a-9010-74fcff998ad6",
+      },
+      {
+        "id": "a788bfb2-fc91-41e5-aa62-58dd4c0cd1fb",
+        "name": "a788bfb2-fc91-41e5-aa62-58dd4c0cd1fb",
+      },
+    ],
   },
   {
     "id": "0b3bd159-d868-440c-9c15-e66e5e309dfc",
     "name": "Sausages",
+    "variants": [
+      {
+        "id": "c8633b4c-eafa-43b0-a2ba-069c55c1babc",
+        "name": "c8633b4c-eafa-43b0-a2ba-069c55c1babc",
+      },
+      {
+        "id": "f32df09e-abcf-44eb-adf8-d016aadc9188",
+        "name": "f32df09e-abcf-44eb-adf8-d016aadc9188",
+      },
+      {
+        "id": "3549b84c-6600-4b40-9593-d655da23dd10",
+        "name": "3549b84c-6600-4b40-9593-d655da23dd10",
+      },
+    ],
   },
   {
     "id": "0b7da549-b7ec-4409-a007-aa816beaf858",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "86cf2e9d-04ae-409c-8803-1bb626fdb491",
+        "name": "86cf2e9d-04ae-409c-8803-1bb626fdb491",
+      },
+      {
+        "id": "57b74091-459b-4a2e-b294-7ac58d2fb415",
+        "name": "57b74091-459b-4a2e-b294-7ac58d2fb415",
+      },
+      {
+        "id": "494dcf92-1db4-4b09-8ce0-4289c73576a0",
+        "name": "494dcf92-1db4-4b09-8ce0-4289c73576a0",
+      },
+    ],
   },
   {
     "id": "0bf548f8-8f8f-41bf-80bc-8e1f206d5d83",
     "name": "Pizza",
+    "variants": [
+      {
+        "id": "7bae96d4-517a-41fa-a66f-d233b00d5798",
+        "name": "7bae96d4-517a-41fa-a66f-d233b00d5798",
+      },
+      {
+        "id": "45b9c9d0-ef75-4a89-963d-d8a0d1b9fcf9",
+        "name": "45b9c9d0-ef75-4a89-963d-d8a0d1b9fcf9",
+      },
+      {
+        "id": "2428dcc4-10ef-4c30-9e0f-b62ef05f67ac",
+        "name": "2428dcc4-10ef-4c30-9e0f-b62ef05f67ac",
+      },
+    ],
   },
   {
     "id": "0c16661a-1d91-436a-97e8-d53213f3f658",
     "name": "Gloves",
+    "variants": [
+      {
+        "id": "9d6eddb3-0d49-470d-9f26-1f6265b78f1d",
+        "name": "9d6eddb3-0d49-470d-9f26-1f6265b78f1d",
+      },
+      {
+        "id": "923834b2-b0d5-445b-9391-239dbc83e605",
+        "name": "923834b2-b0d5-445b-9391-239dbc83e605",
+      },
+      {
+        "id": "284a7bf8-959a-4d1f-877d-158b09a21e5f",
+        "name": "284a7bf8-959a-4d1f-877d-158b09a21e5f",
+      },
+    ],
   },
   {
     "id": "0c18516f-d78b-4e26-8212-72628fa50396",
     "name": "Hat",
+    "variants": [
+      {
+        "id": "b53e7303-dbce-4aa1-88fd-9512b4f75b17",
+        "name": "b53e7303-dbce-4aa1-88fd-9512b4f75b17",
+      },
+      {
+        "id": "ec2a76b4-2a51-455f-af1e-0d53995ba9f4",
+        "name": "ec2a76b4-2a51-455f-af1e-0d53995ba9f4",
+      },
+      {
+        "id": "ef311c7c-2eb9-4809-8b65-7939f91a51d5",
+        "name": "ef311c7c-2eb9-4809-8b65-7939f91a51d5",
+      },
+    ],
   },
   {
     "id": "0c6632b4-391f-4df0-91c3-e91e8f7bc69d",
     "name": "Table",
+    "variants": [
+      {
+        "id": "4c53789b-201c-492f-bd7a-c06608304ee2",
+        "name": "4c53789b-201c-492f-bd7a-c06608304ee2",
+      },
+      {
+        "id": "2e69ee57-2ffd-4bdb-b320-51253f3b2c02",
+        "name": "2e69ee57-2ffd-4bdb-b320-51253f3b2c02",
+      },
+      {
+        "id": "553eb54e-5394-4fa1-a65c-0fb9419a4922",
+        "name": "553eb54e-5394-4fa1-a65c-0fb9419a4922",
+      },
+    ],
   },
   {
     "id": "0c69e372-db13-444b-9a9f-78a5c0ed7aab",
     "name": "Keyboard",
+    "variants": [
+      {
+        "id": "04699f16-da5c-4345-b820-bab6e8281df0",
+        "name": "04699f16-da5c-4345-b820-bab6e8281df0",
+      },
+      {
+        "id": "3a0e793d-d760-467c-aa7a-1c7f5085c573",
+        "name": "3a0e793d-d760-467c-aa7a-1c7f5085c573",
+      },
+      {
+        "id": "6175e04f-7e92-4b44-b5c5-b62c2a9f1ef6",
+        "name": "6175e04f-7e92-4b44-b5c5-b62c2a9f1ef6",
+      },
+    ],
   },
   {
     "id": "0cd14c59-7e81-4377-afe3-3881fc7de209",
     "name": "Ball",
+    "variants": [
+      {
+        "id": "cb4a8672-80e8-4939-9652-fed0f4cf03c7",
+        "name": "cb4a8672-80e8-4939-9652-fed0f4cf03c7",
+      },
+      {
+        "id": "872e17ee-ecd1-4de4-8349-1bf9461c6854",
+        "name": "872e17ee-ecd1-4de4-8349-1bf9461c6854",
+      },
+      {
+        "id": "46ff8bdd-a27f-41b0-85b9-a1f318545633",
+        "name": "46ff8bdd-a27f-41b0-85b9-a1f318545633",
+      },
+    ],
   },
   {
     "id": "0d45eb4a-8b67-44ee-85cf-c18edc7f787e",
     "name": "Mouse",
+    "variants": [
+      {
+        "id": "db19c8cd-3102-4920-866c-a80758ecd674",
+        "name": "db19c8cd-3102-4920-866c-a80758ecd674",
+      },
+      {
+        "id": "9c5dac80-7dbb-46ca-be31-461ed278c4ef",
+        "name": "9c5dac80-7dbb-46ca-be31-461ed278c4ef",
+      },
+      {
+        "id": "7ec699ce-e68e-45a1-b3f2-697cc1e6ca11",
+        "name": "7ec699ce-e68e-45a1-b3f2-697cc1e6ca11",
+      },
+    ],
   },
   {
     "id": "0d4721c1-7629-42dd-9787-8e71bf8c1418",
     "name": "Computer",
+    "variants": [
+      {
+        "id": "8f45b716-929b-492f-bb56-7f14ad782c36",
+        "name": "8f45b716-929b-492f-bb56-7f14ad782c36",
+      },
+      {
+        "id": "f1edff19-81e8-4dd0-abdf-ed4e33953953",
+        "name": "f1edff19-81e8-4dd0-abdf-ed4e33953953",
+      },
+      {
+        "id": "2d9cd7d6-1f7b-4350-97ef-65c3af363cd3",
+        "name": "2d9cd7d6-1f7b-4350-97ef-65c3af363cd3",
+      },
+    ],
   },
   {
     "id": "0da80312-292c-4c61-bc2a-702bb97ee102",
     "name": "Tuna",
+    "variants": [
+      {
+        "id": "e24d0e6b-7bd0-449d-8570-e9194c867abc",
+        "name": "e24d0e6b-7bd0-449d-8570-e9194c867abc",
+      },
+      {
+        "id": "e6d8040b-f465-4721-9111-c223f2260a58",
+        "name": "e6d8040b-f465-4721-9111-c223f2260a58",
+      },
+      {
+        "id": "7d51fc59-0607-4d58-adfa-65259a633097",
+        "name": "7d51fc59-0607-4d58-adfa-65259a633097",
+      },
+    ],
   },
   {
     "id": "0db365cd-bc77-4881-93a2-a6dc053aa684",
     "name": "Table",
+    "variants": [
+      {
+        "id": "961fbc48-d61e-4113-afa1-e0325f9001e5",
+        "name": "961fbc48-d61e-4113-afa1-e0325f9001e5",
+      },
+      {
+        "id": "eb736fdf-a368-4912-a14b-49256a81429d",
+        "name": "eb736fdf-a368-4912-a14b-49256a81429d",
+      },
+      {
+        "id": "af0af79e-e371-480f-8aec-0442f74124ca",
+        "name": "af0af79e-e371-480f-8aec-0442f74124ca",
+      },
+    ],
   },
   {
     "id": "0defb4ca-1de6-429d-82cf-b7a738a81cdb",
     "name": "Salad",
+    "variants": [
+      {
+        "id": "64f50b8b-748d-429a-926b-b6da59186b80",
+        "name": "64f50b8b-748d-429a-926b-b6da59186b80",
+      },
+      {
+        "id": "bc78274b-9825-48b1-95b8-be0e88c9b9a8",
+        "name": "bc78274b-9825-48b1-95b8-be0e88c9b9a8",
+      },
+      {
+        "id": "53fb5c1c-c6e5-45b0-b0bc-ab28507b667f",
+        "name": "53fb5c1c-c6e5-45b0-b0bc-ab28507b667f",
+      },
+    ],
   },
   {
     "id": "0e39c7e2-3ecb-4060-b465-2e23a3d6c657",
     "name": "Soap",
+    "variants": [
+      {
+        "id": "5bdf0d79-253d-47cc-8d04-a25d0f462097",
+        "name": "5bdf0d79-253d-47cc-8d04-a25d0f462097",
+      },
+      {
+        "id": "7db9c4d0-f4f0-4faf-b179-f1a4ae772569",
+        "name": "7db9c4d0-f4f0-4faf-b179-f1a4ae772569",
+      },
+      {
+        "id": "79e88a84-de78-49e0-adad-c0077f886293",
+        "name": "79e88a84-de78-49e0-adad-c0077f886293",
+      },
+    ],
   },
   {
     "id": "0e8d668c-08f1-4014-9414-875663caef29",
     "name": "Car",
+    "variants": [
+      {
+        "id": "ef50cc81-9c32-4faf-8b4f-1d5210ed6c7d",
+        "name": "ef50cc81-9c32-4faf-8b4f-1d5210ed6c7d",
+      },
+      {
+        "id": "c2865ca1-74be-438e-9efc-36dfeceb787f",
+        "name": "c2865ca1-74be-438e-9efc-36dfeceb787f",
+      },
+      {
+        "id": "a2896b22-c0cb-4f9a-8695-004c4acaa500",
+        "name": "a2896b22-c0cb-4f9a-8695-004c4acaa500",
+      },
+    ],
   },
   {
     "id": "0e917f50-fda0-44c8-ab1b-b55a292b0bc3",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "b5f0484e-3eeb-4246-967d-7cee48d88ae7",
+        "name": "b5f0484e-3eeb-4246-967d-7cee48d88ae7",
+      },
+      {
+        "id": "37413406-34aa-4981-8f66-e834212fd47d",
+        "name": "37413406-34aa-4981-8f66-e834212fd47d",
+      },
+      {
+        "id": "d3acf652-6c08-42e0-a047-831a5f772065",
+        "name": "d3acf652-6c08-42e0-a047-831a5f772065",
+      },
+    ],
   },
   {
     "id": "0e9b200c-e78a-41bd-b8fb-7a0a116ce723",
     "name": "Gloves",
+    "variants": [
+      {
+        "id": "da99bb6c-b46d-4945-b00f-c5637a2e9137",
+        "name": "da99bb6c-b46d-4945-b00f-c5637a2e9137",
+      },
+      {
+        "id": "f0388668-d205-468a-a6e4-cc6fb03f90a7",
+        "name": "f0388668-d205-468a-a6e4-cc6fb03f90a7",
+      },
+      {
+        "id": "2c38509f-8a2d-487b-892a-968ea1b97b91",
+        "name": "2c38509f-8a2d-487b-892a-968ea1b97b91",
+      },
+    ],
   },
   {
     "id": "0ec7afed-bd80-4df4-848a-47f9390c5888",
     "name": "Soap",
+    "variants": [
+      {
+        "id": "052a1f82-e638-4d39-b933-76e2ded9880e",
+        "name": "052a1f82-e638-4d39-b933-76e2ded9880e",
+      },
+      {
+        "id": "641ce3f8-8f90-406a-9dd6-4691d8d02737",
+        "name": "641ce3f8-8f90-406a-9dd6-4691d8d02737",
+      },
+      {
+        "id": "80213a47-ca90-4683-aee9-aac106fe0eea",
+        "name": "80213a47-ca90-4683-aee9-aac106fe0eea",
+      },
+    ],
   },
   {
     "id": "0edf3c8b-3ea9-4adc-bb8a-dfc088d81329",
     "name": "Bike",
+    "variants": [
+      {
+        "id": "845d8b0d-5143-42d4-81ec-055c7005a6c3",
+        "name": "845d8b0d-5143-42d4-81ec-055c7005a6c3",
+      },
+      {
+        "id": "575b4dab-82c7-4850-ab6b-f02b1e5ff8cb",
+        "name": "575b4dab-82c7-4850-ab6b-f02b1e5ff8cb",
+      },
+      {
+        "id": "c3829266-6d2c-4e88-b88d-758e9b3ac8c8",
+        "name": "c3829266-6d2c-4e88-b88d-758e9b3ac8c8",
+      },
+    ],
   },
   {
     "id": "0fd8ac0f-482f-49e9-aa53-c304dae122f0",
     "name": "Sausages",
+    "variants": [
+      {
+        "id": "0c57b9e8-c273-48e5-95a6-38bb67503f9b",
+        "name": "0c57b9e8-c273-48e5-95a6-38bb67503f9b",
+      },
+      {
+        "id": "4bbaaee2-e4b6-4066-84f8-c1141fe6c7d4",
+        "name": "4bbaaee2-e4b6-4066-84f8-c1141fe6c7d4",
+      },
+      {
+        "id": "0e2fa505-6c0c-43a3-a013-b0caafdb69b2",
+        "name": "0e2fa505-6c0c-43a3-a013-b0caafdb69b2",
+      },
+    ],
   },
   {
     "id": "105d3890-8162-4c6b-aeb6-8a0f657b7d03",
     "name": "Computer",
+    "variants": [
+      {
+        "id": "3c481195-b0dd-4cb7-9fb0-7c89b46385fc",
+        "name": "3c481195-b0dd-4cb7-9fb0-7c89b46385fc",
+      },
+      {
+        "id": "86783c99-bc0b-4443-93c2-c8a507ef4e82",
+        "name": "86783c99-bc0b-4443-93c2-c8a507ef4e82",
+      },
+      {
+        "id": "a7181738-d28a-4897-b6c7-d43861e40f03",
+        "name": "a7181738-d28a-4897-b6c7-d43861e40f03",
+      },
+    ],
   },
   {
     "id": "10873e42-b006-4d67-a887-8ba8581a5820",
     "name": "Bacon",
+    "variants": [
+      {
+        "id": "91bec879-f977-444e-9972-ec853f59fe38",
+        "name": "91bec879-f977-444e-9972-ec853f59fe38",
+      },
+      {
+        "id": "4bbc3cd5-fd66-47fc-aa78-11898d634735",
+        "name": "4bbc3cd5-fd66-47fc-aa78-11898d634735",
+      },
+      {
+        "id": "2e217458-ce6b-4ed2-a1e9-2e303ecf62d0",
+        "name": "2e217458-ce6b-4ed2-a1e9-2e303ecf62d0",
+      },
+    ],
   },
   {
     "id": "10ba9208-c782-4583-8bdc-cc80442d11b4",
     "name": "Bacon",
+    "variants": [
+      {
+        "id": "be87b828-3b27-4659-858c-0a198b931fbf",
+        "name": "be87b828-3b27-4659-858c-0a198b931fbf",
+      },
+      {
+        "id": "5febd7cb-c364-4b6a-aa24-ee7c9f45dd4c",
+        "name": "5febd7cb-c364-4b6a-aa24-ee7c9f45dd4c",
+      },
+      {
+        "id": "e8c69673-a2fe-4132-b004-3dff339e71d5",
+        "name": "e8c69673-a2fe-4132-b004-3dff339e71d5",
+      },
+    ],
   },
   {
     "id": "10d318d3-5639-43e1-8d7c-c9acf2cdb462",
     "name": "Shirt",
+    "variants": [
+      {
+        "id": "b6a32dcc-fad8-4071-bf82-a35b19b403d9",
+        "name": "b6a32dcc-fad8-4071-bf82-a35b19b403d9",
+      },
+      {
+        "id": "790fafdc-dd62-42c4-a067-18a1e22c26bc",
+        "name": "790fafdc-dd62-42c4-a067-18a1e22c26bc",
+      },
+      {
+        "id": "6094f80f-5960-401a-91b4-d025830347fc",
+        "name": "6094f80f-5960-401a-91b4-d025830347fc",
+      },
+    ],
   },
   {
     "id": "119167b8-e3c8-4db0-9340-8d6d364ffd45",
     "name": "Soap",
+    "variants": [
+      {
+        "id": "bd47484e-9875-4dbb-a74f-5bad5ea4fe7d",
+        "name": "bd47484e-9875-4dbb-a74f-5bad5ea4fe7d",
+      },
+      {
+        "id": "80afc7c9-2e05-4a9b-a735-fbc0801e9414",
+        "name": "80afc7c9-2e05-4a9b-a735-fbc0801e9414",
+      },
+      {
+        "id": "6596ff51-ba9d-4def-97e8-119144e356bf",
+        "name": "6596ff51-ba9d-4def-97e8-119144e356bf",
+      },
+    ],
   },
   {
     "id": "11aa1bc7-4b86-4cec-9c74-f77b4848bd6a",
     "name": "Sausages",
+    "variants": [
+      {
+        "id": "34316ab0-59f6-49e1-8268-97f8b9ba86e8",
+        "name": "34316ab0-59f6-49e1-8268-97f8b9ba86e8",
+      },
+      {
+        "id": "89341ae6-ef76-4772-b056-82098489be32",
+        "name": "89341ae6-ef76-4772-b056-82098489be32",
+      },
+      {
+        "id": "fe13d53d-4a7a-439d-bda6-659a9cb1e0cd",
+        "name": "fe13d53d-4a7a-439d-bda6-659a9cb1e0cd",
+      },
+    ],
   },
   {
     "id": "11b1401e-aac7-4241-8aea-6430f6e74431",
     "name": "Chair",
+    "variants": [
+      {
+        "id": "29a0f023-dbdd-42ec-b2fe-859367440a0a",
+        "name": "29a0f023-dbdd-42ec-b2fe-859367440a0a",
+      },
+      {
+        "id": "539fe5fb-5834-44e9-9b1d-08410c6ced32",
+        "name": "539fe5fb-5834-44e9-9b1d-08410c6ced32",
+      },
+      {
+        "id": "faae8def-93e9-4427-990a-d5f4b8320516",
+        "name": "faae8def-93e9-4427-990a-d5f4b8320516",
+      },
+    ],
   },
   {
     "id": "1247725e-6219-409e-8910-44a5de59ac77",
     "name": "Shirt",
+    "variants": [
+      {
+        "id": "1d6d0534-ece7-47e7-a9ee-3e487a370b56",
+        "name": "1d6d0534-ece7-47e7-a9ee-3e487a370b56",
+      },
+      {
+        "id": "4b0cf0f8-90fd-4d80-bfa0-933edf3e5b6e",
+        "name": "4b0cf0f8-90fd-4d80-bfa0-933edf3e5b6e",
+      },
+      {
+        "id": "0bb20824-d41d-4562-a6a8-0e28fc7da30b",
+        "name": "0bb20824-d41d-4562-a6a8-0e28fc7da30b",
+      },
+    ],
   },
   {
     "id": "125b0960-a668-4151-aa47-2af923c5949f",
     "name": "Bike",
+    "variants": [
+      {
+        "id": "740daf1a-b165-47b3-a8ad-1cfd902eaa79",
+        "name": "740daf1a-b165-47b3-a8ad-1cfd902eaa79",
+      },
+      {
+        "id": "970fe1fe-bb04-46fb-aef0-bf544307a55b",
+        "name": "970fe1fe-bb04-46fb-aef0-bf544307a55b",
+      },
+      {
+        "id": "fd555c27-1552-4dbe-ac68-d1f9caf60a1e",
+        "name": "fd555c27-1552-4dbe-ac68-d1f9caf60a1e",
+      },
+    ],
   },
   {
     "id": "12b7a7ab-0344-4b17-8106-88deebef897f",
     "name": "Pizza",
+    "variants": [
+      {
+        "id": "76cf2874-6c8a-4ca2-a7d7-d360de4de683",
+        "name": "76cf2874-6c8a-4ca2-a7d7-d360de4de683",
+      },
+      {
+        "id": "3c122367-7156-406a-8a8a-afb2f1b855c1",
+        "name": "3c122367-7156-406a-8a8a-afb2f1b855c1",
+      },
+      {
+        "id": "25017dbf-4d67-4be5-b792-5f0cd02f493e",
+        "name": "25017dbf-4d67-4be5-b792-5f0cd02f493e",
+      },
+    ],
   },
   {
     "id": "12e5047b-4c21-4ccb-b423-abcdc91faabd",
     "name": "Hat",
+    "variants": [
+      {
+        "id": "f6f5e4e4-f4ba-4484-8200-13025398ee0c",
+        "name": "f6f5e4e4-f4ba-4484-8200-13025398ee0c",
+      },
+      {
+        "id": "669e0bcd-d9d0-45c4-84b6-e0bf25f6e216",
+        "name": "669e0bcd-d9d0-45c4-84b6-e0bf25f6e216",
+      },
+      {
+        "id": "fcbdcbb2-13d4-4bb3-ace9-45192a51668c",
+        "name": "fcbdcbb2-13d4-4bb3-ace9-45192a51668c",
+      },
+    ],
   },
   {
     "id": "13045d2f-713e-405b-8559-2bfc7395f712",
     "name": "Bike",
+    "variants": [
+      {
+        "id": "7e3c3482-4cd0-4ba6-95d2-d1c3a50ed7f8",
+        "name": "7e3c3482-4cd0-4ba6-95d2-d1c3a50ed7f8",
+      },
+      {
+        "id": "5ec526c1-00eb-48db-b5d7-fd34b1c3717e",
+        "name": "5ec526c1-00eb-48db-b5d7-fd34b1c3717e",
+      },
+      {
+        "id": "9e8687f8-5ad2-48dc-9d82-08fae0dc829e",
+        "name": "9e8687f8-5ad2-48dc-9d82-08fae0dc829e",
+      },
+    ],
   },
   {
     "id": "1387271e-18ea-49e4-a511-8c2cc57fbd60",
     "name": "Computer",
+    "variants": [
+      {
+        "id": "a3d576a8-9984-4b86-bbb7-2a1f558bc12d",
+        "name": "a3d576a8-9984-4b86-bbb7-2a1f558bc12d",
+      },
+      {
+        "id": "f1426ffb-3b91-4af3-ac51-26cfa7e77d38",
+        "name": "f1426ffb-3b91-4af3-ac51-26cfa7e77d38",
+      },
+      {
+        "id": "f7a2921a-660c-4b4e-bd6a-98f6805e4c02",
+        "name": "f7a2921a-660c-4b4e-bd6a-98f6805e4c02",
+      },
+    ],
   },
   {
     "id": "13e3b31c-d6a5-4be7-8490-6b96c636e74d",
     "name": "Hat",
+    "variants": [
+      {
+        "id": "54d46047-0963-43d8-9521-f8d6cbd4e33a",
+        "name": "54d46047-0963-43d8-9521-f8d6cbd4e33a",
+      },
+      {
+        "id": "da4ebe28-5d67-48bb-9786-78576e71146a",
+        "name": "da4ebe28-5d67-48bb-9786-78576e71146a",
+      },
+      {
+        "id": "fea658eb-a9d6-4d79-9a9d-a5f2f3129a86",
+        "name": "fea658eb-a9d6-4d79-9a9d-a5f2f3129a86",
+      },
+    ],
   },
   {
     "id": "13ee6ac1-2bc7-44c0-b9c6-90a09c305502",
     "name": "Table",
+    "variants": [
+      {
+        "id": "6bdf844e-0ba4-4097-825c-21ed2b3b195d",
+        "name": "6bdf844e-0ba4-4097-825c-21ed2b3b195d",
+      },
+      {
+        "id": "f67e458a-4669-434d-bc22-7da5a9fbcea2",
+        "name": "f67e458a-4669-434d-bc22-7da5a9fbcea2",
+      },
+      {
+        "id": "25f221f0-c875-4c21-9dc2-c897c2ed1cfb",
+        "name": "25f221f0-c875-4c21-9dc2-c897c2ed1cfb",
+      },
+    ],
   },
   {
     "id": "143da930-8b27-4a08-9af2-2184439b3de8",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "70b086ad-f445-415a-87aa-ad8fb9b4fa59",
+        "name": "70b086ad-f445-415a-87aa-ad8fb9b4fa59",
+      },
+      {
+        "id": "f0f70244-1b54-485d-9651-cdddcbc2a3f3",
+        "name": "f0f70244-1b54-485d-9651-cdddcbc2a3f3",
+      },
+      {
+        "id": "0ffb6de0-f402-49e1-a7b7-20aea785aebe",
+        "name": "0ffb6de0-f402-49e1-a7b7-20aea785aebe",
+      },
+    ],
   },
   {
     "id": "147cd1b8-3160-4b3e-a3e9-8960a0aafc7a",
     "name": "Shirt",
+    "variants": [
+      {
+        "id": "12e5c335-7673-4ab5-8df6-5981e7f5723b",
+        "name": "12e5c335-7673-4ab5-8df6-5981e7f5723b",
+      },
+      {
+        "id": "23f50ed6-e61b-4b91-b096-44a3d527e640",
+        "name": "23f50ed6-e61b-4b91-b096-44a3d527e640",
+      },
+      {
+        "id": "27f7b6ed-ff51-415c-8e9a-a943e17d5789",
+        "name": "27f7b6ed-ff51-415c-8e9a-a943e17d5789",
+      },
+    ],
   },
   {
     "id": "14ff1874-97b1-4408-b163-1a1660070c0b",
     "name": "Pizza",
+    "variants": [
+      {
+        "id": "19b64380-1d82-45b1-920d-c2f265405cc5",
+        "name": "19b64380-1d82-45b1-920d-c2f265405cc5",
+      },
+      {
+        "id": "fb647e56-3bdb-49db-9c18-e412628a3709",
+        "name": "fb647e56-3bdb-49db-9c18-e412628a3709",
+      },
+      {
+        "id": "12356181-3c5a-407b-88d4-3b62f4181be8",
+        "name": "12356181-3c5a-407b-88d4-3b62f4181be8",
+      },
+    ],
   },
   {
     "id": "1501beed-33ee-4881-91dc-79f80d513c02",
     "name": "Mouse",
+    "variants": [
+      {
+        "id": "5e8a9855-84b4-4f04-ba5b-5df050cde24d",
+        "name": "5e8a9855-84b4-4f04-ba5b-5df050cde24d",
+      },
+      {
+        "id": "a5eb12ad-8ce6-4bbe-b3f5-17c6056afd8e",
+        "name": "a5eb12ad-8ce6-4bbe-b3f5-17c6056afd8e",
+      },
+      {
+        "id": "d8e57691-f7b6-449b-a7ae-785cdea39766",
+        "name": "d8e57691-f7b6-449b-a7ae-785cdea39766",
+      },
+    ],
   },
   {
     "id": "1568d473-1c47-4476-afa3-1d851f3e548f",
     "name": "Car",
+    "variants": [
+      {
+        "id": "2808d024-3021-4227-99d8-e7721aff8b05",
+        "name": "2808d024-3021-4227-99d8-e7721aff8b05",
+      },
+      {
+        "id": "1b8fb4a9-97bf-4114-9663-5d8c06ebdc1c",
+        "name": "1b8fb4a9-97bf-4114-9663-5d8c06ebdc1c",
+      },
+      {
+        "id": "b58ba67c-fc84-4359-a614-9f1202c1d2d1",
+        "name": "b58ba67c-fc84-4359-a614-9f1202c1d2d1",
+      },
+    ],
   },
   {
     "id": "162d46a3-43a4-40e3-9c77-75728068efcf",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "7ec10e91-aa53-4ecf-bac7-2e0c050142d6",
+        "name": "7ec10e91-aa53-4ecf-bac7-2e0c050142d6",
+      },
+      {
+        "id": "35fe18d4-9f99-4f36-a17e-9c5849f1f2b6",
+        "name": "35fe18d4-9f99-4f36-a17e-9c5849f1f2b6",
+      },
+      {
+        "id": "6b192d74-78b8-4193-8401-52c51ef6f198",
+        "name": "6b192d74-78b8-4193-8401-52c51ef6f198",
+      },
+    ],
   },
   {
     "id": "164356d6-e325-4bf9-8a99-85132d5c6801",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "48d9b59c-6039-4f20-b847-8d45761aea07",
+        "name": "48d9b59c-6039-4f20-b847-8d45761aea07",
+      },
+      {
+        "id": "0adb31a7-24b4-4916-ad4f-05ab5d60cae4",
+        "name": "0adb31a7-24b4-4916-ad4f-05ab5d60cae4",
+      },
+      {
+        "id": "c264e531-1149-4b64-b98e-3241c9214226",
+        "name": "c264e531-1149-4b64-b98e-3241c9214226",
+      },
+    ],
   },
   {
     "id": "164fb614-494d-4bb0-bb50-681a7f89f7d9",
     "name": "Cheese",
+    "variants": [
+      {
+        "id": "79739a93-475c-4039-a449-4c032113c92b",
+        "name": "79739a93-475c-4039-a449-4c032113c92b",
+      },
+      {
+        "id": "f0cfc966-0e4a-49a2-897b-368e71632d6d",
+        "name": "f0cfc966-0e4a-49a2-897b-368e71632d6d",
+      },
+      {
+        "id": "4b7ace9b-2f24-45ed-9daa-fd5aecb26c57",
+        "name": "4b7ace9b-2f24-45ed-9daa-fd5aecb26c57",
+      },
+    ],
   },
   {
     "id": "167b83ef-df7b-4955-a383-1a8b473c555f",
     "name": "Sausages",
+    "variants": [
+      {
+        "id": "bb2e4558-a766-4675-af4e-18374615a7bd",
+        "name": "bb2e4558-a766-4675-af4e-18374615a7bd",
+      },
+      {
+        "id": "fca9b452-14f6-415b-9404-3153e871dc08",
+        "name": "fca9b452-14f6-415b-9404-3153e871dc08",
+      },
+      {
+        "id": "b73b0bc1-e1e0-4427-9d76-c33b1cb604eb",
+        "name": "b73b0bc1-e1e0-4427-9d76-c33b1cb604eb",
+      },
+    ],
   },
   {
     "id": "1682ec8d-f364-4809-b5fd-bd9510351d82",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "1dfaa0ca-a6be-4486-8cec-359569e69d39",
+        "name": "1dfaa0ca-a6be-4486-8cec-359569e69d39",
+      },
+      {
+        "id": "01dacc1f-8512-4e23-a66e-7b777b98a16b",
+        "name": "01dacc1f-8512-4e23-a66e-7b777b98a16b",
+      },
+      {
+        "id": "6deedda0-3d49-4831-a4c0-34189aeb4854",
+        "name": "6deedda0-3d49-4831-a4c0-34189aeb4854",
+      },
+    ],
   },
   {
     "id": "16a3603a-4aee-4874-818d-65e23728ea33",
     "name": "Hat",
+    "variants": [
+      {
+        "id": "45dd4a5e-6dc8-4d86-8e6a-d522a06ae4bd",
+        "name": "45dd4a5e-6dc8-4d86-8e6a-d522a06ae4bd",
+      },
+      {
+        "id": "0e543c36-f833-423e-a265-f29d2542dd8e",
+        "name": "0e543c36-f833-423e-a265-f29d2542dd8e",
+      },
+      {
+        "id": "c3cfefad-87f9-4c3f-95a1-8c97882797a7",
+        "name": "c3cfefad-87f9-4c3f-95a1-8c97882797a7",
+      },
+    ],
   },
   {
     "id": "16c2c7e0-99ea-4d16-8be6-407fde985ee7",
     "name": "Chips",
+    "variants": [
+      {
+        "id": "cf2ad963-f885-4935-bd1b-0ea8eb13c21d",
+        "name": "cf2ad963-f885-4935-bd1b-0ea8eb13c21d",
+      },
+      {
+        "id": "dc0ff678-0c39-471b-8716-287fa9cc6ac3",
+        "name": "dc0ff678-0c39-471b-8716-287fa9cc6ac3",
+      },
+      {
+        "id": "293ebbc7-b9f9-455f-b3ba-c4fdfe801dc2",
+        "name": "293ebbc7-b9f9-455f-b3ba-c4fdfe801dc2",
+      },
+    ],
   },
   {
     "id": "17638f1e-db78-4359-8ecc-5cb860f8cd58",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "757d01d7-382a-494c-b547-1d2c3e1a8b7a",
+        "name": "757d01d7-382a-494c-b547-1d2c3e1a8b7a",
+      },
+      {
+        "id": "fe904e5d-8e5d-4fb3-a3cf-82a34bfab75b",
+        "name": "fe904e5d-8e5d-4fb3-a3cf-82a34bfab75b",
+      },
+      {
+        "id": "1cb7e4ae-b917-4ad4-98ca-85b849e34c32",
+        "name": "1cb7e4ae-b917-4ad4-98ca-85b849e34c32",
+      },
+    ],
   },
   {
     "id": "17a6e596-aa41-4b9e-9205-3ae8c315325b",
     "name": "Salad",
+    "variants": [
+      {
+        "id": "d2901862-0247-49af-a3fb-cf77988dac06",
+        "name": "d2901862-0247-49af-a3fb-cf77988dac06",
+      },
+      {
+        "id": "c78a1ed1-5101-407a-8c32-a3b66164c7ea",
+        "name": "c78a1ed1-5101-407a-8c32-a3b66164c7ea",
+      },
+      {
+        "id": "18f43f7c-7011-48ee-aacc-4b8b05058aa0",
+        "name": "18f43f7c-7011-48ee-aacc-4b8b05058aa0",
+      },
+    ],
   },
   {
     "id": "17abe533-36c8-42dd-87a4-d5fca2edbe02",
     "name": "Soap",
+    "variants": [
+      {
+        "id": "162c864d-0125-420c-88c4-c750f4e9a7c0",
+        "name": "162c864d-0125-420c-88c4-c750f4e9a7c0",
+      },
+      {
+        "id": "8a903e9f-a2bc-4a4c-b1ec-334755605b1c",
+        "name": "8a903e9f-a2bc-4a4c-b1ec-334755605b1c",
+      },
+      {
+        "id": "dd0275f6-5b28-4873-9538-384bc00103f3",
+        "name": "dd0275f6-5b28-4873-9538-384bc00103f3",
+      },
+    ],
   },
   {
     "id": "180c6807-27ec-4731-86e4-2179daf12eb9",
     "name": "Ball",
+    "variants": [
+      {
+        "id": "7035aa94-9a0f-4f89-bfbb-30129c31ca10",
+        "name": "7035aa94-9a0f-4f89-bfbb-30129c31ca10",
+      },
+      {
+        "id": "43c8da72-cb30-470c-904f-83c3e8c038a6",
+        "name": "43c8da72-cb30-470c-904f-83c3e8c038a6",
+      },
+      {
+        "id": "7872cc11-822d-4f24-9195-a249cb051cab",
+        "name": "7872cc11-822d-4f24-9195-a249cb051cab",
+      },
+    ],
   },
   {
     "id": "181b5e61-333a-4022-9308-77bfc5a74f65",
     "name": "Shoes",
+    "variants": [
+      {
+        "id": "138042f6-93ba-4c52-a522-ca7323bee39f",
+        "name": "138042f6-93ba-4c52-a522-ca7323bee39f",
+      },
+      {
+        "id": "32428bfa-0828-4d62-809e-6e3fc1faf452",
+        "name": "32428bfa-0828-4d62-809e-6e3fc1faf452",
+      },
+      {
+        "id": "5305a76a-cfe8-4a3d-98a1-7e92f06e4f15",
+        "name": "5305a76a-cfe8-4a3d-98a1-7e92f06e4f15",
+      },
+    ],
   },
   {
     "id": "18240365-5aa9-423c-8499-19ebd1cf7795",
     "name": "Towels",
+    "variants": [
+      {
+        "id": "e3067ef1-d723-4054-aada-49b161d46019",
+        "name": "e3067ef1-d723-4054-aada-49b161d46019",
+      },
+      {
+        "id": "0636467f-95fd-4a52-9ed8-f72ed0a41b44",
+        "name": "0636467f-95fd-4a52-9ed8-f72ed0a41b44",
+      },
+      {
+        "id": "6e294eee-d519-4598-821c-a97c28a13744",
+        "name": "6e294eee-d519-4598-821c-a97c28a13744",
+      },
+    ],
   },
   {
     "id": "183857bb-9763-4b43-9d52-847bc03cd9d4",
     "name": "Shirt",
+    "variants": [
+      {
+        "id": "84d0f9df-2c8d-4a3a-82f7-66a3dc280239",
+        "name": "84d0f9df-2c8d-4a3a-82f7-66a3dc280239",
+      },
+      {
+        "id": "0685443c-9886-4699-a2dd-eaea7c13dc96",
+        "name": "0685443c-9886-4699-a2dd-eaea7c13dc96",
+      },
+      {
+        "id": "edc0402c-9575-4c31-9e3e-1a0082d5048e",
+        "name": "edc0402c-9575-4c31-9e3e-1a0082d5048e",
+      },
+    ],
   },
   {
     "id": "1862065e-904f-43b1-a194-b8abf603a79f",
     "name": "Pizza",
+    "variants": [
+      {
+        "id": "3d06f7e5-8e37-4953-9e60-df85dad184d1",
+        "name": "3d06f7e5-8e37-4953-9e60-df85dad184d1",
+      },
+      {
+        "id": "ed2468ec-3fc9-46bc-b74d-7c1285333c31",
+        "name": "ed2468ec-3fc9-46bc-b74d-7c1285333c31",
+      },
+      {
+        "id": "762171eb-eb26-47a7-9dcc-8810f6ef8851",
+        "name": "762171eb-eb26-47a7-9dcc-8810f6ef8851",
+      },
+    ],
   },
   {
     "id": "188ae63a-056f-43e4-a7ed-db5eeed1f58d",
     "name": "Shirt",
+    "variants": [
+      {
+        "id": "4a3b97a7-b9f6-4113-aa79-0fd0bb058066",
+        "name": "4a3b97a7-b9f6-4113-aa79-0fd0bb058066",
+      },
+      {
+        "id": "c09a1838-bf26-4b61-af70-5734eb5dd6b1",
+        "name": "c09a1838-bf26-4b61-af70-5734eb5dd6b1",
+      },
+      {
+        "id": "7fdd51df-dc05-490f-b894-3e5b20055fd5",
+        "name": "7fdd51df-dc05-490f-b894-3e5b20055fd5",
+      },
+    ],
   },
   {
     "id": "18962ff1-c397-4c54-a7ca-2bc3de3df12b",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "790fb3fc-3095-48a5-87c7-f4798c64f426",
+        "name": "790fb3fc-3095-48a5-87c7-f4798c64f426",
+      },
+      {
+        "id": "8a0ac803-6d22-4fc2-9f71-b2f6cb551f5e",
+        "name": "8a0ac803-6d22-4fc2-9f71-b2f6cb551f5e",
+      },
+      {
+        "id": "482a71b8-fd08-4561-9192-fb93b76b61da",
+        "name": "482a71b8-fd08-4561-9192-fb93b76b61da",
+      },
+    ],
   },
 ]
 `;
@@ -455,402 +1995,1802 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   {
     "id": "000a5b36-a222-4e3f-9f77-0a2b42e5edf6",
     "name": "Tuna",
+    "variants": [
+      {
+        "id": "f33dcff3-a759-4550-8bda-b122266ad7be",
+        "name": "f33dcff3-a759-4550-8bda-b122266ad7be",
+      },
+      {
+        "id": "69738daf-873c-45dd-8a24-ac6a479657b7",
+        "name": "69738daf-873c-45dd-8a24-ac6a479657b7",
+      },
+      {
+        "id": "0e137a4a-6936-4e97-9e4d-9fcc1c4cd5a7",
+        "name": "0e137a4a-6936-4e97-9e4d-9fcc1c4cd5a7",
+      },
+    ],
   },
   {
     "id": "0081090f-6706-4673-9f3a-681c5768dce7",
     "name": "Keyboard",
+    "variants": [
+      {
+        "id": "bcb06707-1fa5-41f2-95b3-5eb3d252de61",
+        "name": "bcb06707-1fa5-41f2-95b3-5eb3d252de61",
+      },
+      {
+        "id": "88183c3e-cdd2-40dd-af23-b422b6cf0d1e",
+        "name": "88183c3e-cdd2-40dd-af23-b422b6cf0d1e",
+      },
+      {
+        "id": "4bc1097e-db77-4f11-9f42-9d8b35d0cf6a",
+        "name": "4bc1097e-db77-4f11-9f42-9d8b35d0cf6a",
+      },
+    ],
   },
   {
     "id": "00ae6b6b-c9b8-4f75-89ea-c55a9741d311",
     "name": "Gloves",
+    "variants": [
+      {
+        "id": "c5eb0e3c-b7ec-4044-92cb-78146a8b896c",
+        "name": "c5eb0e3c-b7ec-4044-92cb-78146a8b896c",
+      },
+      {
+        "id": "c512fdfc-2088-4822-9938-619ba7b40345",
+        "name": "c512fdfc-2088-4822-9938-619ba7b40345",
+      },
+      {
+        "id": "904906c0-da27-43a0-87cf-669e83bbd3ea",
+        "name": "904906c0-da27-43a0-87cf-669e83bbd3ea",
+      },
+    ],
   },
   {
     "id": "00c2caeb-1ae1-4ecf-a8c3-4946bba7a05a",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "0afd543c-3ade-411a-9918-da6fe03c107c",
+        "name": "0afd543c-3ade-411a-9918-da6fe03c107c",
+      },
+      {
+        "id": "670483ed-d458-40ac-98f7-a88626915154",
+        "name": "670483ed-d458-40ac-98f7-a88626915154",
+      },
+      {
+        "id": "45ba0d4e-9fc2-48b3-8737-ffe5c611a0ba",
+        "name": "45ba0d4e-9fc2-48b3-8737-ffe5c611a0ba",
+      },
+    ],
   },
   {
     "id": "00c428cb-9d7a-47b1-8232-a0d735102232",
     "name": "Towels",
+    "variants": [
+      {
+        "id": "5c8b24c4-9f3a-4bce-b505-9c26ae2bdd6e",
+        "name": "5c8b24c4-9f3a-4bce-b505-9c26ae2bdd6e",
+      },
+      {
+        "id": "6eef599a-f2cf-45a3-94cf-e58c6f85bd61",
+        "name": "6eef599a-f2cf-45a3-94cf-e58c6f85bd61",
+      },
+      {
+        "id": "7120e6bc-8b25-4607-a1c7-6ade331743ad",
+        "name": "7120e6bc-8b25-4607-a1c7-6ade331743ad",
+      },
+    ],
   },
   {
     "id": "00c58d67-d63e-44aa-b568-464579cfc6c0",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "d1a1b744-7016-4c8f-aecb-7b4fa7edc6f6",
+        "name": "d1a1b744-7016-4c8f-aecb-7b4fa7edc6f6",
+      },
+      {
+        "id": "29b7e76d-6b22-4f75-986b-9e0b71c6dfce",
+        "name": "29b7e76d-6b22-4f75-986b-9e0b71c6dfce",
+      },
+      {
+        "id": "f8192853-8499-40ab-939e-a78de6babc91",
+        "name": "f8192853-8499-40ab-939e-a78de6babc91",
+      },
+    ],
   },
   {
     "id": "00e966ec-736d-4431-b943-98c783c92398",
     "name": "Pizza",
+    "variants": [
+      {
+        "id": "9095862a-2665-41b1-8101-6ecfb2440fc7",
+        "name": "9095862a-2665-41b1-8101-6ecfb2440fc7",
+      },
+      {
+        "id": "5265730e-a72c-44f6-be06-7e9b8aa830cd",
+        "name": "5265730e-a72c-44f6-be06-7e9b8aa830cd",
+      },
+      {
+        "id": "1dab1bb9-2d41-4ac2-8168-089cd447c674",
+        "name": "1dab1bb9-2d41-4ac2-8168-089cd447c674",
+      },
+    ],
   },
   {
     "id": "0172c5ec-d757-438c-8046-221d87e546c9",
     "name": "Salad",
+    "variants": [
+      {
+        "id": "5c81c89d-b84c-4ff8-8654-73d42f43c112",
+        "name": "5c81c89d-b84c-4ff8-8654-73d42f43c112",
+      },
+      {
+        "id": "ce9c6d8d-42d9-4855-b694-36109f91643e",
+        "name": "ce9c6d8d-42d9-4855-b694-36109f91643e",
+      },
+      {
+        "id": "4366025c-0658-4898-8ceb-df96807e3088",
+        "name": "4366025c-0658-4898-8ceb-df96807e3088",
+      },
+    ],
   },
   {
     "id": "01749f2c-5465-4549-bb83-8f43c3f3cd18",
     "name": "Chair",
+    "variants": [
+      {
+        "id": "6fcaccf3-561c-445d-abd2-29c9635f0206",
+        "name": "6fcaccf3-561c-445d-abd2-29c9635f0206",
+      },
+      {
+        "id": "e4dd16d5-83dd-4f65-b852-1779e5782445",
+        "name": "e4dd16d5-83dd-4f65-b852-1779e5782445",
+      },
+      {
+        "id": "7696ae5c-2add-4194-88cd-4deaee94daae",
+        "name": "7696ae5c-2add-4194-88cd-4deaee94daae",
+      },
+    ],
   },
   {
     "id": "01f2bd89-c8a3-4263-a9da-5b7b6902b881",
     "name": "Soap",
+    "variants": [
+      {
+        "id": "c9ad7cdd-1884-4458-ad8d-bf69eacd0315",
+        "name": "c9ad7cdd-1884-4458-ad8d-bf69eacd0315",
+      },
+      {
+        "id": "45209f93-e42e-4688-a270-95693e8966ab",
+        "name": "45209f93-e42e-4688-a270-95693e8966ab",
+      },
+      {
+        "id": "0ccca6b4-8d05-449e-a093-fe001927aa00",
+        "name": "0ccca6b4-8d05-449e-a093-fe001927aa00",
+      },
+    ],
   },
   {
     "id": "021a5204-6b64-4e99-9fb0-e67e094fdfed",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "f490598e-dc27-4512-bb5e-4526bedf2477",
+        "name": "f490598e-dc27-4512-bb5e-4526bedf2477",
+      },
+      {
+        "id": "b3085a44-6b84-47fa-86a5-62d45db9751c",
+        "name": "b3085a44-6b84-47fa-86a5-62d45db9751c",
+      },
+      {
+        "id": "5374db34-53b7-41bb-96be-990deaae956b",
+        "name": "5374db34-53b7-41bb-96be-990deaae956b",
+      },
+    ],
   },
   {
     "id": "02294725-d881-438d-8ace-6dd2a0991b6d",
     "name": "Table",
+    "variants": [
+      {
+        "id": "4009cbd1-0cfe-4866-8c88-dc70ddbb6a92",
+        "name": "4009cbd1-0cfe-4866-8c88-dc70ddbb6a92",
+      },
+      {
+        "id": "9a0c8053-571e-4ff0-9b3e-dee379137ec5",
+        "name": "9a0c8053-571e-4ff0-9b3e-dee379137ec5",
+      },
+      {
+        "id": "5ec396ab-2972-4090-af8a-808d135e1e6f",
+        "name": "5ec396ab-2972-4090-af8a-808d135e1e6f",
+      },
+    ],
   },
   {
     "id": "02ee8863-f1b9-4469-9486-6d0ad18b1f3f",
     "name": "Bike",
+    "variants": [
+      {
+        "id": "9c926518-3d76-4ac0-b376-202954a32a9c",
+        "name": "9c926518-3d76-4ac0-b376-202954a32a9c",
+      },
+      {
+        "id": "1222af86-efdc-4756-8c38-6132c58d7331",
+        "name": "1222af86-efdc-4756-8c38-6132c58d7331",
+      },
+      {
+        "id": "78c4d6c5-761f-4048-b22a-bcdc44d4d1c4",
+        "name": "78c4d6c5-761f-4048-b22a-bcdc44d4d1c4",
+      },
+    ],
   },
   {
     "id": "02f3702c-5c8e-42d3-a0ea-d3104fa44707",
     "name": "Chips",
+    "variants": [
+      {
+        "id": "a85eb95a-c4f2-49fe-b47b-55944520125a",
+        "name": "a85eb95a-c4f2-49fe-b47b-55944520125a",
+      },
+      {
+        "id": "c1294ac4-16dd-4b90-897d-195bbe1b4f8e",
+        "name": "c1294ac4-16dd-4b90-897d-195bbe1b4f8e",
+      },
+      {
+        "id": "7ceec285-69af-4200-a8d4-b7ed90de9638",
+        "name": "7ceec285-69af-4200-a8d4-b7ed90de9638",
+      },
+    ],
   },
   {
     "id": "03004978-a61f-4a1c-8f20-688f77c1ffc7",
     "name": "Bacon",
+    "variants": [
+      {
+        "id": "17af28b9-7a89-4e5a-8f60-7e8fa712ba79",
+        "name": "17af28b9-7a89-4e5a-8f60-7e8fa712ba79",
+      },
+      {
+        "id": "6df92f20-6de9-4bf1-b9bc-8ec5e58a3d09",
+        "name": "6df92f20-6de9-4bf1-b9bc-8ec5e58a3d09",
+      },
+      {
+        "id": "defed715-e62c-45b6-9603-14e6e5d92d45",
+        "name": "defed715-e62c-45b6-9603-14e6e5d92d45",
+      },
+    ],
   },
   {
     "id": "030e0f62-19d1-4e54-835e-687bf6472600",
     "name": "Chips",
+    "variants": [
+      {
+        "id": "5c7bdeac-8e34-4d6a-8e14-760d05fb4aa6",
+        "name": "5c7bdeac-8e34-4d6a-8e14-760d05fb4aa6",
+      },
+      {
+        "id": "30ef20c3-1ef5-433c-8789-8d67cbd0b043",
+        "name": "30ef20c3-1ef5-433c-8789-8d67cbd0b043",
+      },
+      {
+        "id": "31e3fc90-4310-4a2f-8227-cc8b9b0d72cb",
+        "name": "31e3fc90-4310-4a2f-8227-cc8b9b0d72cb",
+      },
+    ],
   },
   {
     "id": "03212f7b-59b7-4154-b642-b9e37c84c3d3",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "7812d40a-75b1-48c3-80c4-12c5423de9ec",
+        "name": "7812d40a-75b1-48c3-80c4-12c5423de9ec",
+      },
+      {
+        "id": "574075cc-658e-4162-bbd8-b58c7c58246a",
+        "name": "574075cc-658e-4162-bbd8-b58c7c58246a",
+      },
+      {
+        "id": "0fbb8f78-eac0-4f9e-9223-c0738e7a7cf6",
+        "name": "0fbb8f78-eac0-4f9e-9223-c0738e7a7cf6",
+      },
+    ],
   },
   {
     "id": "03425c14-86b3-4213-ac75-2beb47c78c96",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "e64ebc36-09be-4309-98df-e2f455d58c0d",
+        "name": "e64ebc36-09be-4309-98df-e2f455d58c0d",
+      },
+      {
+        "id": "c0c0afd6-8b42-4bd1-b6f0-7c342afc331f",
+        "name": "c0c0afd6-8b42-4bd1-b6f0-7c342afc331f",
+      },
+      {
+        "id": "1525b1b1-3e6a-4091-8bc8-05ab91def65b",
+        "name": "1525b1b1-3e6a-4091-8bc8-05ab91def65b",
+      },
+    ],
   },
   {
     "id": "036f5c38-8664-4f69-b855-30a2e2aed6aa",
     "name": "Hat",
+    "variants": [
+      {
+        "id": "41d84f58-d275-4114-a800-87b4d1271dbe",
+        "name": "41d84f58-d275-4114-a800-87b4d1271dbe",
+      },
+      {
+        "id": "264e2e93-ac16-4465-a47a-627719da39d0",
+        "name": "264e2e93-ac16-4465-a47a-627719da39d0",
+      },
+      {
+        "id": "3d74717a-1409-4b2b-9bc3-0d4b35fbed2b",
+        "name": "3d74717a-1409-4b2b-9bc3-0d4b35fbed2b",
+      },
+    ],
   },
   {
     "id": "038b1d18-7b51-4eb5-8fd3-0bfe03490cf2",
     "name": "Keyboard",
+    "variants": [
+      {
+        "id": "945b0d58-e418-4bd0-bb2c-d18931ef09c9",
+        "name": "945b0d58-e418-4bd0-bb2c-d18931ef09c9",
+      },
+      {
+        "id": "7a577476-5c41-44c8-ac84-1ffbe134a1a2",
+        "name": "7a577476-5c41-44c8-ac84-1ffbe134a1a2",
+      },
+      {
+        "id": "1c46212a-9022-4ea8-acd7-be47501f6108",
+        "name": "1c46212a-9022-4ea8-acd7-be47501f6108",
+      },
+    ],
   },
   {
     "id": "03dfc338-397f-4ffa-b6d1-d32090fc157a",
     "name": "Towels",
+    "variants": [
+      {
+        "id": "d8789e40-31f1-4351-b3d2-9af71b3ae270",
+        "name": "d8789e40-31f1-4351-b3d2-9af71b3ae270",
+      },
+      {
+        "id": "2bbf6ee8-75d1-4da6-b137-c595ef1d21bd",
+        "name": "2bbf6ee8-75d1-4da6-b137-c595ef1d21bd",
+      },
+      {
+        "id": "7ee1f83a-8bbb-4a5b-b467-6adf89e92ce1",
+        "name": "7ee1f83a-8bbb-4a5b-b467-6adf89e92ce1",
+      },
+    ],
   },
   {
     "id": "03f1a40c-0f3e-4c86-b88f-d8ec6fc03128",
     "name": "Chair",
+    "variants": [
+      {
+        "id": "54b0899d-ba2b-4469-b1bd-bb0c8eeaa0f8",
+        "name": "54b0899d-ba2b-4469-b1bd-bb0c8eeaa0f8",
+      },
+      {
+        "id": "ea0e5337-4ff6-4abb-b5a2-357a8f5ed1e6",
+        "name": "ea0e5337-4ff6-4abb-b5a2-357a8f5ed1e6",
+      },
+      {
+        "id": "b9d28236-37e1-4fb9-9db3-2b1c7560a9fd",
+        "name": "b9d28236-37e1-4fb9-9db3-2b1c7560a9fd",
+      },
+    ],
   },
   {
     "id": "03f56831-f1d8-4ed8-87b2-8e8afabc986e",
     "name": "Gloves",
+    "variants": [
+      {
+        "id": "fc46f6bc-04b3-461b-ba30-f5ac8476e0ad",
+        "name": "fc46f6bc-04b3-461b-ba30-f5ac8476e0ad",
+      },
+      {
+        "id": "ca6db226-41bd-4d74-83b5-d3f75e28d323",
+        "name": "ca6db226-41bd-4d74-83b5-d3f75e28d323",
+      },
+      {
+        "id": "edb2a3cb-81c3-4b09-8d3e-1df276697009",
+        "name": "edb2a3cb-81c3-4b09-8d3e-1df276697009",
+      },
+    ],
   },
   {
     "id": "04356ca7-0d8d-44f5-bd60-746411237b62",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "26bb2194-d067-4bbb-a3a1-0eb52345677d",
+        "name": "26bb2194-d067-4bbb-a3a1-0eb52345677d",
+      },
+      {
+        "id": "ac0517d1-0a56-4dfc-9202-98c067610be2",
+        "name": "ac0517d1-0a56-4dfc-9202-98c067610be2",
+      },
+      {
+        "id": "ba56cfc3-ae9b-4722-a0b2-9aaf10b43c95",
+        "name": "ba56cfc3-ae9b-4722-a0b2-9aaf10b43c95",
+      },
+    ],
   },
   {
     "id": "0441d2c3-b808-4094-b373-e060459bebba",
     "name": "Chair",
+    "variants": [
+      {
+        "id": "ec5faf9b-4a25-4937-bfe1-8e8aa265607c",
+        "name": "ec5faf9b-4a25-4937-bfe1-8e8aa265607c",
+      },
+      {
+        "id": "fc0f538a-36e5-4b89-8768-7d60b20f6896",
+        "name": "fc0f538a-36e5-4b89-8768-7d60b20f6896",
+      },
+      {
+        "id": "d7ac70f7-d29e-4a30-a9ff-76b02301c89c",
+        "name": "d7ac70f7-d29e-4a30-a9ff-76b02301c89c",
+      },
+    ],
   },
   {
     "id": "04c40ac2-b4ad-4825-94fd-e37724350ed8",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "2fc48c8d-72d6-495f-956a-41d37aef6a40",
+        "name": "2fc48c8d-72d6-495f-956a-41d37aef6a40",
+      },
+      {
+        "id": "294528c9-ea8c-47e3-b74c-02fcad8435fb",
+        "name": "294528c9-ea8c-47e3-b74c-02fcad8435fb",
+      },
+      {
+        "id": "00974287-f2ba-4d3f-9e86-e27452a4a724",
+        "name": "00974287-f2ba-4d3f-9e86-e27452a4a724",
+      },
+    ],
   },
   {
     "id": "04e10d3a-62f1-47b3-92cb-96c33853758f",
     "name": "Shirt",
+    "variants": [
+      {
+        "id": "43d7d1ad-fd34-4667-8048-0478a295fbc9",
+        "name": "43d7d1ad-fd34-4667-8048-0478a295fbc9",
+      },
+      {
+        "id": "985ff917-da4b-4ac0-ae88-b575959335ce",
+        "name": "985ff917-da4b-4ac0-ae88-b575959335ce",
+      },
+      {
+        "id": "9435b6a8-b08b-41bf-9194-e8ae2b61d763",
+        "name": "9435b6a8-b08b-41bf-9194-e8ae2b61d763",
+      },
+    ],
   },
   {
     "id": "04e54c82-f168-4a36-b3c8-873e484380b1",
     "name": "Table",
+    "variants": [
+      {
+        "id": "50e51ca0-23d0-4818-a39b-bef2b7437c5e",
+        "name": "50e51ca0-23d0-4818-a39b-bef2b7437c5e",
+      },
+      {
+        "id": "6d07e965-f3bf-4e9d-a9a9-1ed2b8f8281d",
+        "name": "6d07e965-f3bf-4e9d-a9a9-1ed2b8f8281d",
+      },
+      {
+        "id": "57feb27c-367a-4770-a040-3a676a471424",
+        "name": "57feb27c-367a-4770-a040-3a676a471424",
+      },
+    ],
   },
   {
     "id": "04f8c512-caab-4ea7-808e-d5798d385d46",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "64518c51-0f1b-4860-a942-1daa11bf0f4b",
+        "name": "64518c51-0f1b-4860-a942-1daa11bf0f4b",
+      },
+      {
+        "id": "1faa524e-2989-40ce-8e67-f711c5d10f62",
+        "name": "1faa524e-2989-40ce-8e67-f711c5d10f62",
+      },
+      {
+        "id": "ae6eec1c-e08d-4200-b336-4354f851fd50",
+        "name": "ae6eec1c-e08d-4200-b336-4354f851fd50",
+      },
+    ],
   },
   {
     "id": "051b56e9-522b-4f0a-8a68-b0e52289b6f6",
     "name": "Keyboard",
+    "variants": [
+      {
+        "id": "c1e7c5a3-9610-467d-834b-999577da1df5",
+        "name": "c1e7c5a3-9610-467d-834b-999577da1df5",
+      },
+      {
+        "id": "feb5784e-33ea-42a7-a359-5e0d699c85a3",
+        "name": "feb5784e-33ea-42a7-a359-5e0d699c85a3",
+      },
+      {
+        "id": "0566a178-6a29-4099-a3d1-38b5f0dde4de",
+        "name": "0566a178-6a29-4099-a3d1-38b5f0dde4de",
+      },
+    ],
   },
   {
     "id": "053876e3-9def-49c7-a65d-fd7354e5cb94",
     "name": "Table",
+    "variants": [
+      {
+        "id": "bb3e45ed-d8f6-4546-b3f7-d1da499888a2",
+        "name": "bb3e45ed-d8f6-4546-b3f7-d1da499888a2",
+      },
+      {
+        "id": "3e45f480-b7a0-40d0-9817-52ec923ed02a",
+        "name": "3e45f480-b7a0-40d0-9817-52ec923ed02a",
+      },
+      {
+        "id": "9568d99b-b189-4039-b242-16eaf6b17a87",
+        "name": "9568d99b-b189-4039-b242-16eaf6b17a87",
+      },
+    ],
   },
   {
     "id": "05dfc2dd-f7cc-478c-ba1b-a928fc816742",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "c4405d8e-ee91-4b2b-8a34-370fc0dc5b55",
+        "name": "c4405d8e-ee91-4b2b-8a34-370fc0dc5b55",
+      },
+      {
+        "id": "3fd38e31-cbe9-44dc-a5e1-d41f41ea15e3",
+        "name": "3fd38e31-cbe9-44dc-a5e1-d41f41ea15e3",
+      },
+      {
+        "id": "e62ce60a-14bd-4fb3-88cd-2b5346d7c169",
+        "name": "e62ce60a-14bd-4fb3-88cd-2b5346d7c169",
+      },
+    ],
   },
   {
     "id": "06278aac-6134-44ba-87b3-f7bd633e88b6",
     "name": "Mouse",
+    "variants": [
+      {
+        "id": "4b75d7e1-40cc-44d3-8181-4adf073c9992",
+        "name": "4b75d7e1-40cc-44d3-8181-4adf073c9992",
+      },
+      {
+        "id": "c518839a-52bc-410f-a921-4be2efb03250",
+        "name": "c518839a-52bc-410f-a921-4be2efb03250",
+      },
+      {
+        "id": "b0ac869e-dda6-4042-ba81-78e0d072e2f4",
+        "name": "b0ac869e-dda6-4042-ba81-78e0d072e2f4",
+      },
+    ],
   },
   {
     "id": "06451077-d19e-4a83-9d49-2ed14b8a2c19",
     "name": "Gloves",
+    "variants": [
+      {
+        "id": "3d89c676-1065-4a51-a357-7287e6c4489a",
+        "name": "3d89c676-1065-4a51-a357-7287e6c4489a",
+      },
+      {
+        "id": "be47bd9d-7f1a-4198-a221-cd9813e5ca0a",
+        "name": "be47bd9d-7f1a-4198-a221-cd9813e5ca0a",
+      },
+      {
+        "id": "cb96ab11-1e5d-49dd-8212-e412dbec4c48",
+        "name": "cb96ab11-1e5d-49dd-8212-e412dbec4c48",
+      },
+    ],
   },
   {
     "id": "0659468c-e304-4d88-a49b-f8214c337f96",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "09842356-19f9-4937-818f-6de3016f2a63",
+        "name": "09842356-19f9-4937-818f-6de3016f2a63",
+      },
+      {
+        "id": "763925ec-88b1-4123-92ee-c45afdd3d0fe",
+        "name": "763925ec-88b1-4123-92ee-c45afdd3d0fe",
+      },
+      {
+        "id": "dcf6acbe-c88d-47c2-bcdd-3d58940caa68",
+        "name": "dcf6acbe-c88d-47c2-bcdd-3d58940caa68",
+      },
+    ],
   },
   {
     "id": "06d1263d-48e9-435c-82c9-e81f30be3e43",
     "name": "Car",
+    "variants": [
+      {
+        "id": "7abdf1fa-b00c-41ee-9b67-91d4d26590be",
+        "name": "7abdf1fa-b00c-41ee-9b67-91d4d26590be",
+      },
+      {
+        "id": "8687cbc7-eef3-4fa0-9e35-8714fad007eb",
+        "name": "8687cbc7-eef3-4fa0-9e35-8714fad007eb",
+      },
+      {
+        "id": "ff50354a-9486-4841-a6b2-5489a6d54f72",
+        "name": "ff50354a-9486-4841-a6b2-5489a6d54f72",
+      },
+    ],
   },
   {
     "id": "06ef890a-54b4-475f-916f-56d385a3c4ac",
     "name": "Bike",
+    "variants": [
+      {
+        "id": "edcda93f-1a03-4689-b26d-b3834ff46d11",
+        "name": "edcda93f-1a03-4689-b26d-b3834ff46d11",
+      },
+      {
+        "id": "351ba5c3-05af-4bea-b9d2-0efaa9771c07",
+        "name": "351ba5c3-05af-4bea-b9d2-0efaa9771c07",
+      },
+      {
+        "id": "802e4e85-c36d-4eb2-86ce-365de6921637",
+        "name": "802e4e85-c36d-4eb2-86ce-365de6921637",
+      },
+    ],
   },
   {
     "id": "072c5d26-dffa-4577-a403-383a66db6bb7",
     "name": "Tuna",
+    "variants": [
+      {
+        "id": "34d01a78-ba3b-4fbc-89cf-6ccb74ea864a",
+        "name": "34d01a78-ba3b-4fbc-89cf-6ccb74ea864a",
+      },
+      {
+        "id": "4b051b38-632f-4a3e-a39c-dccd9b397181",
+        "name": "4b051b38-632f-4a3e-a39c-dccd9b397181",
+      },
+      {
+        "id": "e5ec7511-2b8c-4626-ba3b-d074883144f1",
+        "name": "e5ec7511-2b8c-4626-ba3b-d074883144f1",
+      },
+    ],
   },
   {
     "id": "07621c58-f4d7-4396-b564-c20a0711a961",
     "name": "Keyboard",
+    "variants": [
+      {
+        "id": "bfc7a8b9-cd5b-4d02-8e69-5de3b9fbc7ac",
+        "name": "bfc7a8b9-cd5b-4d02-8e69-5de3b9fbc7ac",
+      },
+      {
+        "id": "8ed78d6d-0b86-4cb7-9cae-6bf2fc9986ef",
+        "name": "8ed78d6d-0b86-4cb7-9cae-6bf2fc9986ef",
+      },
+      {
+        "id": "079e80e2-28e7-4157-8aa8-8c15350759de",
+        "name": "079e80e2-28e7-4157-8aa8-8c15350759de",
+      },
+    ],
   },
   {
     "id": "0763b4fc-7b4f-4a02-83ed-cd221ee3f14b",
     "name": "Car",
+    "variants": [
+      {
+        "id": "f8b4cb08-2d50-4551-bfc1-1d088867de94",
+        "name": "f8b4cb08-2d50-4551-bfc1-1d088867de94",
+      },
+      {
+        "id": "9e2a7a45-ad4f-4f46-8960-1948f1b5a846",
+        "name": "9e2a7a45-ad4f-4f46-8960-1948f1b5a846",
+      },
+      {
+        "id": "9e041fa1-6657-4355-b3bb-46f8b1b7a5bc",
+        "name": "9e041fa1-6657-4355-b3bb-46f8b1b7a5bc",
+      },
+    ],
   },
   {
     "id": "07888ec6-6183-4bfe-9965-9eb40ec16faf",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "9b84ffcb-75c7-4d0c-b758-bb5b38d7fb7d",
+        "name": "9b84ffcb-75c7-4d0c-b758-bb5b38d7fb7d",
+      },
+      {
+        "id": "5e80510e-ac10-435e-a606-643ffbaa2cac",
+        "name": "5e80510e-ac10-435e-a606-643ffbaa2cac",
+      },
+      {
+        "id": "13988b47-5f6b-488c-9039-ed172c3a26cd",
+        "name": "13988b47-5f6b-488c-9039-ed172c3a26cd",
+      },
+    ],
   },
   {
     "id": "0849e466-7c67-4b36-9584-12bc86f9dd56",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "b249e0cf-21aa-4f53-9aa6-2124cf6b7a0e",
+        "name": "b249e0cf-21aa-4f53-9aa6-2124cf6b7a0e",
+      },
+      {
+        "id": "bb0394f5-bc11-4cdc-9a6a-3f48b95e8be2",
+        "name": "bb0394f5-bc11-4cdc-9a6a-3f48b95e8be2",
+      },
+      {
+        "id": "ac8f1212-3329-45d3-9eb9-31e98e5e7d41",
+        "name": "ac8f1212-3329-45d3-9eb9-31e98e5e7d41",
+      },
+    ],
   },
   {
     "id": "08bb3aa9-e368-404e-8148-b35fdea24520",
     "name": "Shoes",
+    "variants": [
+      {
+        "id": "000f1bdc-d8b3-4925-a2c4-791e53efc288",
+        "name": "000f1bdc-d8b3-4925-a2c4-791e53efc288",
+      },
+      {
+        "id": "39802348-7ed8-40ff-9515-342854202d1e",
+        "name": "39802348-7ed8-40ff-9515-342854202d1e",
+      },
+      {
+        "id": "f5297f22-6b73-4430-a03f-125b5ef68f66",
+        "name": "f5297f22-6b73-4430-a03f-125b5ef68f66",
+      },
+    ],
   },
   {
     "id": "08d03c53-bc11-4ca0-b3db-8be98a3b3171",
     "name": "Cheese",
+    "variants": [
+      {
+        "id": "4ed1657e-ef79-4a20-bbe1-ec2e6750832d",
+        "name": "4ed1657e-ef79-4a20-bbe1-ec2e6750832d",
+      },
+      {
+        "id": "fe733c48-b7f8-408c-9788-d5a6a9b65dc9",
+        "name": "fe733c48-b7f8-408c-9788-d5a6a9b65dc9",
+      },
+      {
+        "id": "69ed1899-f182-442b-8074-597ec7a6742b",
+        "name": "69ed1899-f182-442b-8074-597ec7a6742b",
+      },
+    ],
   },
   {
     "id": "0936d9f1-2ba4-42d5-b7aa-6bac3eda887e",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "62372bed-4a70-45bd-8080-918124975849",
+        "name": "62372bed-4a70-45bd-8080-918124975849",
+      },
+      {
+        "id": "31c217a1-20ac-4c5e-834d-535e8e3a01b3",
+        "name": "31c217a1-20ac-4c5e-834d-535e8e3a01b3",
+      },
+      {
+        "id": "72796e7d-797d-4cdf-944b-5cb2483df679",
+        "name": "72796e7d-797d-4cdf-944b-5cb2483df679",
+      },
+    ],
   },
   {
     "id": "097fa30e-9af7-425b-a291-22030d83f5ae",
     "name": "Shoes",
+    "variants": [
+      {
+        "id": "4e6fdcf0-f862-4837-a40e-ecac203eba9d",
+        "name": "4e6fdcf0-f862-4837-a40e-ecac203eba9d",
+      },
+      {
+        "id": "c92f26c3-9cb8-4320-9e8c-c113db579e50",
+        "name": "c92f26c3-9cb8-4320-9e8c-c113db579e50",
+      },
+      {
+        "id": "1b41745f-50c6-4078-9772-ad9b3d260438",
+        "name": "1b41745f-50c6-4078-9772-ad9b3d260438",
+      },
+    ],
   },
   {
     "id": "09d852b5-3b32-4c8c-97c3-c710e1673d90",
     "name": "Cheese",
+    "variants": [
+      {
+        "id": "e3158b5d-6437-488d-8014-2cdd7677fc42",
+        "name": "e3158b5d-6437-488d-8014-2cdd7677fc42",
+      },
+      {
+        "id": "a3cb48b7-f924-41b4-bafd-0aa2b212bf56",
+        "name": "a3cb48b7-f924-41b4-bafd-0aa2b212bf56",
+      },
+      {
+        "id": "d8ffdf75-5484-4dcb-af18-5a304ac8995f",
+        "name": "d8ffdf75-5484-4dcb-af18-5a304ac8995f",
+      },
+    ],
   },
   {
     "id": "0a26c7cd-c981-4f06-9898-1d6bb33cfaa3",
     "name": "Hat",
+    "variants": [
+      {
+        "id": "3dadf120-6388-4ab2-bb82-254b50aa46b0",
+        "name": "3dadf120-6388-4ab2-bb82-254b50aa46b0",
+      },
+      {
+        "id": "4b586de4-426f-4295-bccc-9787d61fb707",
+        "name": "4b586de4-426f-4295-bccc-9787d61fb707",
+      },
+      {
+        "id": "38931f8a-3acc-44d4-9863-3f9ceeb9c4aa",
+        "name": "38931f8a-3acc-44d4-9863-3f9ceeb9c4aa",
+      },
+    ],
   },
   {
     "id": "0a5a1742-e33c-4ca6-a95f-d560f937e24d",
     "name": "Table",
+    "variants": [
+      {
+        "id": "3456a92a-0a87-46a5-a58d-e7344ec614fb",
+        "name": "3456a92a-0a87-46a5-a58d-e7344ec614fb",
+      },
+      {
+        "id": "42279f73-ad64-4a20-8202-43d97b8c9f22",
+        "name": "42279f73-ad64-4a20-8202-43d97b8c9f22",
+      },
+      {
+        "id": "ded43082-2d64-4ebd-a8d4-e185b87e6893",
+        "name": "ded43082-2d64-4ebd-a8d4-e185b87e6893",
+      },
+    ],
   },
   {
     "id": "0a77eceb-26d1-40f1-8ef2-631c7c0f0f87",
     "name": "Chips",
+    "variants": [
+      {
+        "id": "f5b2f8b3-42db-4c00-b86a-49ac6044bdc6",
+        "name": "f5b2f8b3-42db-4c00-b86a-49ac6044bdc6",
+      },
+      {
+        "id": "3502bf7c-235e-4158-9dd9-60ba5ee828f4",
+        "name": "3502bf7c-235e-4158-9dd9-60ba5ee828f4",
+      },
+      {
+        "id": "f83f2631-d772-45a5-a33c-d67d6e2c1a07",
+        "name": "f83f2631-d772-45a5-a33c-d67d6e2c1a07",
+      },
+    ],
   },
   {
     "id": "0a91fe9d-9655-43b8-89e0-009c6692de7b",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "20f88e45-5b22-47ce-b2cf-c2a3ef10eb00",
+        "name": "20f88e45-5b22-47ce-b2cf-c2a3ef10eb00",
+      },
+      {
+        "id": "7e91f2e0-3a9c-49c6-834e-e97708df7ed5",
+        "name": "7e91f2e0-3a9c-49c6-834e-e97708df7ed5",
+      },
+      {
+        "id": "69622d96-a9f3-4cdf-9962-a0c701ae7947",
+        "name": "69622d96-a9f3-4cdf-9962-a0c701ae7947",
+      },
+    ],
   },
   {
     "id": "0ab355db-3391-42ce-a024-a534ce21c081",
     "name": "Computer",
+    "variants": [
+      {
+        "id": "e63426cf-8ae7-417f-8013-9c23afc3f879",
+        "name": "e63426cf-8ae7-417f-8013-9c23afc3f879",
+      },
+      {
+        "id": "dcd70b2f-ceee-4e82-8fea-48f9769edc21",
+        "name": "dcd70b2f-ceee-4e82-8fea-48f9769edc21",
+      },
+      {
+        "id": "46ad13f9-243d-413c-8256-4a94780820b7",
+        "name": "46ad13f9-243d-413c-8256-4a94780820b7",
+      },
+    ],
   },
   {
     "id": "0ac1e04d-2ace-4b0c-8de0-0e8ecf818a93",
     "name": "Bike",
+    "variants": [
+      {
+        "id": "02860671-d0fc-4432-a505-32d5547152b2",
+        "name": "02860671-d0fc-4432-a505-32d5547152b2",
+      },
+      {
+        "id": "29424b22-5eec-412a-9010-74fcff998ad6",
+        "name": "29424b22-5eec-412a-9010-74fcff998ad6",
+      },
+      {
+        "id": "a788bfb2-fc91-41e5-aa62-58dd4c0cd1fb",
+        "name": "a788bfb2-fc91-41e5-aa62-58dd4c0cd1fb",
+      },
+    ],
   },
   {
     "id": "0b3bd159-d868-440c-9c15-e66e5e309dfc",
     "name": "Sausages",
+    "variants": [
+      {
+        "id": "c8633b4c-eafa-43b0-a2ba-069c55c1babc",
+        "name": "c8633b4c-eafa-43b0-a2ba-069c55c1babc",
+      },
+      {
+        "id": "f32df09e-abcf-44eb-adf8-d016aadc9188",
+        "name": "f32df09e-abcf-44eb-adf8-d016aadc9188",
+      },
+      {
+        "id": "3549b84c-6600-4b40-9593-d655da23dd10",
+        "name": "3549b84c-6600-4b40-9593-d655da23dd10",
+      },
+    ],
   },
   {
     "id": "0b7da549-b7ec-4409-a007-aa816beaf858",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "86cf2e9d-04ae-409c-8803-1bb626fdb491",
+        "name": "86cf2e9d-04ae-409c-8803-1bb626fdb491",
+      },
+      {
+        "id": "57b74091-459b-4a2e-b294-7ac58d2fb415",
+        "name": "57b74091-459b-4a2e-b294-7ac58d2fb415",
+      },
+      {
+        "id": "494dcf92-1db4-4b09-8ce0-4289c73576a0",
+        "name": "494dcf92-1db4-4b09-8ce0-4289c73576a0",
+      },
+    ],
   },
   {
     "id": "0bf548f8-8f8f-41bf-80bc-8e1f206d5d83",
     "name": "Pizza",
+    "variants": [
+      {
+        "id": "7bae96d4-517a-41fa-a66f-d233b00d5798",
+        "name": "7bae96d4-517a-41fa-a66f-d233b00d5798",
+      },
+      {
+        "id": "45b9c9d0-ef75-4a89-963d-d8a0d1b9fcf9",
+        "name": "45b9c9d0-ef75-4a89-963d-d8a0d1b9fcf9",
+      },
+      {
+        "id": "2428dcc4-10ef-4c30-9e0f-b62ef05f67ac",
+        "name": "2428dcc4-10ef-4c30-9e0f-b62ef05f67ac",
+      },
+    ],
   },
   {
     "id": "0c16661a-1d91-436a-97e8-d53213f3f658",
     "name": "Gloves",
+    "variants": [
+      {
+        "id": "9d6eddb3-0d49-470d-9f26-1f6265b78f1d",
+        "name": "9d6eddb3-0d49-470d-9f26-1f6265b78f1d",
+      },
+      {
+        "id": "923834b2-b0d5-445b-9391-239dbc83e605",
+        "name": "923834b2-b0d5-445b-9391-239dbc83e605",
+      },
+      {
+        "id": "284a7bf8-959a-4d1f-877d-158b09a21e5f",
+        "name": "284a7bf8-959a-4d1f-877d-158b09a21e5f",
+      },
+    ],
   },
   {
     "id": "0c18516f-d78b-4e26-8212-72628fa50396",
     "name": "Hat",
+    "variants": [
+      {
+        "id": "b53e7303-dbce-4aa1-88fd-9512b4f75b17",
+        "name": "b53e7303-dbce-4aa1-88fd-9512b4f75b17",
+      },
+      {
+        "id": "ec2a76b4-2a51-455f-af1e-0d53995ba9f4",
+        "name": "ec2a76b4-2a51-455f-af1e-0d53995ba9f4",
+      },
+      {
+        "id": "ef311c7c-2eb9-4809-8b65-7939f91a51d5",
+        "name": "ef311c7c-2eb9-4809-8b65-7939f91a51d5",
+      },
+    ],
   },
   {
     "id": "0c6632b4-391f-4df0-91c3-e91e8f7bc69d",
     "name": "Table",
+    "variants": [
+      {
+        "id": "4c53789b-201c-492f-bd7a-c06608304ee2",
+        "name": "4c53789b-201c-492f-bd7a-c06608304ee2",
+      },
+      {
+        "id": "2e69ee57-2ffd-4bdb-b320-51253f3b2c02",
+        "name": "2e69ee57-2ffd-4bdb-b320-51253f3b2c02",
+      },
+      {
+        "id": "553eb54e-5394-4fa1-a65c-0fb9419a4922",
+        "name": "553eb54e-5394-4fa1-a65c-0fb9419a4922",
+      },
+    ],
   },
   {
     "id": "0c69e372-db13-444b-9a9f-78a5c0ed7aab",
     "name": "Keyboard",
+    "variants": [
+      {
+        "id": "04699f16-da5c-4345-b820-bab6e8281df0",
+        "name": "04699f16-da5c-4345-b820-bab6e8281df0",
+      },
+      {
+        "id": "3a0e793d-d760-467c-aa7a-1c7f5085c573",
+        "name": "3a0e793d-d760-467c-aa7a-1c7f5085c573",
+      },
+      {
+        "id": "6175e04f-7e92-4b44-b5c5-b62c2a9f1ef6",
+        "name": "6175e04f-7e92-4b44-b5c5-b62c2a9f1ef6",
+      },
+    ],
   },
   {
     "id": "0cd14c59-7e81-4377-afe3-3881fc7de209",
     "name": "Ball",
+    "variants": [
+      {
+        "id": "cb4a8672-80e8-4939-9652-fed0f4cf03c7",
+        "name": "cb4a8672-80e8-4939-9652-fed0f4cf03c7",
+      },
+      {
+        "id": "872e17ee-ecd1-4de4-8349-1bf9461c6854",
+        "name": "872e17ee-ecd1-4de4-8349-1bf9461c6854",
+      },
+      {
+        "id": "46ff8bdd-a27f-41b0-85b9-a1f318545633",
+        "name": "46ff8bdd-a27f-41b0-85b9-a1f318545633",
+      },
+    ],
   },
   {
     "id": "0d45eb4a-8b67-44ee-85cf-c18edc7f787e",
     "name": "Mouse",
+    "variants": [
+      {
+        "id": "db19c8cd-3102-4920-866c-a80758ecd674",
+        "name": "db19c8cd-3102-4920-866c-a80758ecd674",
+      },
+      {
+        "id": "9c5dac80-7dbb-46ca-be31-461ed278c4ef",
+        "name": "9c5dac80-7dbb-46ca-be31-461ed278c4ef",
+      },
+      {
+        "id": "7ec699ce-e68e-45a1-b3f2-697cc1e6ca11",
+        "name": "7ec699ce-e68e-45a1-b3f2-697cc1e6ca11",
+      },
+    ],
   },
   {
     "id": "0d4721c1-7629-42dd-9787-8e71bf8c1418",
     "name": "Computer",
+    "variants": [
+      {
+        "id": "8f45b716-929b-492f-bb56-7f14ad782c36",
+        "name": "8f45b716-929b-492f-bb56-7f14ad782c36",
+      },
+      {
+        "id": "f1edff19-81e8-4dd0-abdf-ed4e33953953",
+        "name": "f1edff19-81e8-4dd0-abdf-ed4e33953953",
+      },
+      {
+        "id": "2d9cd7d6-1f7b-4350-97ef-65c3af363cd3",
+        "name": "2d9cd7d6-1f7b-4350-97ef-65c3af363cd3",
+      },
+    ],
   },
   {
     "id": "0da80312-292c-4c61-bc2a-702bb97ee102",
     "name": "Tuna",
+    "variants": [
+      {
+        "id": "e24d0e6b-7bd0-449d-8570-e9194c867abc",
+        "name": "e24d0e6b-7bd0-449d-8570-e9194c867abc",
+      },
+      {
+        "id": "e6d8040b-f465-4721-9111-c223f2260a58",
+        "name": "e6d8040b-f465-4721-9111-c223f2260a58",
+      },
+      {
+        "id": "7d51fc59-0607-4d58-adfa-65259a633097",
+        "name": "7d51fc59-0607-4d58-adfa-65259a633097",
+      },
+    ],
   },
   {
     "id": "0db365cd-bc77-4881-93a2-a6dc053aa684",
     "name": "Table",
+    "variants": [
+      {
+        "id": "961fbc48-d61e-4113-afa1-e0325f9001e5",
+        "name": "961fbc48-d61e-4113-afa1-e0325f9001e5",
+      },
+      {
+        "id": "eb736fdf-a368-4912-a14b-49256a81429d",
+        "name": "eb736fdf-a368-4912-a14b-49256a81429d",
+      },
+      {
+        "id": "af0af79e-e371-480f-8aec-0442f74124ca",
+        "name": "af0af79e-e371-480f-8aec-0442f74124ca",
+      },
+    ],
   },
   {
     "id": "0defb4ca-1de6-429d-82cf-b7a738a81cdb",
     "name": "Salad",
+    "variants": [
+      {
+        "id": "64f50b8b-748d-429a-926b-b6da59186b80",
+        "name": "64f50b8b-748d-429a-926b-b6da59186b80",
+      },
+      {
+        "id": "bc78274b-9825-48b1-95b8-be0e88c9b9a8",
+        "name": "bc78274b-9825-48b1-95b8-be0e88c9b9a8",
+      },
+      {
+        "id": "53fb5c1c-c6e5-45b0-b0bc-ab28507b667f",
+        "name": "53fb5c1c-c6e5-45b0-b0bc-ab28507b667f",
+      },
+    ],
   },
   {
     "id": "0e39c7e2-3ecb-4060-b465-2e23a3d6c657",
     "name": "Soap",
+    "variants": [
+      {
+        "id": "5bdf0d79-253d-47cc-8d04-a25d0f462097",
+        "name": "5bdf0d79-253d-47cc-8d04-a25d0f462097",
+      },
+      {
+        "id": "7db9c4d0-f4f0-4faf-b179-f1a4ae772569",
+        "name": "7db9c4d0-f4f0-4faf-b179-f1a4ae772569",
+      },
+      {
+        "id": "79e88a84-de78-49e0-adad-c0077f886293",
+        "name": "79e88a84-de78-49e0-adad-c0077f886293",
+      },
+    ],
   },
   {
     "id": "0e8d668c-08f1-4014-9414-875663caef29",
     "name": "Car",
+    "variants": [
+      {
+        "id": "ef50cc81-9c32-4faf-8b4f-1d5210ed6c7d",
+        "name": "ef50cc81-9c32-4faf-8b4f-1d5210ed6c7d",
+      },
+      {
+        "id": "c2865ca1-74be-438e-9efc-36dfeceb787f",
+        "name": "c2865ca1-74be-438e-9efc-36dfeceb787f",
+      },
+      {
+        "id": "a2896b22-c0cb-4f9a-8695-004c4acaa500",
+        "name": "a2896b22-c0cb-4f9a-8695-004c4acaa500",
+      },
+    ],
   },
   {
     "id": "0e917f50-fda0-44c8-ab1b-b55a292b0bc3",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "b5f0484e-3eeb-4246-967d-7cee48d88ae7",
+        "name": "b5f0484e-3eeb-4246-967d-7cee48d88ae7",
+      },
+      {
+        "id": "37413406-34aa-4981-8f66-e834212fd47d",
+        "name": "37413406-34aa-4981-8f66-e834212fd47d",
+      },
+      {
+        "id": "d3acf652-6c08-42e0-a047-831a5f772065",
+        "name": "d3acf652-6c08-42e0-a047-831a5f772065",
+      },
+    ],
   },
   {
     "id": "0e9b200c-e78a-41bd-b8fb-7a0a116ce723",
     "name": "Gloves",
+    "variants": [
+      {
+        "id": "da99bb6c-b46d-4945-b00f-c5637a2e9137",
+        "name": "da99bb6c-b46d-4945-b00f-c5637a2e9137",
+      },
+      {
+        "id": "f0388668-d205-468a-a6e4-cc6fb03f90a7",
+        "name": "f0388668-d205-468a-a6e4-cc6fb03f90a7",
+      },
+      {
+        "id": "2c38509f-8a2d-487b-892a-968ea1b97b91",
+        "name": "2c38509f-8a2d-487b-892a-968ea1b97b91",
+      },
+    ],
   },
   {
     "id": "0ec7afed-bd80-4df4-848a-47f9390c5888",
     "name": "Soap",
+    "variants": [
+      {
+        "id": "052a1f82-e638-4d39-b933-76e2ded9880e",
+        "name": "052a1f82-e638-4d39-b933-76e2ded9880e",
+      },
+      {
+        "id": "641ce3f8-8f90-406a-9dd6-4691d8d02737",
+        "name": "641ce3f8-8f90-406a-9dd6-4691d8d02737",
+      },
+      {
+        "id": "80213a47-ca90-4683-aee9-aac106fe0eea",
+        "name": "80213a47-ca90-4683-aee9-aac106fe0eea",
+      },
+    ],
   },
   {
     "id": "0edf3c8b-3ea9-4adc-bb8a-dfc088d81329",
     "name": "Bike",
+    "variants": [
+      {
+        "id": "845d8b0d-5143-42d4-81ec-055c7005a6c3",
+        "name": "845d8b0d-5143-42d4-81ec-055c7005a6c3",
+      },
+      {
+        "id": "575b4dab-82c7-4850-ab6b-f02b1e5ff8cb",
+        "name": "575b4dab-82c7-4850-ab6b-f02b1e5ff8cb",
+      },
+      {
+        "id": "c3829266-6d2c-4e88-b88d-758e9b3ac8c8",
+        "name": "c3829266-6d2c-4e88-b88d-758e9b3ac8c8",
+      },
+    ],
   },
   {
     "id": "0fd8ac0f-482f-49e9-aa53-c304dae122f0",
     "name": "Sausages",
+    "variants": [
+      {
+        "id": "0c57b9e8-c273-48e5-95a6-38bb67503f9b",
+        "name": "0c57b9e8-c273-48e5-95a6-38bb67503f9b",
+      },
+      {
+        "id": "4bbaaee2-e4b6-4066-84f8-c1141fe6c7d4",
+        "name": "4bbaaee2-e4b6-4066-84f8-c1141fe6c7d4",
+      },
+      {
+        "id": "0e2fa505-6c0c-43a3-a013-b0caafdb69b2",
+        "name": "0e2fa505-6c0c-43a3-a013-b0caafdb69b2",
+      },
+    ],
   },
   {
     "id": "105d3890-8162-4c6b-aeb6-8a0f657b7d03",
     "name": "Computer",
+    "variants": [
+      {
+        "id": "3c481195-b0dd-4cb7-9fb0-7c89b46385fc",
+        "name": "3c481195-b0dd-4cb7-9fb0-7c89b46385fc",
+      },
+      {
+        "id": "86783c99-bc0b-4443-93c2-c8a507ef4e82",
+        "name": "86783c99-bc0b-4443-93c2-c8a507ef4e82",
+      },
+      {
+        "id": "a7181738-d28a-4897-b6c7-d43861e40f03",
+        "name": "a7181738-d28a-4897-b6c7-d43861e40f03",
+      },
+    ],
   },
   {
     "id": "10873e42-b006-4d67-a887-8ba8581a5820",
     "name": "Bacon",
+    "variants": [
+      {
+        "id": "91bec879-f977-444e-9972-ec853f59fe38",
+        "name": "91bec879-f977-444e-9972-ec853f59fe38",
+      },
+      {
+        "id": "4bbc3cd5-fd66-47fc-aa78-11898d634735",
+        "name": "4bbc3cd5-fd66-47fc-aa78-11898d634735",
+      },
+      {
+        "id": "2e217458-ce6b-4ed2-a1e9-2e303ecf62d0",
+        "name": "2e217458-ce6b-4ed2-a1e9-2e303ecf62d0",
+      },
+    ],
   },
   {
     "id": "10ba9208-c782-4583-8bdc-cc80442d11b4",
     "name": "Bacon",
+    "variants": [
+      {
+        "id": "be87b828-3b27-4659-858c-0a198b931fbf",
+        "name": "be87b828-3b27-4659-858c-0a198b931fbf",
+      },
+      {
+        "id": "5febd7cb-c364-4b6a-aa24-ee7c9f45dd4c",
+        "name": "5febd7cb-c364-4b6a-aa24-ee7c9f45dd4c",
+      },
+      {
+        "id": "e8c69673-a2fe-4132-b004-3dff339e71d5",
+        "name": "e8c69673-a2fe-4132-b004-3dff339e71d5",
+      },
+    ],
   },
   {
     "id": "10d318d3-5639-43e1-8d7c-c9acf2cdb462",
     "name": "Shirt",
+    "variants": [
+      {
+        "id": "b6a32dcc-fad8-4071-bf82-a35b19b403d9",
+        "name": "b6a32dcc-fad8-4071-bf82-a35b19b403d9",
+      },
+      {
+        "id": "790fafdc-dd62-42c4-a067-18a1e22c26bc",
+        "name": "790fafdc-dd62-42c4-a067-18a1e22c26bc",
+      },
+      {
+        "id": "6094f80f-5960-401a-91b4-d025830347fc",
+        "name": "6094f80f-5960-401a-91b4-d025830347fc",
+      },
+    ],
   },
   {
     "id": "119167b8-e3c8-4db0-9340-8d6d364ffd45",
     "name": "Soap",
+    "variants": [
+      {
+        "id": "bd47484e-9875-4dbb-a74f-5bad5ea4fe7d",
+        "name": "bd47484e-9875-4dbb-a74f-5bad5ea4fe7d",
+      },
+      {
+        "id": "80afc7c9-2e05-4a9b-a735-fbc0801e9414",
+        "name": "80afc7c9-2e05-4a9b-a735-fbc0801e9414",
+      },
+      {
+        "id": "6596ff51-ba9d-4def-97e8-119144e356bf",
+        "name": "6596ff51-ba9d-4def-97e8-119144e356bf",
+      },
+    ],
   },
   {
     "id": "11aa1bc7-4b86-4cec-9c74-f77b4848bd6a",
     "name": "Sausages",
+    "variants": [
+      {
+        "id": "34316ab0-59f6-49e1-8268-97f8b9ba86e8",
+        "name": "34316ab0-59f6-49e1-8268-97f8b9ba86e8",
+      },
+      {
+        "id": "89341ae6-ef76-4772-b056-82098489be32",
+        "name": "89341ae6-ef76-4772-b056-82098489be32",
+      },
+      {
+        "id": "fe13d53d-4a7a-439d-bda6-659a9cb1e0cd",
+        "name": "fe13d53d-4a7a-439d-bda6-659a9cb1e0cd",
+      },
+    ],
   },
   {
     "id": "11b1401e-aac7-4241-8aea-6430f6e74431",
     "name": "Chair",
+    "variants": [
+      {
+        "id": "29a0f023-dbdd-42ec-b2fe-859367440a0a",
+        "name": "29a0f023-dbdd-42ec-b2fe-859367440a0a",
+      },
+      {
+        "id": "539fe5fb-5834-44e9-9b1d-08410c6ced32",
+        "name": "539fe5fb-5834-44e9-9b1d-08410c6ced32",
+      },
+      {
+        "id": "faae8def-93e9-4427-990a-d5f4b8320516",
+        "name": "faae8def-93e9-4427-990a-d5f4b8320516",
+      },
+    ],
   },
   {
     "id": "1247725e-6219-409e-8910-44a5de59ac77",
     "name": "Shirt",
+    "variants": [
+      {
+        "id": "1d6d0534-ece7-47e7-a9ee-3e487a370b56",
+        "name": "1d6d0534-ece7-47e7-a9ee-3e487a370b56",
+      },
+      {
+        "id": "4b0cf0f8-90fd-4d80-bfa0-933edf3e5b6e",
+        "name": "4b0cf0f8-90fd-4d80-bfa0-933edf3e5b6e",
+      },
+      {
+        "id": "0bb20824-d41d-4562-a6a8-0e28fc7da30b",
+        "name": "0bb20824-d41d-4562-a6a8-0e28fc7da30b",
+      },
+    ],
   },
   {
     "id": "125b0960-a668-4151-aa47-2af923c5949f",
     "name": "Bike",
+    "variants": [
+      {
+        "id": "740daf1a-b165-47b3-a8ad-1cfd902eaa79",
+        "name": "740daf1a-b165-47b3-a8ad-1cfd902eaa79",
+      },
+      {
+        "id": "970fe1fe-bb04-46fb-aef0-bf544307a55b",
+        "name": "970fe1fe-bb04-46fb-aef0-bf544307a55b",
+      },
+      {
+        "id": "fd555c27-1552-4dbe-ac68-d1f9caf60a1e",
+        "name": "fd555c27-1552-4dbe-ac68-d1f9caf60a1e",
+      },
+    ],
   },
   {
     "id": "12b7a7ab-0344-4b17-8106-88deebef897f",
     "name": "Pizza",
+    "variants": [
+      {
+        "id": "76cf2874-6c8a-4ca2-a7d7-d360de4de683",
+        "name": "76cf2874-6c8a-4ca2-a7d7-d360de4de683",
+      },
+      {
+        "id": "3c122367-7156-406a-8a8a-afb2f1b855c1",
+        "name": "3c122367-7156-406a-8a8a-afb2f1b855c1",
+      },
+      {
+        "id": "25017dbf-4d67-4be5-b792-5f0cd02f493e",
+        "name": "25017dbf-4d67-4be5-b792-5f0cd02f493e",
+      },
+    ],
   },
   {
     "id": "12e5047b-4c21-4ccb-b423-abcdc91faabd",
     "name": "Hat",
+    "variants": [
+      {
+        "id": "f6f5e4e4-f4ba-4484-8200-13025398ee0c",
+        "name": "f6f5e4e4-f4ba-4484-8200-13025398ee0c",
+      },
+      {
+        "id": "669e0bcd-d9d0-45c4-84b6-e0bf25f6e216",
+        "name": "669e0bcd-d9d0-45c4-84b6-e0bf25f6e216",
+      },
+      {
+        "id": "fcbdcbb2-13d4-4bb3-ace9-45192a51668c",
+        "name": "fcbdcbb2-13d4-4bb3-ace9-45192a51668c",
+      },
+    ],
   },
   {
     "id": "13045d2f-713e-405b-8559-2bfc7395f712",
     "name": "Bike",
+    "variants": [
+      {
+        "id": "7e3c3482-4cd0-4ba6-95d2-d1c3a50ed7f8",
+        "name": "7e3c3482-4cd0-4ba6-95d2-d1c3a50ed7f8",
+      },
+      {
+        "id": "5ec526c1-00eb-48db-b5d7-fd34b1c3717e",
+        "name": "5ec526c1-00eb-48db-b5d7-fd34b1c3717e",
+      },
+      {
+        "id": "9e8687f8-5ad2-48dc-9d82-08fae0dc829e",
+        "name": "9e8687f8-5ad2-48dc-9d82-08fae0dc829e",
+      },
+    ],
   },
   {
     "id": "1387271e-18ea-49e4-a511-8c2cc57fbd60",
     "name": "Computer",
+    "variants": [
+      {
+        "id": "a3d576a8-9984-4b86-bbb7-2a1f558bc12d",
+        "name": "a3d576a8-9984-4b86-bbb7-2a1f558bc12d",
+      },
+      {
+        "id": "f1426ffb-3b91-4af3-ac51-26cfa7e77d38",
+        "name": "f1426ffb-3b91-4af3-ac51-26cfa7e77d38",
+      },
+      {
+        "id": "f7a2921a-660c-4b4e-bd6a-98f6805e4c02",
+        "name": "f7a2921a-660c-4b4e-bd6a-98f6805e4c02",
+      },
+    ],
   },
   {
     "id": "13e3b31c-d6a5-4be7-8490-6b96c636e74d",
     "name": "Hat",
+    "variants": [
+      {
+        "id": "54d46047-0963-43d8-9521-f8d6cbd4e33a",
+        "name": "54d46047-0963-43d8-9521-f8d6cbd4e33a",
+      },
+      {
+        "id": "da4ebe28-5d67-48bb-9786-78576e71146a",
+        "name": "da4ebe28-5d67-48bb-9786-78576e71146a",
+      },
+      {
+        "id": "fea658eb-a9d6-4d79-9a9d-a5f2f3129a86",
+        "name": "fea658eb-a9d6-4d79-9a9d-a5f2f3129a86",
+      },
+    ],
   },
   {
     "id": "13ee6ac1-2bc7-44c0-b9c6-90a09c305502",
     "name": "Table",
+    "variants": [
+      {
+        "id": "6bdf844e-0ba4-4097-825c-21ed2b3b195d",
+        "name": "6bdf844e-0ba4-4097-825c-21ed2b3b195d",
+      },
+      {
+        "id": "f67e458a-4669-434d-bc22-7da5a9fbcea2",
+        "name": "f67e458a-4669-434d-bc22-7da5a9fbcea2",
+      },
+      {
+        "id": "25f221f0-c875-4c21-9dc2-c897c2ed1cfb",
+        "name": "25f221f0-c875-4c21-9dc2-c897c2ed1cfb",
+      },
+    ],
   },
   {
     "id": "143da930-8b27-4a08-9af2-2184439b3de8",
     "name": "Pants",
+    "variants": [
+      {
+        "id": "70b086ad-f445-415a-87aa-ad8fb9b4fa59",
+        "name": "70b086ad-f445-415a-87aa-ad8fb9b4fa59",
+      },
+      {
+        "id": "f0f70244-1b54-485d-9651-cdddcbc2a3f3",
+        "name": "f0f70244-1b54-485d-9651-cdddcbc2a3f3",
+      },
+      {
+        "id": "0ffb6de0-f402-49e1-a7b7-20aea785aebe",
+        "name": "0ffb6de0-f402-49e1-a7b7-20aea785aebe",
+      },
+    ],
   },
   {
     "id": "147cd1b8-3160-4b3e-a3e9-8960a0aafc7a",
     "name": "Shirt",
+    "variants": [
+      {
+        "id": "12e5c335-7673-4ab5-8df6-5981e7f5723b",
+        "name": "12e5c335-7673-4ab5-8df6-5981e7f5723b",
+      },
+      {
+        "id": "23f50ed6-e61b-4b91-b096-44a3d527e640",
+        "name": "23f50ed6-e61b-4b91-b096-44a3d527e640",
+      },
+      {
+        "id": "27f7b6ed-ff51-415c-8e9a-a943e17d5789",
+        "name": "27f7b6ed-ff51-415c-8e9a-a943e17d5789",
+      },
+    ],
   },
   {
     "id": "14ff1874-97b1-4408-b163-1a1660070c0b",
     "name": "Pizza",
+    "variants": [
+      {
+        "id": "19b64380-1d82-45b1-920d-c2f265405cc5",
+        "name": "19b64380-1d82-45b1-920d-c2f265405cc5",
+      },
+      {
+        "id": "fb647e56-3bdb-49db-9c18-e412628a3709",
+        "name": "fb647e56-3bdb-49db-9c18-e412628a3709",
+      },
+      {
+        "id": "12356181-3c5a-407b-88d4-3b62f4181be8",
+        "name": "12356181-3c5a-407b-88d4-3b62f4181be8",
+      },
+    ],
   },
   {
     "id": "1501beed-33ee-4881-91dc-79f80d513c02",
     "name": "Mouse",
+    "variants": [
+      {
+        "id": "5e8a9855-84b4-4f04-ba5b-5df050cde24d",
+        "name": "5e8a9855-84b4-4f04-ba5b-5df050cde24d",
+      },
+      {
+        "id": "a5eb12ad-8ce6-4bbe-b3f5-17c6056afd8e",
+        "name": "a5eb12ad-8ce6-4bbe-b3f5-17c6056afd8e",
+      },
+      {
+        "id": "d8e57691-f7b6-449b-a7ae-785cdea39766",
+        "name": "d8e57691-f7b6-449b-a7ae-785cdea39766",
+      },
+    ],
   },
   {
     "id": "1568d473-1c47-4476-afa3-1d851f3e548f",
     "name": "Car",
+    "variants": [
+      {
+        "id": "2808d024-3021-4227-99d8-e7721aff8b05",
+        "name": "2808d024-3021-4227-99d8-e7721aff8b05",
+      },
+      {
+        "id": "1b8fb4a9-97bf-4114-9663-5d8c06ebdc1c",
+        "name": "1b8fb4a9-97bf-4114-9663-5d8c06ebdc1c",
+      },
+      {
+        "id": "b58ba67c-fc84-4359-a614-9f1202c1d2d1",
+        "name": "b58ba67c-fc84-4359-a614-9f1202c1d2d1",
+      },
+    ],
   },
   {
     "id": "162d46a3-43a4-40e3-9c77-75728068efcf",
     "name": "Chicken",
+    "variants": [
+      {
+        "id": "7ec10e91-aa53-4ecf-bac7-2e0c050142d6",
+        "name": "7ec10e91-aa53-4ecf-bac7-2e0c050142d6",
+      },
+      {
+        "id": "35fe18d4-9f99-4f36-a17e-9c5849f1f2b6",
+        "name": "35fe18d4-9f99-4f36-a17e-9c5849f1f2b6",
+      },
+      {
+        "id": "6b192d74-78b8-4193-8401-52c51ef6f198",
+        "name": "6b192d74-78b8-4193-8401-52c51ef6f198",
+      },
+    ],
   },
   {
     "id": "164356d6-e325-4bf9-8a99-85132d5c6801",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "48d9b59c-6039-4f20-b847-8d45761aea07",
+        "name": "48d9b59c-6039-4f20-b847-8d45761aea07",
+      },
+      {
+        "id": "0adb31a7-24b4-4916-ad4f-05ab5d60cae4",
+        "name": "0adb31a7-24b4-4916-ad4f-05ab5d60cae4",
+      },
+      {
+        "id": "c264e531-1149-4b64-b98e-3241c9214226",
+        "name": "c264e531-1149-4b64-b98e-3241c9214226",
+      },
+    ],
   },
   {
     "id": "164fb614-494d-4bb0-bb50-681a7f89f7d9",
     "name": "Cheese",
+    "variants": [
+      {
+        "id": "79739a93-475c-4039-a449-4c032113c92b",
+        "name": "79739a93-475c-4039-a449-4c032113c92b",
+      },
+      {
+        "id": "f0cfc966-0e4a-49a2-897b-368e71632d6d",
+        "name": "f0cfc966-0e4a-49a2-897b-368e71632d6d",
+      },
+      {
+        "id": "4b7ace9b-2f24-45ed-9daa-fd5aecb26c57",
+        "name": "4b7ace9b-2f24-45ed-9daa-fd5aecb26c57",
+      },
+    ],
   },
   {
     "id": "167b83ef-df7b-4955-a383-1a8b473c555f",
     "name": "Sausages",
+    "variants": [
+      {
+        "id": "bb2e4558-a766-4675-af4e-18374615a7bd",
+        "name": "bb2e4558-a766-4675-af4e-18374615a7bd",
+      },
+      {
+        "id": "fca9b452-14f6-415b-9404-3153e871dc08",
+        "name": "fca9b452-14f6-415b-9404-3153e871dc08",
+      },
+      {
+        "id": "b73b0bc1-e1e0-4427-9d76-c33b1cb604eb",
+        "name": "b73b0bc1-e1e0-4427-9d76-c33b1cb604eb",
+      },
+    ],
   },
   {
     "id": "1682ec8d-f364-4809-b5fd-bd9510351d82",
     "name": "Fish",
+    "variants": [
+      {
+        "id": "1dfaa0ca-a6be-4486-8cec-359569e69d39",
+        "name": "1dfaa0ca-a6be-4486-8cec-359569e69d39",
+      },
+      {
+        "id": "01dacc1f-8512-4e23-a66e-7b777b98a16b",
+        "name": "01dacc1f-8512-4e23-a66e-7b777b98a16b",
+      },
+      {
+        "id": "6deedda0-3d49-4831-a4c0-34189aeb4854",
+        "name": "6deedda0-3d49-4831-a4c0-34189aeb4854",
+      },
+    ],
   },
   {
     "id": "16a3603a-4aee-4874-818d-65e23728ea33",
     "name": "Hat",
+    "variants": [
+      {
+        "id": "45dd4a5e-6dc8-4d86-8e6a-d522a06ae4bd",
+        "name": "45dd4a5e-6dc8-4d86-8e6a-d522a06ae4bd",
+      },
+      {
+        "id": "0e543c36-f833-423e-a265-f29d2542dd8e",
+        "name": "0e543c36-f833-423e-a265-f29d2542dd8e",
+      },
+      {
+        "id": "c3cfefad-87f9-4c3f-95a1-8c97882797a7",
+        "name": "c3cfefad-87f9-4c3f-95a1-8c97882797a7",
+      },
+    ],
   },
   {
     "id": "16c2c7e0-99ea-4d16-8be6-407fde985ee7",
     "name": "Chips",
+    "variants": [
+      {
+        "id": "cf2ad963-f885-4935-bd1b-0ea8eb13c21d",
+        "name": "cf2ad963-f885-4935-bd1b-0ea8eb13c21d",
+      },
+      {
+        "id": "dc0ff678-0c39-471b-8716-287fa9cc6ac3",
+        "name": "dc0ff678-0c39-471b-8716-287fa9cc6ac3",
+      },
+      {
+        "id": "293ebbc7-b9f9-455f-b3ba-c4fdfe801dc2",
+        "name": "293ebbc7-b9f9-455f-b3ba-c4fdfe801dc2",
+      },
+    ],
   },
 ]
 `;
