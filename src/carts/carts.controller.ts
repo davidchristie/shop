@@ -24,6 +24,7 @@ export class CartsController {
                   name: cartLine.variant.name,
                 },
               },
+              quantity: cartLine.quantity,
             })) ?? [],
         }
       : null;

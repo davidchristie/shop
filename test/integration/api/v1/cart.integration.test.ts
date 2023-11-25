@@ -32,6 +32,7 @@ describe(`POST ${baseUrl}`, () => {
                 "name": "Tasty",
               },
             },
+            "quantity": 1,
           },
           {
             "id": "30c627f4-1a55-4653-8e95-28d5769c77f6",
@@ -43,6 +44,7 @@ describe(`POST ${baseUrl}`, () => {
                 "name": "Incredible",
               },
             },
+            "quantity": 2,
           },
           {
             "id": "d1568b02-61bc-4f16-bf94-0324c6556c86",
@@ -54,6 +56,7 @@ describe(`POST ${baseUrl}`, () => {
                 "name": "Rustic",
               },
             },
+            "quantity": 3,
           },
         ],
         "id": "06950f80-a158-4bb2-8757-63897088a318",
