@@ -23,40 +23,40 @@ describe(`POST ${baseUrl}`, () => {
       {
         "cartLines": [
           {
-            "id": "23d7d9ea-5baf-44c8-b8b5-db066a61edaf",
+            "id": "3905405b-7970-4c7c-8de6-61a224da840d",
             "product": {
               "id": "89bd9d8d-69a6-474e-80f4-67cc8796ed15",
               "name": "Tuna",
               "variant": {
-                "id": "61de2f49-1c57-4077-81f4-f473b36ebe19",
-                "name": "Handmade",
+                "id": "45f9486c-a152-48ed-b188-659b43f51c85",
+                "name": "Tasty",
               },
             },
           },
           {
-            "id": "4b3d7777-a7fc-4a23-8cc3-832776eed298",
+            "id": "30c627f4-1a55-4653-8e95-28d5769c77f6",
             "product": {
               "id": "89bd9d8d-69a6-474e-80f4-67cc8796ed15",
               "name": "Tuna",
               "variant": {
-                "id": "2276d80b-cd21-4ddc-b9f0-a13059668e8f",
-                "name": "Unbranded",
+                "id": "4eb2f912-6d4d-4740-b877-a471599a0767",
+                "name": "Incredible",
               },
             },
           },
           {
-            "id": "13d55397-a98b-4338-9163-ab5be6c6263e",
+            "id": "d1568b02-61bc-4f16-bf94-0324c6556c86",
             "product": {
               "id": "89bd9d8d-69a6-474e-80f4-67cc8796ed15",
               "name": "Tuna",
               "variant": {
-                "id": "60e2be5f-85f3-4c66-ad6e-b14326742342",
-                "name": "Intelligent",
+                "id": "038a862e-1464-4837-9500-c4e6dc8ae8b0",
+                "name": "Rustic",
               },
             },
           },
         ],
-        "id": "2e2d5bc0-b6cb-46f3-b198-d33fa19fc518",
+        "id": "06950f80-a158-4bb2-8757-63897088a318",
       }
     `);
   });

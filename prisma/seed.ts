@@ -38,6 +38,7 @@ async function seed(): Promise<void> {
         createdAt: new Date("2023-11-19T06:31:46.208Z"),
         updatedAt: new Date("2023-11-19T06:31:46.208Z"),
         name: faker.commerce.product(),
+        description: faker.commerce.productDescription(),
       })),
   });
   const products = await prisma.product.findMany();
