@@ -27,6 +27,10 @@ it("only exposes expected routes", () => {
       },
       {
         "method": "get",
+        "path": "/api/v1/cart",
+      },
+      {
+        "method": "get",
         "path": "/api/v1/healthcheck",
       },
       {

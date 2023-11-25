@@ -29,6 +29,7 @@ async function seed(): Promise<void> {
       },
     ],
   });
+  const users = await prisma.user.findMany();
   await prisma.product.createMany({
     data: Array(1000)
       .fill(null)
@@ -50,6 +51,39 @@ async function seed(): Promise<void> {
         name: faker.commerce.productAdjective(),
         productId: products[Math.floor(index / 3)].id,
       })),
+  });
+  const variants = await prisma.variant.findMany();
+  await prisma.cart.create({
+    data: {
+      id: faker.string.uuid(),
+      userId: users[1].id,
+      createdAt: new Date("2023-11-19T06:31:46.208Z"),
+      updatedAt: new Date("2023-11-19T06:31:46.208Z"),
+      cartLines: {
+        createMany: {
+          data: [
+            {
+              id: faker.string.uuid(),
+              createdAt: new Date("2023-11-19T06:31:46.208Z"),
+              updatedAt: new Date("2023-11-19T06:31:46.208Z"),
+              variantId: variants[0].id,
+            },
+            {
+              id: faker.string.uuid(),
+              createdAt: new Date("2023-11-19T06:31:46.208Z"),
+              updatedAt: new Date("2023-11-19T06:31:46.208Z"),
+              variantId: variants[1].id,
+            },
+            {
+              id: faker.string.uuid(),
+              createdAt: new Date("2023-11-19T06:31:46.208Z"),
+              updatedAt: new Date("2023-11-19T06:31:46.208Z"),
+              variantId: variants[2].id,
+            },
+          ],
+        },
+      },
+    },
   });
 }
 

@@ -4,17 +4,19 @@ import { beforeEach, describe, expect, it } from "vitest";
 import { createApp } from "../../create-app.js";
 import { getUserAccessToken } from "../../get-user-access-token.js";
 
+const baseUrl = "/api/v1/profile";
+
 let app: INestApplication;
 
 beforeEach(async () => {
   app = await createApp();
 });
 
-describe("POST /api/v1/profile", () => {
+describe(`POST ${baseUrl}`, () => {
   it("returns status 200 when authenticated", async () => {
     const accessToken = await getUserAccessToken(app);
     const response = await request(app.getHttpServer())
-      .get("/api/v1/profile")
+      .get(baseUrl)
       .set("Authorization", `Bearer ${accessToken}`);
     expect(response.status).toBe(200);
     expect(response.body).toMatchInlineSnapshot(`
