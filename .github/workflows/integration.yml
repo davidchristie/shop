@@ -21,6 +21,7 @@ jobs:
           cache: npm
           node-version: 20
       - run: npm ci
+      - run: npm run generate
       - run: npm run verify
 
   unit-tests:
@@ -34,6 +35,7 @@ jobs:
           cache: npm
           node-version: 20
       - run: npm ci
+      - run: npm run generate
       - run: npm run build
       - run: npm run test:unit
 

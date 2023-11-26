@@ -1,0 +1,38 @@
+FROM node:alpine AS base
+
+FROM base AS builder
+
+WORKDIR /app
+
+RUN npm install turbo --global
+
+COPY . .
+
+RUN turbo prune @shop/server --docker
+
+FROM base AS installer
+
+WORKDIR /app
+
+COPY --from=builder /app/out/json/ .
+COPY --from=builder /app/out/package-lock.json ./package-lock.json
+
+RUN npm ci
+
+COPY --from=builder /app/out/full/ .
+
+RUN npm run generate --filter=@shop/server...
+RUN npm run build --filter=@shop/server...
+
+FROM installer AS runner
+
+ENV NODE_ENV production
+
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nodejs
+
+USER nodejs
+
+RUN ls -a
+
+CMD npm run start:prod --workspace @shop/server
