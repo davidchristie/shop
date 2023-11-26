@@ -23,7 +23,7 @@ describe(`POST ${baseUrl}`, () => {
       {
         "cartLines": [
           {
-            "id": "3905405b-7970-4c7c-8de6-61a224da840d",
+            "id": "174c7683-63c4-484d-818f-df415ff244c8",
             "product": {
               "id": "89bd9d8d-69a6-474e-80f4-67cc8796ed15",
               "name": "Tuna",
@@ -35,31 +35,31 @@ describe(`POST ${baseUrl}`, () => {
             "quantity": 1,
           },
           {
-            "id": "30c627f4-1a55-4653-8e95-28d5769c77f6",
+            "id": "f3dd7571-0ee5-4099-8cf1-5abf98fbfe8e",
             "product": {
               "id": "89bd9d8d-69a6-474e-80f4-67cc8796ed15",
               "name": "Tuna",
               "variant": {
-                "id": "4eb2f912-6d4d-4740-b877-a471599a0767",
-                "name": "Incredible",
+                "id": "eb2f9126-d4d7-4408-977a-471599a0767e",
+                "name": "Ergonomic",
               },
             },
             "quantity": 2,
           },
           {
-            "id": "d1568b02-61bc-4f16-bf94-0324c6556c86",
+            "id": "aa5d3f2a-7f0a-447d-a028-9f7d64867394",
             "product": {
               "id": "89bd9d8d-69a6-474e-80f4-67cc8796ed15",
               "name": "Tuna",
               "variant": {
-                "id": "038a862e-1464-4837-9500-c4e6dc8ae8b0",
-                "name": "Rustic",
+                "id": "8a862e14-6483-4750-b0c4-e6dc8ae8b072",
+                "name": "Ergonomic",
               },
             },
             "quantity": 3,
           },
         ],
-        "id": "06950f80-a158-4bb2-8757-63897088a318",
+        "id": "fc778083-0af1-423a-98c4-3f9d077c960c",
       }
     `);
   });

@@ -50,6 +50,7 @@ async function seed(): Promise<void> {
         createdAt: new Date("2023-11-19T06:31:46.208Z"),
         updatedAt: new Date("2023-11-19T06:31:46.208Z"),
         name: faker.commerce.productAdjective(),
+        price: faker.number.int({ min: 10, max: 1000 }),
         productId: products[Math.floor(index / 3)].id,
       })),
   });
