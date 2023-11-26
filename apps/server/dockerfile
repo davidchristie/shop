@@ -10,8 +10,6 @@ COPY . .
 
 RUN turbo prune @shop/server --docker
 
-RUN ls out/full -a
-
 FROM base AS installer
 
 WORKDIR /app
@@ -24,14 +22,16 @@ RUN npm ci
 COPY --from=builder /app/out/full/ .
 
 RUN npm run generate --filter=@shop/server...
-
 RUN npm run build --filter=@shop/server...
-
-RUN ls -a
 
 FROM installer AS runner
 
 ENV NODE_ENV production
+
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nodejs
+
+USER nodejs
 
 RUN ls -a
 
