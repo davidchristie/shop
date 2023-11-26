@@ -19,9 +19,11 @@ export class ProductsController {
     return products.map((product) => ({
       id: product.id,
       name: product.name,
+      description: product.description,
       variants: product.variants.map((variant) => ({
         id: variant.id,
         name: variant.id,
+        price: variant.price,
       })),
     }));
   }
