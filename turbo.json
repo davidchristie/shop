@@ -1,0 +1,25 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"]
+    },
+    "generate": {
+      "dependsOn": ["^generate"]
+    },
+    "migrate": {
+      "cache": false
+    },
+    "seed": {
+      "cache": false
+    },
+    "test:integration": {
+      "cache": false
+    },
+    "test:system": {
+      "cache": false
+    },
+    "test:unit": {},
+    "verify": {}
+  }
+}
