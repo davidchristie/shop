@@ -71,47 +71,48 @@ export async function shopifyFetch<T>({
   tags?: string[];
   variables?: ExtractVariables<T>;
 }): Promise<{ status: number; body: T } | never> {
-  try {
-    const result = await fetch(endpoint, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Shopify-Storefront-Access-Token': key,
-        ...headers
-      },
-      body: JSON.stringify({
-        ...(query && { query }),
-        ...(variables && { variables })
-      }),
-      cache,
-      ...(tags && { next: { tags } })
-    });
+  throw new Error("Not implemented")
+  // try {
+  //   const result = await fetch(endpoint, {
+  //     method: 'POST',
+  //     headers: {
+  //       'Content-Type': 'application/json',
+  //       'X-Shopify-Storefront-Access-Token': key,
+  //       ...headers
+  //     },
+  //     body: JSON.stringify({
+  //       ...(query && { query }),
+  //       ...(variables && { variables })
+  //     }),
+  //     cache,
+  //     ...(tags && { next: { tags } })
+  //   });
 
-    const body = await result.json();
+  //   const body = await result.json();
 
-    if (body.errors) {
-      throw body.errors[0];
-    }
+  //   if (body.errors) {
+  //     throw body.errors[0];
+  //   }
 
-    return {
-      status: result.status,
-      body
-    };
-  } catch (e) {
-    if (isShopifyError(e)) {
-      throw {
-        cause: e.cause?.toString() || 'unknown',
-        status: e.status || 500,
-        message: e.message,
-        query
-      };
-    }
+  //   return {
+  //     status: result.status,
+  //     body
+  //   };
+  // } catch (e) {
+  //   if (isShopifyError(e)) {
+  //     throw {
+  //       cause: e.cause?.toString() || 'unknown',
+  //       status: e.status || 500,
+  //       message: e.message,
+  //       query
+  //     };
+  //   }
 
-    throw {
-      error: e,
-      query
-    };
-  }
+  //   throw {
+  //     error: e,
+  //     query
+  //   };
+  // }
 }
 
 const removeEdgesAndNodes = (array: Connection<any>) => {
@@ -291,22 +292,23 @@ export async function getCollectionProducts({
   reverse?: boolean;
   sortKey?: string;
 }): Promise<Product[]> {
-  const res = await shopifyFetch<ShopifyCollectionProductsOperation>({
-    query: getCollectionProductsQuery,
-    tags: [TAGS.collections, TAGS.products],
-    variables: {
-      handle: collection,
-      reverse,
-      sortKey: sortKey === 'CREATED_AT' ? 'CREATED' : sortKey
-    }
-  });
+  return []
+  // const res = await shopifyFetch<ShopifyCollectionProductsOperation>({
+  //   query: getCollectionProductsQuery,
+  //   tags: [TAGS.collections, TAGS.products],
+  //   variables: {
+  //     handle: collection,
+  //     reverse,
+  //     sortKey: sortKey === 'CREATED_AT' ? 'CREATED' : sortKey
+  //   }
+  // });
 
-  if (!res.body.data.collection) {
-    console.log(`No collection found for \`${collection}\``);
-    return [];
-  }
+  // if (!res.body.data.collection) {
+  //   console.log(`No collection found for \`${collection}\``);
+  //   return [];
+  // }
 
-  return reshapeProducts(removeEdgesAndNodes(res.body.data.collection.products));
+  // return reshapeProducts(removeEdgesAndNodes(res.body.data.collection.products));
 }
 
 export async function getCollections(): Promise<Collection[]> {
@@ -338,20 +340,21 @@ export async function getCollections(): Promise<Collection[]> {
 }
 
 export async function getMenu(handle: string): Promise<Menu[]> {
-  const res = await shopifyFetch<ShopifyMenuOperation>({
-    query: getMenuQuery,
-    tags: [TAGS.collections],
-    variables: {
-      handle
-    }
-  });
+  return []
+  // const res = await shopifyFetch<ShopifyMenuOperation>({
+  //   query: getMenuQuery,
+  //   tags: [TAGS.collections],
+  //   variables: {
+  //     handle
+  //   }
+  // });
 
-  return (
-    res.body?.data?.menu?.items.map((item: { title: string; url: string }) => ({
-      title: item.title,
-      path: item.url.replace(domain, '').replace('/collections', '/search').replace('/pages', '')
-    })) || []
-  );
+  // return (
+  //   res.body?.data?.menu?.items.map((item: { title: string; url: string }) => ({
+  //     title: item.title,
+  //     path: item.url.replace(domain, '').replace('/collections', '/search').replace('/pages', '')
+  //   })) || []
+  // );
 }
 
 export async function getPage(handle: string): Promise<Page> {
