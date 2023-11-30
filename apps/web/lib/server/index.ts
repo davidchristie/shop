@@ -1,5 +1,4 @@
 import { HIDDEN_PRODUCT_TAG, SHOPIFY_GRAPHQL_API_ENDPOINT, TAGS } from 'lib/constants';
-import { isShopifyError } from 'lib/type-guards';
 import { ensureStartsWith } from 'lib/utils';
 import { revalidateTag } from 'next/cache';
 import { headers } from 'next/headers';
@@ -12,11 +11,9 @@ import {
 } from './mutations/cart';
 import { getCartQuery } from './queries/cart';
 import {
-  getCollectionProductsQuery,
   getCollectionQuery,
   getCollectionsQuery
 } from './queries/collection';
-import { getMenuQuery } from './queries/menu';
 import { getPageQuery, getPagesQuery } from './queries/page';
 import {
   getProductQuery,
@@ -36,10 +33,8 @@ import {
   ShopifyCartOperation,
   ShopifyCollection,
   ShopifyCollectionOperation,
-  ShopifyCollectionProductsOperation,
   ShopifyCollectionsOperation,
   ShopifyCreateCartOperation,
-  ShopifyMenuOperation,
   ShopifyPageOperation,
   ShopifyPagesOperation,
   ShopifyProduct,
@@ -50,11 +45,7 @@ import {
   ShopifyUpdateCartOperation
 } from './types';
 
-const domain = process.env.SHOPIFY_STORE_DOMAIN
-  ? ensureStartsWith(process.env.SHOPIFY_STORE_DOMAIN, 'https://')
-  : '';
-const endpoint = `${domain}${SHOPIFY_GRAPHQL_API_ENDPOINT}`;
-const key = process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN!;
+const serverHost = process.env.SERVER_HOST ?? "http://localhost:4000"
 
 type ExtractVariables<T> = T extends { variables: object } ? T['variables'] : never;
 
@@ -292,23 +283,46 @@ export async function getCollectionProducts({
   reverse?: boolean;
   sortKey?: string;
 }): Promise<Product[]> {
-  return []
-  // const res = await shopifyFetch<ShopifyCollectionProductsOperation>({
-  //   query: getCollectionProductsQuery,
-  //   tags: [TAGS.collections, TAGS.products],
-  //   variables: {
-  //     handle: collection,
-  //     reverse,
-  //     sortKey: sortKey === 'CREATED_AT' ? 'CREATED' : sortKey
-  //   }
-  // });
-
-  // if (!res.body.data.collection) {
-  //   console.log(`No collection found for \`${collection}\``);
-  //   return [];
-  // }
-
-  // return reshapeProducts(removeEdgesAndNodes(res.body.data.collection.products));
+  const response = await fetch(`${serverHost}/api/v1/products`)
+  const products = await response.json();
+  console.log('>>> products:', products)
+  return products.map((product: any) => (
+    {
+      id: product.id,
+      availableForSale: true,
+      descriptionHtml: `<p>${product.description}</p>`,
+      description: product.description,
+      featuredImage: {
+        altText: 'asdf',
+        height: 200,
+        url: 'https://picsum.photos/id/123/300/200',
+        width: 300
+      },
+      handle: 'asdf',
+      images: [],
+      options: [],
+      priceRange: {
+        maxVariantPrice: {
+          amount: '456',
+          currencyCode: 'NZD'
+        },
+        minVariantPrice: {
+          amount: '123',
+          currencyCode: 'NZD'
+        },
+      },
+      seo: {
+        description: 'asdf',
+        title: 'asdf'
+      },
+      tags: [
+        'adsf'
+      ],
+      title: product.name,
+      updatedAt: 'asdf',
+      variants: []
+    }
+  ));
 }
 
 export async function getCollections(): Promise<Collection[]> {

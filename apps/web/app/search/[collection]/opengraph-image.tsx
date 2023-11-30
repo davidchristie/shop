@@ -1,5 +1,5 @@
 import OpengraphImage from 'components/opengraph-image';
-import { getCollection } from 'lib/shopify';
+import { getCollection } from 'lib/server';
 
 export default async function Image({ params }: { params: { collection: string } }) {
   const collection = await getCollection(params.collection);
