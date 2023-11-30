@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "build": "turbo run build",
+    "dev": "turbo run dev",
     "generate": "turbo run generate",
     "migrate": "turbo run migrate",
     "seed": "turbo run seed",

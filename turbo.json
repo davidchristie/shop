@@ -4,6 +4,10 @@
     "build": {
       "dependsOn": ["^build"]
     },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
     "generate": {
       "dependsOn": ["^generate"]
     },

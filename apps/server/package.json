@@ -3,6 +3,7 @@
   "type": "module",
   "scripts": {
     "build": "nest build",
+    "dev": "nest start --watch",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "generate": "prisma generate",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
@@ -11,7 +12,6 @@
     "seed": "node --loader ts-node/esm prisma/seed.ts",
     "start": "nest start",
     "start:debug": "nest start --debug --watch",
-    "start:dev": "nest start --watch",
     "start:prod": "node dist/main",
     "test:integration": "vitest integration",
     "test:system": "vitest system",
