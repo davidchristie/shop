@@ -4,10 +4,15 @@ exports[`GET /api/v1/products > respects 'limit' query parameter 1`] = `
 [
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "007eb52f-f503-454a-9948-68416b25489a",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/819/300/200",
     },
+    "id": "007eb52f-f503-454a-9948-68416b25489a",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/819/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -43,10 +48,15 @@ exports[`GET /api/v1/products > respects 'limit' query parameter 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "00e5dabc-8345-4f94-a86c-a1528ed18865",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/274/300/200",
     },
+    "id": "00e5dabc-8345-4f94-a86c-a1528ed18865",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/274/300/200",
+      },
+    ],
     "name": "Fish",
     "priceRange": {
       "maxVariantPrice": {
@@ -82,10 +92,15 @@ exports[`GET /api/v1/products > respects 'limit' query parameter 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "01a0035b-b6bf-4383-8c5e-b0e3cb7ec044",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/822/300/200",
     },
+    "id": "01a0035b-b6bf-4383-8c5e-b0e3cb7ec044",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/822/300/200",
+      },
+    ],
     "name": "Cheese",
     "priceRange": {
       "maxVariantPrice": {
@@ -121,10 +136,15 @@ exports[`GET /api/v1/products > respects 'limit' query parameter 1`] = `
   },
   {
     "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-    "id": "01e54d06-91da-4e6d-9209-4ccec330b4ec",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/681/300/200",
     },
+    "id": "01e54d06-91da-4e6d-9209-4ccec330b4ec",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/681/300/200",
+      },
+    ],
     "name": "Table",
     "priceRange": {
       "maxVariantPrice": {
@@ -160,10 +180,15 @@ exports[`GET /api/v1/products > respects 'limit' query parameter 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "027ccc0b-bb9f-4124-8fda-a1692086a616",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/665/300/200",
     },
+    "id": "027ccc0b-bb9f-4124-8fda-a1692086a616",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/665/300/200",
+      },
+    ],
     "name": "Mouse",
     "priceRange": {
       "maxVariantPrice": {
@@ -199,10 +224,15 @@ exports[`GET /api/v1/products > respects 'limit' query parameter 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "02bca2ee-2125-4642-afcb-3510244bf443",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/593/300/200",
     },
+    "id": "02bca2ee-2125-4642-afcb-3510244bf443",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/593/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -238,10 +268,15 @@ exports[`GET /api/v1/products > respects 'limit' query parameter 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "02bf1488-4b5a-4b2e-bb33-ecc316b51a32",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/62/300/200",
     },
+    "id": "02bf1488-4b5a-4b2e-bb33-ecc316b51a32",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/62/300/200",
+      },
+    ],
     "name": "Table",
     "priceRange": {
       "maxVariantPrice": {
@@ -277,10 +312,15 @@ exports[`GET /api/v1/products > respects 'limit' query parameter 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "02ebbe0e-34b6-4f84-8270-a2fe83d0f100",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/9/300/200",
     },
+    "id": "02ebbe0e-34b6-4f84-8270-a2fe83d0f100",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/9/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -316,10 +356,15 @@ exports[`GET /api/v1/products > respects 'limit' query parameter 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "033ef4c4-a56f-4328-a795-82567ab7b40e",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/978/300/200",
     },
+    "id": "033ef4c4-a56f-4328-a795-82567ab7b40e",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/978/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -355,10 +400,15 @@ exports[`GET /api/v1/products > respects 'limit' query parameter 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "03dc8f7c-977a-47db-b36b-65c4f9cd54a5",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/420/300/200",
     },
+    "id": "03dc8f7c-977a-47db-b36b-65c4f9cd54a5",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/420/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -399,10 +449,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
 [
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "040bf465-7211-411c-9223-f2260a587b7d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/100/300/200",
     },
+    "id": "040bf465-7211-411c-9223-f2260a587b7d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/100/300/200",
+      },
+    ],
     "name": "Computer",
     "priceRange": {
       "maxVariantPrice": {
@@ -438,10 +493,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "04699f16-da5c-4345-b820-bab6e8281df0",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/235/300/200",
     },
+    "id": "04699f16-da5c-4345-b820-bab6e8281df0",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/235/300/200",
+      },
+    ],
     "name": "Fish",
     "priceRange": {
       "maxVariantPrice": {
@@ -477,10 +537,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-    "id": "0484e3ee-b246-467d-97ce-e48d88ae75e3",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/252/300/200",
     },
+    "id": "0484e3ee-b246-467d-97ce-e48d88ae75e3",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/252/300/200",
+      },
+    ],
     "name": "Ball",
     "priceRange": {
       "maxVariantPrice": {
@@ -516,10 +581,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "05130a18-f2aa-4d80-a324-5801931cb578",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/574/300/200",
     },
+    "id": "05130a18-f2aa-4d80-a324-5801931cb578",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/574/300/200",
+      },
+    ],
     "name": "Cheese",
     "priceRange": {
       "maxVariantPrice": {
@@ -555,10 +625,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "059f09f3-2f77-4633-9dea-03dc29a08ef9",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/855/300/200",
     },
+    "id": "059f09f3-2f77-4633-9dea-03dc29a08ef9",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/855/300/200",
+      },
+    ],
     "name": "Shirt",
     "priceRange": {
       "maxVariantPrice": {
@@ -594,10 +669,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "05bc715e-2b78-400e-b0b8-cb9feef2b4c6",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/682/300/200",
     },
+    "id": "05bc715e-2b78-400e-b0b8-cb9feef2b4c6",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/682/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -633,10 +713,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "05d8eee9-1b2b-4a34-b370-fc0dc5b553f3",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/779/300/200",
     },
+    "id": "05d8eee9-1b2b-4a34-b370-fc0dc5b553f3",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/779/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -672,10 +757,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "05e4c02c-df5f-4b81-9bf1-8f5ca0f1e227",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/183/300/200",
     },
+    "id": "05e4c02c-df5f-4b81-9bf1-8f5ca0f1e227",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/183/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -711,10 +801,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "065be031-c273-43e0-a385-24da87338e89",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/636/300/200",
     },
+    "id": "065be031-c273-43e0-a385-24da87338e89",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/636/300/200",
+      },
+    ],
     "name": "Hat",
     "priceRange": {
       "maxVariantPrice": {
@@ -750,10 +845,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "06c9e14b-31db-45c1-9ded-9a0994e6700b",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/446/300/200",
     },
+    "id": "06c9e14b-31db-45c1-9ded-9a0994e6700b",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/446/300/200",
+      },
+    ],
     "name": "Hat",
     "priceRange": {
       "maxVariantPrice": {
@@ -789,10 +889,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "077c0936-b182-4e72-808f-dbf81cdbae4d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/843/300/200",
     },
+    "id": "077c0936-b182-4e72-808f-dbf81cdbae4d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/843/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -828,10 +933,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "077cf911-38a2-4635-a068-0f7f4c267775",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/739/300/200",
     },
+    "id": "077cf911-38a2-4635-a068-0f7f4c267775",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/739/300/200",
+      },
+    ],
     "name": "Pants",
     "priceRange": {
       "maxVariantPrice": {
@@ -867,10 +977,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "07a95867-dfb2-4d78-95cd-cf8a4e7748b4",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/468/300/200",
     },
+    "id": "07a95867-dfb2-4d78-95cd-cf8a4e7748b4",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/468/300/200",
+      },
+    ],
     "name": "Mouse",
     "priceRange": {
       "maxVariantPrice": {
@@ -906,10 +1021,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "07bd1f45-625e-40d4-8cb7-2efbe421a55b",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/318/300/200",
     },
+    "id": "07bd1f45-625e-40d4-8cb7-2efbe421a55b",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/318/300/200",
+      },
+    ],
     "name": "Bacon",
     "priceRange": {
       "maxVariantPrice": {
@@ -945,10 +1065,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "07c86c03-5b6f-4e58-9ba8-58afb2bd42d6",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/850/300/200",
     },
+    "id": "07c86c03-5b6f-4e58-9ba8-58afb2bd42d6",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/850/300/200",
+      },
+    ],
     "name": "Pants",
     "priceRange": {
       "maxVariantPrice": {
@@ -984,10 +1109,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "07ea4340-c99c-4d75-b6cb-1e02b74575c0",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/775/300/200",
     },
+    "id": "07ea4340-c99c-4d75-b6cb-1e02b74575c0",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/775/300/200",
+      },
+    ],
     "name": "Salad",
     "priceRange": {
       "maxVariantPrice": {
@@ -1023,10 +1153,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "0823b685-dc1e-487f-8825-4e9c99f681fa",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/378/300/200",
     },
+    "id": "0823b685-dc1e-487f-8825-4e9c99f681fa",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/378/300/200",
+      },
+    ],
     "name": "Bike",
     "priceRange": {
       "maxVariantPrice": {
@@ -1062,10 +1197,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "08cb8af4-899b-4d5e-b4ef-92a6079d2e98",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/390/300/200",
     },
+    "id": "08cb8af4-899b-4d5e-b4ef-92a6079d2e98",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/390/300/200",
+      },
+    ],
     "name": "Towels",
     "priceRange": {
       "maxVariantPrice": {
@@ -1101,10 +1241,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "08d4b7ed-90de-4963-b8b9-e1f838dda1a8",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/695/300/200",
     },
+    "id": "08d4b7ed-90de-4963-b8b9-e1f838dda1a8",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/695/300/200",
+      },
+    ],
     "name": "Car",
     "priceRange": {
       "maxVariantPrice": {
@@ -1140,10 +1285,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "090b0aaa-8851-45d3-9367-3abd498bc175",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/457/300/200",
     },
+    "id": "090b0aaa-8851-45d3-9367-3abd498bc175",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/457/300/200",
+      },
+    ],
     "name": "Fish",
     "priceRange": {
       "maxVariantPrice": {
@@ -1179,10 +1329,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "09104fd3-fc82-4359-9601-935d87b834e1",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/978/300/200",
     },
+    "id": "09104fd3-fc82-4359-9601-935d87b834e1",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/978/300/200",
+      },
+    ],
     "name": "Tuna",
     "priceRange": {
       "maxVariantPrice": {
@@ -1218,10 +1373,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "0910d099-7c27-4e2e-9b3a-73e415a2de11",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/959/300/200",
     },
+    "id": "0910d099-7c27-4e2e-9b3a-73e415a2de11",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/959/300/200",
+      },
+    ],
     "name": "Fish",
     "priceRange": {
       "maxVariantPrice": {
@@ -1257,10 +1417,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "09237709-2f83-4b4c-b37b-9a6cb47a67bb",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/590/300/200",
     },
+    "id": "09237709-2f83-4b4c-b37b-9a6cb47a67bb",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/590/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -1296,10 +1461,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "0927c378-c913-40bc-9c65-fa5a53c1379d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/991/300/200",
     },
+    "id": "0927c378-c913-40bc-9c65-fa5a53c1379d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/991/300/200",
+      },
+    ],
     "name": "Car",
     "priceRange": {
       "maxVariantPrice": {
@@ -1335,10 +1505,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "097765d8-d2bd-49e1-8459-416ccf9fef5c",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/156/300/200",
     },
+    "id": "097765d8-d2bd-49e1-8459-416ccf9fef5c",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/156/300/200",
+      },
+    ],
     "name": "Towels",
     "priceRange": {
       "maxVariantPrice": {
@@ -1374,10 +1549,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "097c850c-4c6c-4044-9c43-df74205f200c",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/313/300/200",
     },
+    "id": "097c850c-4c6c-4044-9c43-df74205f200c",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/313/300/200",
+      },
+    ],
     "name": "Fish",
     "priceRange": {
       "maxVariantPrice": {
@@ -1413,10 +1593,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "09eb954b-1b34-4a9a-a3b4-d18935f7124f",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/46/300/200",
     },
+    "id": "09eb954b-1b34-4a9a-a3b4-d18935f7124f",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/46/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -1452,10 +1637,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "09ff76b0-2301-4c89-8cad-be9de81b1d81",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/658/300/200",
     },
+    "id": "09ff76b0-2301-4c89-8cad-be9de81b1d81",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/658/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -1491,10 +1681,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "0a1d338f-d50b-4e12-b15c-bae43c6347a0",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/607/300/200",
     },
+    "id": "0a1d338f-d50b-4e12-b15c-bae43c6347a0",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/607/300/200",
+      },
+    ],
     "name": "Tuna",
     "priceRange": {
       "maxVariantPrice": {
@@ -1530,10 +1725,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "0a3d19ac-2405-43d4-ba43-3e5f38bcff3b",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/639/300/200",
     },
+    "id": "0a3d19ac-2405-43d4-ba43-3e5f38bcff3b",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/639/300/200",
+      },
+    ],
     "name": "Soap",
     "priceRange": {
       "maxVariantPrice": {
@@ -1569,10 +1769,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "0a511039-6ef3-4077-9087-5ca7c673e82d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/315/300/200",
     },
+    "id": "0a511039-6ef3-4077-9087-5ca7c673e82d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/315/300/200",
+      },
+    ],
     "name": "Towels",
     "priceRange": {
       "maxVariantPrice": {
@@ -1608,10 +1813,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "0a6ec955-b230-42bb-ab3d-0ea2bacd08ac",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/951/300/200",
     },
+    "id": "0a6ec955-b230-42bb-ab3d-0ea2bacd08ac",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/951/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -1647,10 +1857,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "0aaa7e2f-3f7e-4f9a-8273-9f85e518f048",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/221/300/200",
     },
+    "id": "0aaa7e2f-3f7e-4f9a-8273-9f85e518f048",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/221/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -1686,10 +1901,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "0b3f2669-7d96-41ba-8e9d-100c7e3c7045",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/497/300/200",
     },
+    "id": "0b3f2669-7d96-41ba-8e9d-100c7e3c7045",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/497/300/200",
+      },
+    ],
     "name": "Shirt",
     "priceRange": {
       "maxVariantPrice": {
@@ -1725,10 +1945,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-    "id": "0b576a9d-bbc4-43d1-8f5e-b9fe725394cc",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/360/300/200",
     },
+    "id": "0b576a9d-bbc4-43d1-8f5e-b9fe725394cc",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/360/300/200",
+      },
+    ],
     "name": "Bike",
     "priceRange": {
       "maxVariantPrice": {
@@ -1764,10 +1989,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "0b8553ce-df11-4606-963a-93b9108c734b",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/423/300/200",
     },
+    "id": "0b8553ce-df11-4606-963a-93b9108c734b",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/423/300/200",
+      },
+    ],
     "name": "Table",
     "priceRange": {
       "maxVariantPrice": {
@@ -1803,10 +2033,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "0b945af0-1c5f-4a85-9e0c-bdca85eb95ac",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/257/300/200",
     },
+    "id": "0b945af0-1c5f-4a85-9e0c-bdca85eb95ac",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/257/300/200",
+      },
+    ],
     "name": "Sausages",
     "priceRange": {
       "maxVariantPrice": {
@@ -1842,10 +2077,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "0c016e37-aa90-4a82-818f-2658199ab6f1",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/22/300/200",
     },
+    "id": "0c016e37-aa90-4a82-818f-2658199ab6f1",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/22/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -1881,10 +2121,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "0ce71918-08fe-4865-ad41-a4855a192878",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/45/300/200",
     },
+    "id": "0ce71918-08fe-4865-ad41-a4855a192878",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/45/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -1920,10 +2165,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "0d81081e-44f5-4d84-85c2-75846904a910",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/599/300/200",
     },
+    "id": "0d81081e-44f5-4d84-85c2-75846904a910",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/599/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -1959,10 +2209,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "0e27f952-926f-4412-87c3-b92a104b9c44",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/277/300/200",
     },
+    "id": "0e27f952-926f-4412-87c3-b92a104b9c44",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/277/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -1998,10 +2253,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "0e7f6495-b01f-4b6c-a8b3-3d7125d5a6c6",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/309/300/200",
     },
+    "id": "0e7f6495-b01f-4b6c-a8b3-3d7125d5a6c6",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/309/300/200",
+      },
+    ],
     "name": "Soap",
     "priceRange": {
       "maxVariantPrice": {
@@ -2037,10 +2297,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "0e8e1bd8-7016-47d6-af66-a1ebaf3a2738",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/31/300/200",
     },
+    "id": "0e8e1bd8-7016-47d6-af66-a1ebaf3a2738",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/31/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -2076,10 +2341,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "0ed6758c-976e-4b7e-bd9b-26f4125fd737",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/689/300/200",
     },
+    "id": "0ed6758c-976e-4b7e-bd9b-26f4125fd737",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/689/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -2115,10 +2385,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "0ee5617f-047f-48c4-9979-13fd0de39816",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/853/300/200",
     },
+    "id": "0ee5617f-047f-48c4-9979-13fd0de39816",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/853/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -2154,10 +2429,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "0ee5910e-6bd8-4993-a65c-2259ba5d8b17",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/476/300/200",
     },
+    "id": "0ee5910e-6bd8-4993-a65c-2259ba5d8b17",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/476/300/200",
+      },
+    ],
     "name": "Sausages",
     "priceRange": {
       "maxVariantPrice": {
@@ -2193,10 +2473,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "1000f929-05c8-43d1-b51b-66d7e962572f",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/938/300/200",
     },
+    "id": "1000f929-05c8-43d1-b51b-66d7e962572f",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/938/300/200",
+      },
+    ],
     "name": "Towels",
     "priceRange": {
       "maxVariantPrice": {
@@ -2232,10 +2517,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "101593f4-296f-485a-8a10-07c19f0b06a5",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/626/300/200",
     },
+    "id": "101593f4-296f-485a-8a10-07c19f0b06a5",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/626/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -2271,10 +2561,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "10485336-ac7e-4931-abb6-6868e4b103c4",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/606/300/200",
     },
+    "id": "10485336-ac7e-4931-abb6-6868e4b103c4",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/606/300/200",
+      },
+    ],
     "name": "Ball",
     "priceRange": {
       "maxVariantPrice": {
@@ -2310,10 +2605,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "1063e435-8f40-42eb-99e8-4508f4ab3134",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/716/300/200",
     },
+    "id": "1063e435-8f40-42eb-99e8-4508f4ab3134",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/716/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -2349,10 +2649,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "10bd9876-86cd-459c-8814-e730896d13d8",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/270/300/200",
     },
+    "id": "10bd9876-86cd-459c-8814-e730896d13d8",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/270/300/200",
+      },
+    ],
     "name": "Sausages",
     "priceRange": {
       "maxVariantPrice": {
@@ -2388,10 +2693,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "10f35e96-7f2a-40a6-b6c6-ba0c829e3b8d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/574/300/200",
     },
+    "id": "10f35e96-7f2a-40a6-b6c6-ba0c829e3b8d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/574/300/200",
+      },
+    ],
     "name": "Shirt",
     "priceRange": {
       "maxVariantPrice": {
@@ -2427,10 +2737,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "11655178-433e-43f9-9edb-193595a6312c",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/827/300/200",
     },
+    "id": "11655178-433e-43f9-9edb-193595a6312c",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/827/300/200",
+      },
+    ],
     "name": "Towels",
     "priceRange": {
       "maxVariantPrice": {
@@ -2466,10 +2781,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "116f518f-0dc3-43df-8a40-f9d088242794",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/519/300/200",
     },
+    "id": "116f518f-0dc3-43df-8a40-f9d088242794",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/519/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -2505,10 +2825,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "1210b812-beb8-40f1-9940-1bd57008c064",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/493/300/200",
     },
+    "id": "1210b812-beb8-40f1-9940-1bd57008c064",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/493/300/200",
+      },
+    ],
     "name": "Shoes",
     "priceRange": {
       "maxVariantPrice": {
@@ -2544,10 +2869,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "1301401e-5a3e-4c8a-95a7-018305b4017a",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/789/300/200",
     },
+    "id": "1301401e-5a3e-4c8a-95a7-018305b4017a",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/789/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -2583,10 +2913,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "134f2a39-bb90-40bf-8d80-48ad2ec24303",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/155/300/200",
     },
+    "id": "134f2a39-bb90-40bf-8d80-48ad2ec24303",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/155/300/200",
+      },
+    ],
     "name": "Bacon",
     "priceRange": {
       "maxVariantPrice": {
@@ -2622,10 +2957,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "137ed48c-ad38-439e-8fe8-ed8270fec43a",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/455/300/200",
     },
+    "id": "137ed48c-ad38-439e-8fe8-ed8270fec43a",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/455/300/200",
+      },
+    ],
     "name": "Hat",
     "priceRange": {
       "maxVariantPrice": {
@@ -2661,10 +3001,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "13961c07-bfdd-4b3a-a9a9-f342b57764be",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/575/300/200",
     },
+    "id": "13961c07-bfdd-4b3a-a9a9-f342b57764be",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/575/300/200",
+      },
+    ],
     "name": "Pants",
     "priceRange": {
       "maxVariantPrice": {
@@ -2700,10 +3045,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-    "id": "149bc9ab-5c52-4f5e-a3da-df1206388ab2",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/260/300/200",
     },
+    "id": "149bc9ab-5c52-4f5e-a3da-df1206388ab2",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/260/300/200",
+      },
+    ],
     "name": "Towels",
     "priceRange": {
       "maxVariantPrice": {
@@ -2739,10 +3089,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "14b7ae9b-a782-40ac-b933-f72954610623",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/544/300/200",
     },
+    "id": "14b7ae9b-a782-40ac-b933-f72954610623",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/544/300/200",
+      },
+    ],
     "name": "Shoes",
     "priceRange": {
       "maxVariantPrice": {
@@ -2778,10 +3133,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "150eab19-baf4-4f2f-9b42-330ecb367fa1",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/61/300/200",
     },
+    "id": "150eab19-baf4-4f2f-9b42-330ecb367fa1",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/61/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -2817,10 +3177,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "156bed9d-90b4-46cf-8062-bffaeca713f7",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/473/300/200",
     },
+    "id": "156bed9d-90b4-46cf-8062-bffaeca713f7",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/473/300/200",
+      },
+    ],
     "name": "Salad",
     "priceRange": {
       "maxVariantPrice": {
@@ -2856,10 +3221,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "159d9ffc-69bf-45e2-9dbb-c19e403e77bf",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/991/300/200",
     },
+    "id": "159d9ffc-69bf-45e2-9dbb-c19e403e77bf",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/991/300/200",
+      },
+    ],
     "name": "Car",
     "priceRange": {
       "maxVariantPrice": {
@@ -2895,10 +3265,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "1613eb54-1e84-49bd-bb35-04fda502d901",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/321/300/200",
     },
+    "id": "1613eb54-1e84-49bd-bb35-04fda502d901",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/321/300/200",
+      },
+    ],
     "name": "Tuna",
     "priceRange": {
       "maxVariantPrice": {
@@ -2934,10 +3309,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "1671d511-6311-41bf-b52e-f5c514bf8213",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/375/300/200",
     },
+    "id": "1671d511-6311-41bf-b52e-f5c514bf8213",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/375/300/200",
+      },
+    ],
     "name": "Soap",
     "priceRange": {
       "maxVariantPrice": {
@@ -2973,10 +3353,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "167c0c73-07bf-462c-b544-2183acc72e20",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/13/300/200",
     },
+    "id": "167c0c73-07bf-462c-b544-2183acc72e20",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/13/300/200",
+      },
+    ],
     "name": "Hat",
     "priceRange": {
       "maxVariantPrice": {
@@ -3012,10 +3397,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "168b3afd-cd23-4ef9-a95c-b5e401a75d1a",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/717/300/200",
     },
+    "id": "168b3afd-cd23-4ef9-a95c-b5e401a75d1a",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/717/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -3051,10 +3441,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "16c215e5-85ac-4798-83b9-f99007ba0d66",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/359/300/200",
     },
+    "id": "16c215e5-85ac-4798-83b9-f99007ba0d66",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/359/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -3090,10 +3485,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "1793e8a8-0926-469a-9236-c4bf76b042a9",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/564/300/200",
     },
+    "id": "1793e8a8-0926-469a-9236-c4bf76b042a9",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/564/300/200",
+      },
+    ],
     "name": "Bacon",
     "priceRange": {
       "maxVariantPrice": {
@@ -3129,10 +3529,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "17d52588-d2e6-4045-aff6-07510118aedb",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/775/300/200",
     },
+    "id": "17d52588-d2e6-4045-aff6-07510118aedb",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/775/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -3168,10 +3573,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "17dcfefa-85b7-4e5a-99ca-fc4332880144",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/275/300/200",
     },
+    "id": "17dcfefa-85b7-4e5a-99ca-fc4332880144",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/275/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -3207,10 +3617,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "182f311f-39d2-4772-b28d-db8e0fb2cc04",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/346/300/200",
     },
+    "id": "182f311f-39d2-4772-b28d-db8e0fb2cc04",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/346/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -3246,10 +3661,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "1852f65c-34f6-4354-b8a6-2e7b2a92c177",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/814/300/200",
     },
+    "id": "1852f65c-34f6-4354-b8a6-2e7b2a92c177",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/814/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -3285,10 +3705,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "18a43713-3c85-47b9-a278-f364054c6bf0",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/945/300/200",
     },
+    "id": "18a43713-3c85-47b9-a278-f364054c6bf0",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/945/300/200",
+      },
+    ],
     "name": "Cheese",
     "priceRange": {
       "maxVariantPrice": {
@@ -3324,10 +3749,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "18dd2ac6-bc96-4616-8ebf-ef1afab17ca9",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/675/300/200",
     },
+    "id": "18dd2ac6-bc96-4616-8ebf-ef1afab17ca9",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/675/300/200",
+      },
+    ],
     "name": "Fish",
     "priceRange": {
       "maxVariantPrice": {
@@ -3363,10 +3793,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "18dfc88f-d0ee-4157-bc45-99716192cae9",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/41/300/200",
     },
+    "id": "18dfc88f-d0ee-4157-bc45-99716192cae9",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/41/300/200",
+      },
+    ],
     "name": "Computer",
     "priceRange": {
       "maxVariantPrice": {
@@ -3402,10 +3837,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "19ba7b40-3454-4990-b490-6c0da273a07c",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/758/300/200",
     },
+    "id": "19ba7b40-3454-4990-b490-6c0da273a07c",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/758/300/200",
+      },
+    ],
     "name": "Shirt",
     "priceRange": {
       "maxVariantPrice": {
@@ -3441,10 +3881,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "1a526573-0ea7-42c4-bf6e-067e9b8aa830",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/334/300/200",
     },
+    "id": "1a526573-0ea7-42c4-bf6e-067e9b8aa830",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/334/300/200",
+      },
+    ],
     "name": "Bacon",
     "priceRange": {
       "maxVariantPrice": {
@@ -3480,10 +3925,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "1b6442da-a8b0-4e73-85f0-09aed64d47e2",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/179/300/200",
     },
+    "id": "1b6442da-a8b0-4e73-85f0-09aed64d47e2",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/179/300/200",
+      },
+    ],
     "name": "Salad",
     "priceRange": {
       "maxVariantPrice": {
@@ -3519,10 +3969,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "1bc13e66-7937-4eeb-a809-ce3066dee6e4",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/839/300/200",
     },
+    "id": "1bc13e66-7937-4eeb-a809-ce3066dee6e4",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/839/300/200",
+      },
+    ],
     "name": "Bike",
     "priceRange": {
       "maxVariantPrice": {
@@ -3558,10 +4013,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "1c18975e-1c80-442f-af47-b18ddb4d6b7a",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/818/300/200",
     },
+    "id": "1c18975e-1c80-442f-af47-b18ddb4d6b7a",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/818/300/200",
+      },
+    ],
     "name": "Pants",
     "priceRange": {
       "maxVariantPrice": {
@@ -3597,10 +4057,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "1c57b1a3-d1af-4fd3-880f-b2df4eef9d60",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/872/300/200",
     },
+    "id": "1c57b1a3-d1af-4fd3-880f-b2df4eef9d60",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/872/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -3636,10 +4101,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-    "id": "1ca89cd7-1a88-4fc0-a465-b3e593176d38",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/410/300/200",
     },
+    "id": "1ca89cd7-1a88-4fc0-a465-b3e593176d38",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/410/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -3675,10 +4145,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "1d3db73b-4fc5-4c3d-b1cf-21de2038cc59",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/176/300/200",
     },
+    "id": "1d3db73b-4fc5-4c3d-b1cf-21de2038cc59",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/176/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -3714,10 +4189,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "1d64f41d-a61f-4f89-8f12-38b7bf22360a",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/687/300/200",
     },
+    "id": "1d64f41d-a61f-4f89-8f12-38b7bf22360a",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/687/300/200",
+      },
+    ],
     "name": "Hat",
     "priceRange": {
       "maxVariantPrice": {
@@ -3753,10 +4233,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "1d74480b-43b4-40ed-9646-efb2311a4dd7",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/743/300/200",
     },
+    "id": "1d74480b-43b4-40ed-9646-efb2311a4dd7",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/743/300/200",
+      },
+    ],
     "name": "Shirt",
     "priceRange": {
       "maxVariantPrice": {
@@ -3792,10 +4277,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "1d769d7b-d7b0-4d5c-932f-df621b22fe27",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/943/300/200",
     },
+    "id": "1d769d7b-d7b0-4d5c-932f-df621b22fe27",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/943/300/200",
+      },
+    ],
     "name": "Bike",
     "priceRange": {
       "maxVariantPrice": {
@@ -3831,10 +4321,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "1dfebb15-fb3d-4758-8567-22a72d7df180",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/341/300/200",
     },
+    "id": "1dfebb15-fb3d-4758-8567-22a72d7df180",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/341/300/200",
+      },
+    ],
     "name": "Table",
     "priceRange": {
       "maxVariantPrice": {
@@ -3870,10 +4365,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "1e241c6f-fb71-4404-a3ca-0f566eb1c19d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/521/300/200",
     },
+    "id": "1e241c6f-fb71-4404-a3ca-0f566eb1c19d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/521/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -3909,10 +4409,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "1e6ca11e-ec79-4882-967f-5c0f9d4896ec",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/128/300/200",
     },
+    "id": "1e6ca11e-ec79-4882-967f-5c0f9d4896ec",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/128/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -3948,10 +4453,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "1f57b0fc-9033-4d16-bce1-e85e46326924",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/254/300/200",
     },
+    "id": "1f57b0fc-9033-4d16-bce1-e85e46326924",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/254/300/200",
+      },
+    ],
     "name": "Salad",
     "priceRange": {
       "maxVariantPrice": {
@@ -3987,10 +4497,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "1fa82ddd-7990-4fd5-8690-3a753750fe4e",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/505/300/200",
     },
+    "id": "1fa82ddd-7990-4fd5-8690-3a753750fe4e",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/505/300/200",
+      },
+    ],
     "name": "Tuna",
     "priceRange": {
       "maxVariantPrice": {
@@ -4026,10 +4541,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "1fca897c-a798-4e47-9c06-2d8f92d11e30",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/779/300/200",
     },
+    "id": "1fca897c-a798-4e47-9c06-2d8f92d11e30",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/779/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -4065,10 +4585,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "1ff5399a-3f85-432e-8383-c92f14b76ad0",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/503/300/200",
     },
+    "id": "1ff5399a-3f85-432e-8383-c92f14b76ad0",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/503/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -4104,10 +4629,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "203a8183-fc0b-43aa-b4d4-cf2c1ee3b644",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/950/300/200",
     },
+    "id": "203a8183-fc0b-43aa-b4d4-cf2c1ee3b644",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/950/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -4143,10 +4673,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "20c30e4a-ac78-4918-97c8-b7ff8474d718",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/418/300/200",
     },
+    "id": "20c30e4a-ac78-4918-97c8-b7ff8474d718",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/418/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -4182,10 +4717,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "2132328c-6fda-4f88-9e2e-499245cb4e9f",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/624/300/200",
     },
+    "id": "2132328c-6fda-4f88-9e2e-499245cb4e9f",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/624/300/200",
+      },
+    ],
     "name": "Soap",
     "priceRange": {
       "maxVariantPrice": {
@@ -4221,10 +4761,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "216f0598-4b7c-44d6-92ce-6125ecb81d4d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/584/300/200",
     },
+    "id": "216f0598-4b7c-44d6-92ce-6125ecb81d4d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/584/300/200",
+      },
+    ],
     "name": "Table",
     "priceRange": {
       "maxVariantPrice": {
@@ -4260,10 +4805,15 @@ exports[`GET /api/v1/products > respects 'offset' query parameter 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "2171ebeb-267a-47dc-ac88-10f6ef885157",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/236/300/200",
     },
+    "id": "2171ebeb-267a-47dc-ac88-10f6ef885157",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/236/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -4304,10 +4854,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
 [
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "007eb52f-f503-454a-9948-68416b25489a",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/819/300/200",
     },
+    "id": "007eb52f-f503-454a-9948-68416b25489a",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/819/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -4343,10 +4898,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "00e5dabc-8345-4f94-a86c-a1528ed18865",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/274/300/200",
     },
+    "id": "00e5dabc-8345-4f94-a86c-a1528ed18865",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/274/300/200",
+      },
+    ],
     "name": "Fish",
     "priceRange": {
       "maxVariantPrice": {
@@ -4382,10 +4942,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "01a0035b-b6bf-4383-8c5e-b0e3cb7ec044",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/822/300/200",
     },
+    "id": "01a0035b-b6bf-4383-8c5e-b0e3cb7ec044",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/822/300/200",
+      },
+    ],
     "name": "Cheese",
     "priceRange": {
       "maxVariantPrice": {
@@ -4421,10 +4986,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-    "id": "01e54d06-91da-4e6d-9209-4ccec330b4ec",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/681/300/200",
     },
+    "id": "01e54d06-91da-4e6d-9209-4ccec330b4ec",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/681/300/200",
+      },
+    ],
     "name": "Table",
     "priceRange": {
       "maxVariantPrice": {
@@ -4460,10 +5030,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "027ccc0b-bb9f-4124-8fda-a1692086a616",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/665/300/200",
     },
+    "id": "027ccc0b-bb9f-4124-8fda-a1692086a616",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/665/300/200",
+      },
+    ],
     "name": "Mouse",
     "priceRange": {
       "maxVariantPrice": {
@@ -4499,10 +5074,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "02bca2ee-2125-4642-afcb-3510244bf443",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/593/300/200",
     },
+    "id": "02bca2ee-2125-4642-afcb-3510244bf443",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/593/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -4538,10 +5118,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "02bf1488-4b5a-4b2e-bb33-ecc316b51a32",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/62/300/200",
     },
+    "id": "02bf1488-4b5a-4b2e-bb33-ecc316b51a32",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/62/300/200",
+      },
+    ],
     "name": "Table",
     "priceRange": {
       "maxVariantPrice": {
@@ -4577,10 +5162,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "02ebbe0e-34b6-4f84-8270-a2fe83d0f100",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/9/300/200",
     },
+    "id": "02ebbe0e-34b6-4f84-8270-a2fe83d0f100",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/9/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -4616,10 +5206,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "033ef4c4-a56f-4328-a795-82567ab7b40e",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/978/300/200",
     },
+    "id": "033ef4c4-a56f-4328-a795-82567ab7b40e",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/978/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -4655,10 +5250,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "03dc8f7c-977a-47db-b36b-65c4f9cd54a5",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/420/300/200",
     },
+    "id": "03dc8f7c-977a-47db-b36b-65c4f9cd54a5",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/420/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -4694,10 +5294,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "040bf465-7211-411c-9223-f2260a587b7d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/100/300/200",
     },
+    "id": "040bf465-7211-411c-9223-f2260a587b7d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/100/300/200",
+      },
+    ],
     "name": "Computer",
     "priceRange": {
       "maxVariantPrice": {
@@ -4733,10 +5338,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "04699f16-da5c-4345-b820-bab6e8281df0",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/235/300/200",
     },
+    "id": "04699f16-da5c-4345-b820-bab6e8281df0",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/235/300/200",
+      },
+    ],
     "name": "Fish",
     "priceRange": {
       "maxVariantPrice": {
@@ -4772,10 +5382,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-    "id": "0484e3ee-b246-467d-97ce-e48d88ae75e3",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/252/300/200",
     },
+    "id": "0484e3ee-b246-467d-97ce-e48d88ae75e3",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/252/300/200",
+      },
+    ],
     "name": "Ball",
     "priceRange": {
       "maxVariantPrice": {
@@ -4811,10 +5426,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "05130a18-f2aa-4d80-a324-5801931cb578",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/574/300/200",
     },
+    "id": "05130a18-f2aa-4d80-a324-5801931cb578",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/574/300/200",
+      },
+    ],
     "name": "Cheese",
     "priceRange": {
       "maxVariantPrice": {
@@ -4850,10 +5470,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "059f09f3-2f77-4633-9dea-03dc29a08ef9",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/855/300/200",
     },
+    "id": "059f09f3-2f77-4633-9dea-03dc29a08ef9",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/855/300/200",
+      },
+    ],
     "name": "Shirt",
     "priceRange": {
       "maxVariantPrice": {
@@ -4889,10 +5514,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "05bc715e-2b78-400e-b0b8-cb9feef2b4c6",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/682/300/200",
     },
+    "id": "05bc715e-2b78-400e-b0b8-cb9feef2b4c6",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/682/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -4928,10 +5558,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "05d8eee9-1b2b-4a34-b370-fc0dc5b553f3",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/779/300/200",
     },
+    "id": "05d8eee9-1b2b-4a34-b370-fc0dc5b553f3",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/779/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -4967,10 +5602,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "05e4c02c-df5f-4b81-9bf1-8f5ca0f1e227",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/183/300/200",
     },
+    "id": "05e4c02c-df5f-4b81-9bf1-8f5ca0f1e227",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/183/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -5006,10 +5646,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "065be031-c273-43e0-a385-24da87338e89",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/636/300/200",
     },
+    "id": "065be031-c273-43e0-a385-24da87338e89",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/636/300/200",
+      },
+    ],
     "name": "Hat",
     "priceRange": {
       "maxVariantPrice": {
@@ -5045,10 +5690,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "06c9e14b-31db-45c1-9ded-9a0994e6700b",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/446/300/200",
     },
+    "id": "06c9e14b-31db-45c1-9ded-9a0994e6700b",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/446/300/200",
+      },
+    ],
     "name": "Hat",
     "priceRange": {
       "maxVariantPrice": {
@@ -5084,10 +5734,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "077c0936-b182-4e72-808f-dbf81cdbae4d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/843/300/200",
     },
+    "id": "077c0936-b182-4e72-808f-dbf81cdbae4d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/843/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -5123,10 +5778,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "077cf911-38a2-4635-a068-0f7f4c267775",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/739/300/200",
     },
+    "id": "077cf911-38a2-4635-a068-0f7f4c267775",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/739/300/200",
+      },
+    ],
     "name": "Pants",
     "priceRange": {
       "maxVariantPrice": {
@@ -5162,10 +5822,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "07a95867-dfb2-4d78-95cd-cf8a4e7748b4",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/468/300/200",
     },
+    "id": "07a95867-dfb2-4d78-95cd-cf8a4e7748b4",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/468/300/200",
+      },
+    ],
     "name": "Mouse",
     "priceRange": {
       "maxVariantPrice": {
@@ -5201,10 +5866,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "07bd1f45-625e-40d4-8cb7-2efbe421a55b",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/318/300/200",
     },
+    "id": "07bd1f45-625e-40d4-8cb7-2efbe421a55b",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/318/300/200",
+      },
+    ],
     "name": "Bacon",
     "priceRange": {
       "maxVariantPrice": {
@@ -5240,10 +5910,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "07c86c03-5b6f-4e58-9ba8-58afb2bd42d6",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/850/300/200",
     },
+    "id": "07c86c03-5b6f-4e58-9ba8-58afb2bd42d6",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/850/300/200",
+      },
+    ],
     "name": "Pants",
     "priceRange": {
       "maxVariantPrice": {
@@ -5279,10 +5954,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "07ea4340-c99c-4d75-b6cb-1e02b74575c0",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/775/300/200",
     },
+    "id": "07ea4340-c99c-4d75-b6cb-1e02b74575c0",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/775/300/200",
+      },
+    ],
     "name": "Salad",
     "priceRange": {
       "maxVariantPrice": {
@@ -5318,10 +5998,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "0823b685-dc1e-487f-8825-4e9c99f681fa",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/378/300/200",
     },
+    "id": "0823b685-dc1e-487f-8825-4e9c99f681fa",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/378/300/200",
+      },
+    ],
     "name": "Bike",
     "priceRange": {
       "maxVariantPrice": {
@@ -5357,10 +6042,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "08cb8af4-899b-4d5e-b4ef-92a6079d2e98",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/390/300/200",
     },
+    "id": "08cb8af4-899b-4d5e-b4ef-92a6079d2e98",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/390/300/200",
+      },
+    ],
     "name": "Towels",
     "priceRange": {
       "maxVariantPrice": {
@@ -5396,10 +6086,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "08d4b7ed-90de-4963-b8b9-e1f838dda1a8",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/695/300/200",
     },
+    "id": "08d4b7ed-90de-4963-b8b9-e1f838dda1a8",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/695/300/200",
+      },
+    ],
     "name": "Car",
     "priceRange": {
       "maxVariantPrice": {
@@ -5435,10 +6130,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "090b0aaa-8851-45d3-9367-3abd498bc175",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/457/300/200",
     },
+    "id": "090b0aaa-8851-45d3-9367-3abd498bc175",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/457/300/200",
+      },
+    ],
     "name": "Fish",
     "priceRange": {
       "maxVariantPrice": {
@@ -5474,10 +6174,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "09104fd3-fc82-4359-9601-935d87b834e1",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/978/300/200",
     },
+    "id": "09104fd3-fc82-4359-9601-935d87b834e1",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/978/300/200",
+      },
+    ],
     "name": "Tuna",
     "priceRange": {
       "maxVariantPrice": {
@@ -5513,10 +6218,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "0910d099-7c27-4e2e-9b3a-73e415a2de11",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/959/300/200",
     },
+    "id": "0910d099-7c27-4e2e-9b3a-73e415a2de11",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/959/300/200",
+      },
+    ],
     "name": "Fish",
     "priceRange": {
       "maxVariantPrice": {
@@ -5552,10 +6262,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "09237709-2f83-4b4c-b37b-9a6cb47a67bb",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/590/300/200",
     },
+    "id": "09237709-2f83-4b4c-b37b-9a6cb47a67bb",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/590/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -5591,10 +6306,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "0927c378-c913-40bc-9c65-fa5a53c1379d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/991/300/200",
     },
+    "id": "0927c378-c913-40bc-9c65-fa5a53c1379d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/991/300/200",
+      },
+    ],
     "name": "Car",
     "priceRange": {
       "maxVariantPrice": {
@@ -5630,10 +6350,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "097765d8-d2bd-49e1-8459-416ccf9fef5c",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/156/300/200",
     },
+    "id": "097765d8-d2bd-49e1-8459-416ccf9fef5c",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/156/300/200",
+      },
+    ],
     "name": "Towels",
     "priceRange": {
       "maxVariantPrice": {
@@ -5669,10 +6394,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "097c850c-4c6c-4044-9c43-df74205f200c",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/313/300/200",
     },
+    "id": "097c850c-4c6c-4044-9c43-df74205f200c",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/313/300/200",
+      },
+    ],
     "name": "Fish",
     "priceRange": {
       "maxVariantPrice": {
@@ -5708,10 +6438,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "09eb954b-1b34-4a9a-a3b4-d18935f7124f",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/46/300/200",
     },
+    "id": "09eb954b-1b34-4a9a-a3b4-d18935f7124f",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/46/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -5747,10 +6482,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "09ff76b0-2301-4c89-8cad-be9de81b1d81",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/658/300/200",
     },
+    "id": "09ff76b0-2301-4c89-8cad-be9de81b1d81",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/658/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -5786,10 +6526,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "0a1d338f-d50b-4e12-b15c-bae43c6347a0",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/607/300/200",
     },
+    "id": "0a1d338f-d50b-4e12-b15c-bae43c6347a0",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/607/300/200",
+      },
+    ],
     "name": "Tuna",
     "priceRange": {
       "maxVariantPrice": {
@@ -5825,10 +6570,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "0a3d19ac-2405-43d4-ba43-3e5f38bcff3b",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/639/300/200",
     },
+    "id": "0a3d19ac-2405-43d4-ba43-3e5f38bcff3b",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/639/300/200",
+      },
+    ],
     "name": "Soap",
     "priceRange": {
       "maxVariantPrice": {
@@ -5864,10 +6614,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "0a511039-6ef3-4077-9087-5ca7c673e82d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/315/300/200",
     },
+    "id": "0a511039-6ef3-4077-9087-5ca7c673e82d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/315/300/200",
+      },
+    ],
     "name": "Towels",
     "priceRange": {
       "maxVariantPrice": {
@@ -5903,10 +6658,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "0a6ec955-b230-42bb-ab3d-0ea2bacd08ac",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/951/300/200",
     },
+    "id": "0a6ec955-b230-42bb-ab3d-0ea2bacd08ac",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/951/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -5942,10 +6702,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "0aaa7e2f-3f7e-4f9a-8273-9f85e518f048",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/221/300/200",
     },
+    "id": "0aaa7e2f-3f7e-4f9a-8273-9f85e518f048",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/221/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -5981,10 +6746,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "0b3f2669-7d96-41ba-8e9d-100c7e3c7045",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/497/300/200",
     },
+    "id": "0b3f2669-7d96-41ba-8e9d-100c7e3c7045",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/497/300/200",
+      },
+    ],
     "name": "Shirt",
     "priceRange": {
       "maxVariantPrice": {
@@ -6020,10 +6790,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-    "id": "0b576a9d-bbc4-43d1-8f5e-b9fe725394cc",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/360/300/200",
     },
+    "id": "0b576a9d-bbc4-43d1-8f5e-b9fe725394cc",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/360/300/200",
+      },
+    ],
     "name": "Bike",
     "priceRange": {
       "maxVariantPrice": {
@@ -6059,10 +6834,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "0b8553ce-df11-4606-963a-93b9108c734b",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/423/300/200",
     },
+    "id": "0b8553ce-df11-4606-963a-93b9108c734b",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/423/300/200",
+      },
+    ],
     "name": "Table",
     "priceRange": {
       "maxVariantPrice": {
@@ -6098,10 +6878,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "0b945af0-1c5f-4a85-9e0c-bdca85eb95ac",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/257/300/200",
     },
+    "id": "0b945af0-1c5f-4a85-9e0c-bdca85eb95ac",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/257/300/200",
+      },
+    ],
     "name": "Sausages",
     "priceRange": {
       "maxVariantPrice": {
@@ -6137,10 +6922,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "0c016e37-aa90-4a82-818f-2658199ab6f1",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/22/300/200",
     },
+    "id": "0c016e37-aa90-4a82-818f-2658199ab6f1",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/22/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -6176,10 +6966,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "0ce71918-08fe-4865-ad41-a4855a192878",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/45/300/200",
     },
+    "id": "0ce71918-08fe-4865-ad41-a4855a192878",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/45/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -6215,10 +7010,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "0d81081e-44f5-4d84-85c2-75846904a910",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/599/300/200",
     },
+    "id": "0d81081e-44f5-4d84-85c2-75846904a910",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/599/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -6254,10 +7054,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "0e27f952-926f-4412-87c3-b92a104b9c44",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/277/300/200",
     },
+    "id": "0e27f952-926f-4412-87c3-b92a104b9c44",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/277/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -6293,10 +7098,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "0e7f6495-b01f-4b6c-a8b3-3d7125d5a6c6",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/309/300/200",
     },
+    "id": "0e7f6495-b01f-4b6c-a8b3-3d7125d5a6c6",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/309/300/200",
+      },
+    ],
     "name": "Soap",
     "priceRange": {
       "maxVariantPrice": {
@@ -6332,10 +7142,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "0e8e1bd8-7016-47d6-af66-a1ebaf3a2738",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/31/300/200",
     },
+    "id": "0e8e1bd8-7016-47d6-af66-a1ebaf3a2738",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/31/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -6371,10 +7186,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "0ed6758c-976e-4b7e-bd9b-26f4125fd737",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/689/300/200",
     },
+    "id": "0ed6758c-976e-4b7e-bd9b-26f4125fd737",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/689/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -6410,10 +7230,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "0ee5617f-047f-48c4-9979-13fd0de39816",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/853/300/200",
     },
+    "id": "0ee5617f-047f-48c4-9979-13fd0de39816",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/853/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -6449,10 +7274,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "0ee5910e-6bd8-4993-a65c-2259ba5d8b17",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/476/300/200",
     },
+    "id": "0ee5910e-6bd8-4993-a65c-2259ba5d8b17",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/476/300/200",
+      },
+    ],
     "name": "Sausages",
     "priceRange": {
       "maxVariantPrice": {
@@ -6488,10 +7318,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "1000f929-05c8-43d1-b51b-66d7e962572f",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/938/300/200",
     },
+    "id": "1000f929-05c8-43d1-b51b-66d7e962572f",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/938/300/200",
+      },
+    ],
     "name": "Towels",
     "priceRange": {
       "maxVariantPrice": {
@@ -6527,10 +7362,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "101593f4-296f-485a-8a10-07c19f0b06a5",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/626/300/200",
     },
+    "id": "101593f4-296f-485a-8a10-07c19f0b06a5",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/626/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -6566,10 +7406,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "10485336-ac7e-4931-abb6-6868e4b103c4",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/606/300/200",
     },
+    "id": "10485336-ac7e-4931-abb6-6868e4b103c4",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/606/300/200",
+      },
+    ],
     "name": "Ball",
     "priceRange": {
       "maxVariantPrice": {
@@ -6605,10 +7450,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "1063e435-8f40-42eb-99e8-4508f4ab3134",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/716/300/200",
     },
+    "id": "1063e435-8f40-42eb-99e8-4508f4ab3134",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/716/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -6644,10 +7494,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "10bd9876-86cd-459c-8814-e730896d13d8",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/270/300/200",
     },
+    "id": "10bd9876-86cd-459c-8814-e730896d13d8",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/270/300/200",
+      },
+    ],
     "name": "Sausages",
     "priceRange": {
       "maxVariantPrice": {
@@ -6683,10 +7538,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "10f35e96-7f2a-40a6-b6c6-ba0c829e3b8d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/574/300/200",
     },
+    "id": "10f35e96-7f2a-40a6-b6c6-ba0c829e3b8d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/574/300/200",
+      },
+    ],
     "name": "Shirt",
     "priceRange": {
       "maxVariantPrice": {
@@ -6722,10 +7582,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "11655178-433e-43f9-9edb-193595a6312c",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/827/300/200",
     },
+    "id": "11655178-433e-43f9-9edb-193595a6312c",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/827/300/200",
+      },
+    ],
     "name": "Towels",
     "priceRange": {
       "maxVariantPrice": {
@@ -6761,10 +7626,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "116f518f-0dc3-43df-8a40-f9d088242794",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/519/300/200",
     },
+    "id": "116f518f-0dc3-43df-8a40-f9d088242794",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/519/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -6800,10 +7670,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "1210b812-beb8-40f1-9940-1bd57008c064",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/493/300/200",
     },
+    "id": "1210b812-beb8-40f1-9940-1bd57008c064",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/493/300/200",
+      },
+    ],
     "name": "Shoes",
     "priceRange": {
       "maxVariantPrice": {
@@ -6839,10 +7714,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "1301401e-5a3e-4c8a-95a7-018305b4017a",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/789/300/200",
     },
+    "id": "1301401e-5a3e-4c8a-95a7-018305b4017a",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/789/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -6878,10 +7758,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "134f2a39-bb90-40bf-8d80-48ad2ec24303",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/155/300/200",
     },
+    "id": "134f2a39-bb90-40bf-8d80-48ad2ec24303",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/155/300/200",
+      },
+    ],
     "name": "Bacon",
     "priceRange": {
       "maxVariantPrice": {
@@ -6917,10 +7802,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "137ed48c-ad38-439e-8fe8-ed8270fec43a",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/455/300/200",
     },
+    "id": "137ed48c-ad38-439e-8fe8-ed8270fec43a",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/455/300/200",
+      },
+    ],
     "name": "Hat",
     "priceRange": {
       "maxVariantPrice": {
@@ -6956,10 +7846,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "13961c07-bfdd-4b3a-a9a9-f342b57764be",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/575/300/200",
     },
+    "id": "13961c07-bfdd-4b3a-a9a9-f342b57764be",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/575/300/200",
+      },
+    ],
     "name": "Pants",
     "priceRange": {
       "maxVariantPrice": {
@@ -6995,10 +7890,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-    "id": "149bc9ab-5c52-4f5e-a3da-df1206388ab2",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/260/300/200",
     },
+    "id": "149bc9ab-5c52-4f5e-a3da-df1206388ab2",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/260/300/200",
+      },
+    ],
     "name": "Towels",
     "priceRange": {
       "maxVariantPrice": {
@@ -7034,10 +7934,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "14b7ae9b-a782-40ac-b933-f72954610623",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/544/300/200",
     },
+    "id": "14b7ae9b-a782-40ac-b933-f72954610623",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/544/300/200",
+      },
+    ],
     "name": "Shoes",
     "priceRange": {
       "maxVariantPrice": {
@@ -7073,10 +7978,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "150eab19-baf4-4f2f-9b42-330ecb367fa1",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/61/300/200",
     },
+    "id": "150eab19-baf4-4f2f-9b42-330ecb367fa1",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/61/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -7112,10 +8022,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "156bed9d-90b4-46cf-8062-bffaeca713f7",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/473/300/200",
     },
+    "id": "156bed9d-90b4-46cf-8062-bffaeca713f7",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/473/300/200",
+      },
+    ],
     "name": "Salad",
     "priceRange": {
       "maxVariantPrice": {
@@ -7151,10 +8066,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "159d9ffc-69bf-45e2-9dbb-c19e403e77bf",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/991/300/200",
     },
+    "id": "159d9ffc-69bf-45e2-9dbb-c19e403e77bf",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/991/300/200",
+      },
+    ],
     "name": "Car",
     "priceRange": {
       "maxVariantPrice": {
@@ -7190,10 +8110,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "1613eb54-1e84-49bd-bb35-04fda502d901",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/321/300/200",
     },
+    "id": "1613eb54-1e84-49bd-bb35-04fda502d901",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/321/300/200",
+      },
+    ],
     "name": "Tuna",
     "priceRange": {
       "maxVariantPrice": {
@@ -7229,10 +8154,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "1671d511-6311-41bf-b52e-f5c514bf8213",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/375/300/200",
     },
+    "id": "1671d511-6311-41bf-b52e-f5c514bf8213",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/375/300/200",
+      },
+    ],
     "name": "Soap",
     "priceRange": {
       "maxVariantPrice": {
@@ -7268,10 +8198,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "167c0c73-07bf-462c-b544-2183acc72e20",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/13/300/200",
     },
+    "id": "167c0c73-07bf-462c-b544-2183acc72e20",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/13/300/200",
+      },
+    ],
     "name": "Hat",
     "priceRange": {
       "maxVariantPrice": {
@@ -7307,10 +8242,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "168b3afd-cd23-4ef9-a95c-b5e401a75d1a",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/717/300/200",
     },
+    "id": "168b3afd-cd23-4ef9-a95c-b5e401a75d1a",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/717/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -7346,10 +8286,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    "id": "16c215e5-85ac-4798-83b9-f99007ba0d66",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/359/300/200",
     },
+    "id": "16c215e5-85ac-4798-83b9-f99007ba0d66",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/359/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -7385,10 +8330,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "1793e8a8-0926-469a-9236-c4bf76b042a9",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/564/300/200",
     },
+    "id": "1793e8a8-0926-469a-9236-c4bf76b042a9",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/564/300/200",
+      },
+    ],
     "name": "Bacon",
     "priceRange": {
       "maxVariantPrice": {
@@ -7424,10 +8374,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "17d52588-d2e6-4045-aff6-07510118aedb",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/775/300/200",
     },
+    "id": "17d52588-d2e6-4045-aff6-07510118aedb",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/775/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -7463,10 +8418,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "17dcfefa-85b7-4e5a-99ca-fc4332880144",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/275/300/200",
     },
+    "id": "17dcfefa-85b7-4e5a-99ca-fc4332880144",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/275/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -7502,10 +8462,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "182f311f-39d2-4772-b28d-db8e0fb2cc04",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/346/300/200",
     },
+    "id": "182f311f-39d2-4772-b28d-db8e0fb2cc04",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/346/300/200",
+      },
+    ],
     "name": "Chips",
     "priceRange": {
       "maxVariantPrice": {
@@ -7541,10 +8506,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "1852f65c-34f6-4354-b8a6-2e7b2a92c177",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/814/300/200",
     },
+    "id": "1852f65c-34f6-4354-b8a6-2e7b2a92c177",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/814/300/200",
+      },
+    ],
     "name": "Gloves",
     "priceRange": {
       "maxVariantPrice": {
@@ -7580,10 +8550,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "18a43713-3c85-47b9-a278-f364054c6bf0",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/945/300/200",
     },
+    "id": "18a43713-3c85-47b9-a278-f364054c6bf0",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/945/300/200",
+      },
+    ],
     "name": "Cheese",
     "priceRange": {
       "maxVariantPrice": {
@@ -7619,10 +8594,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-    "id": "18dd2ac6-bc96-4616-8ebf-ef1afab17ca9",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/675/300/200",
     },
+    "id": "18dd2ac6-bc96-4616-8ebf-ef1afab17ca9",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/675/300/200",
+      },
+    ],
     "name": "Fish",
     "priceRange": {
       "maxVariantPrice": {
@@ -7658,10 +8638,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "18dfc88f-d0ee-4157-bc45-99716192cae9",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/41/300/200",
     },
+    "id": "18dfc88f-d0ee-4157-bc45-99716192cae9",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/41/300/200",
+      },
+    ],
     "name": "Computer",
     "priceRange": {
       "maxVariantPrice": {
@@ -7697,10 +8682,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "19ba7b40-3454-4990-b490-6c0da273a07c",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/758/300/200",
     },
+    "id": "19ba7b40-3454-4990-b490-6c0da273a07c",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/758/300/200",
+      },
+    ],
     "name": "Shirt",
     "priceRange": {
       "maxVariantPrice": {
@@ -7736,10 +8726,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-    "id": "1a526573-0ea7-42c4-bf6e-067e9b8aa830",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/334/300/200",
     },
+    "id": "1a526573-0ea7-42c4-bf6e-067e9b8aa830",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/334/300/200",
+      },
+    ],
     "name": "Bacon",
     "priceRange": {
       "maxVariantPrice": {
@@ -7775,10 +8770,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-    "id": "1b6442da-a8b0-4e73-85f0-09aed64d47e2",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/179/300/200",
     },
+    "id": "1b6442da-a8b0-4e73-85f0-09aed64d47e2",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/179/300/200",
+      },
+    ],
     "name": "Salad",
     "priceRange": {
       "maxVariantPrice": {
@@ -7814,10 +8814,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "1bc13e66-7937-4eeb-a809-ce3066dee6e4",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/839/300/200",
     },
+    "id": "1bc13e66-7937-4eeb-a809-ce3066dee6e4",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/839/300/200",
+      },
+    ],
     "name": "Bike",
     "priceRange": {
       "maxVariantPrice": {
@@ -7853,10 +8858,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-    "id": "1c18975e-1c80-442f-af47-b18ddb4d6b7a",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/818/300/200",
     },
+    "id": "1c18975e-1c80-442f-af47-b18ddb4d6b7a",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/818/300/200",
+      },
+    ],
     "name": "Pants",
     "priceRange": {
       "maxVariantPrice": {
@@ -7892,10 +8902,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-    "id": "1c57b1a3-d1af-4fd3-880f-b2df4eef9d60",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/872/300/200",
     },
+    "id": "1c57b1a3-d1af-4fd3-880f-b2df4eef9d60",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/872/300/200",
+      },
+    ],
     "name": "Pizza",
     "priceRange": {
       "maxVariantPrice": {
@@ -7931,10 +8946,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
-    "id": "1ca89cd7-1a88-4fc0-a465-b3e593176d38",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/410/300/200",
     },
+    "id": "1ca89cd7-1a88-4fc0-a465-b3e593176d38",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/410/300/200",
+      },
+    ],
     "name": "Keyboard",
     "priceRange": {
       "maxVariantPrice": {
@@ -7970,10 +8990,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-    "id": "1d3db73b-4fc5-4c3d-b1cf-21de2038cc59",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/176/300/200",
     },
+    "id": "1d3db73b-4fc5-4c3d-b1cf-21de2038cc59",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/176/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -8009,10 +9034,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "1d64f41d-a61f-4f89-8f12-38b7bf22360a",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/687/300/200",
     },
+    "id": "1d64f41d-a61f-4f89-8f12-38b7bf22360a",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/687/300/200",
+      },
+    ],
     "name": "Hat",
     "priceRange": {
       "maxVariantPrice": {
@@ -8048,10 +9078,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The Football Is Good For Training And Recreational Purposes",
-    "id": "1d74480b-43b4-40ed-9646-efb2311a4dd7",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/743/300/200",
     },
+    "id": "1d74480b-43b4-40ed-9646-efb2311a4dd7",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/743/300/200",
+      },
+    ],
     "name": "Shirt",
     "priceRange": {
       "maxVariantPrice": {
@@ -8087,10 +9122,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "id": "1d769d7b-d7b0-4d5c-932f-df621b22fe27",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/943/300/200",
     },
+    "id": "1d769d7b-d7b0-4d5c-932f-df621b22fe27",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/943/300/200",
+      },
+    ],
     "name": "Bike",
     "priceRange": {
       "maxVariantPrice": {
@@ -8126,10 +9166,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-    "id": "1dfebb15-fb3d-4758-8567-22a72d7df180",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/341/300/200",
     },
+    "id": "1dfebb15-fb3d-4758-8567-22a72d7df180",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/341/300/200",
+      },
+    ],
     "name": "Table",
     "priceRange": {
       "maxVariantPrice": {
@@ -8165,10 +9210,15 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
   },
   {
     "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "id": "1e241c6f-fb71-4404-a3ca-0f566eb1c19d",
-    "image": {
+    "featuredImage": {
       "url": "https://picsum.photos/id/521/300/200",
     },
+    "id": "1e241c6f-fb71-4404-a3ca-0f566eb1c19d",
+    "images": [
+      {
+        "url": "https://picsum.photos/id/521/300/200",
+      },
+    ],
     "name": "Chicken",
     "priceRange": {
       "maxVariantPrice": {
@@ -8203,4 +9253,67 @@ exports[`GET /api/v1/products > returns status 200 1`] = `
     ],
   },
 ]
+`;
+
+exports[`GET /api/v1/products/:productId > if product does not exist > returns status 404 1`] = `
+{
+  "error": "Not Found",
+  "message": "Product not found: 00000000-0000-0000-0000-000000000000",
+  "statusCode": 404,
+}
+`;
+
+exports[`GET /api/v1/products/:productId > invalid product ID > returns status 404 1`] = `
+{
+  "error": "Not Found",
+  "message": "Product not found: invalid_product_id",
+  "statusCode": 404,
+}
+`;
+
+exports[`GET /api/v1/products/:productId > returns status 200 1`] = `
+{
+  "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+  "featuredImage": {
+    "url": "https://picsum.photos/id/819/300/200",
+  },
+  "id": "007eb52f-f503-454a-9948-68416b25489a",
+  "images": [
+    {
+      "url": "https://picsum.photos/id/819/300/200",
+    },
+  ],
+  "name": "Pizza",
+  "priceRange": {
+    "maxVariantPrice": {
+      "amount": "960.00",
+    },
+    "minVariantPrice": {
+      "amount": "203.00",
+    },
+  },
+  "variants": [
+    {
+      "id": "a4e6649b-9794-4b71-ae65-3604f16476de",
+      "name": "Luxurious",
+      "price": {
+        "amount": "960.00",
+      },
+    },
+    {
+      "id": "7a776210-9310-4987-ba6b-d42dc0feb996",
+      "name": "Licensed",
+      "price": {
+        "amount": "340.00",
+      },
+    },
+    {
+      "id": "b93dc46a-de56-46ca-823e-4e5e7df45a47",
+      "name": "Unbranded",
+      "price": {
+        "amount": "203.00",
+      },
+    },
+  ],
+}
 `;

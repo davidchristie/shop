@@ -1,14 +1,23 @@
-import { Controller, Get, Query } from "@nestjs/common";
+import {
+  Controller,
+  Get,
+  NotFoundException,
+  Param,
+  Query,
+} from "@nestjs/common";
 import { Public } from "../auth/public.decorator.js";
-import { ProductsService } from "./products.service.js";
+import { ProductWithVariants, ProductsService } from "./products.service.js";
 
 export type Product = {
   id: string;
   name: string;
   description: string | null;
-  image: {
+  featuredImage: {
     url: string;
   };
+  images: {
+    url: string;
+  }[];
   priceRange: {
     maxVariantPrice: {
       amount: string;
@@ -40,13 +49,36 @@ export class ProductsController {
       limit: limit ? Number(limit) : 100,
       offset: offset ? Number(offset) : undefined,
     });
-    return products.map((product) => ({
+    return products.map(this.formatProduct);
+  }
+
+  @Get(":productId")
+  @Public()
+  public async getProduct(
+    @Param("productId") productId: string,
+  ): Promise<Product> {
+    const product = await this.productsService.findOne({
+      id: productId,
+    });
+    if (product === null) {
+      throw new NotFoundException(`Product not found: ${productId}`);
+    }
+    return this.formatProduct(product);
+  }
+
+  private formatProduct(product: ProductWithVariants): Product {
+    return {
       id: product.id,
       name: product.name,
       description: product.description,
-      image: {
+      featuredImage: {
         url: product.image.url,
       },
+      images: [
+        {
+          url: product.image.url,
+        },
+      ],
       priceRange: {
         maxVariantPrice: {
           amount:
@@ -72,6 +104,6 @@ export class ProductsController {
           amount: variant.price.toFixed(2),
         },
       })),
-    }));
+    };
   }
 }

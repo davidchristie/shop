@@ -293,11 +293,18 @@ export async function getCollectionProducts({
     featuredImage: {
       altText: '',
       height: 200,
-      url: product.image.url,
+      url: product.featuredImage.url,
       width: 300
     },
-    handle: 'asdf',
-    images: [],
+    handle: product.id,
+    images: [
+      {
+        altText: '',
+        height: 200,
+        url: product.featuredImage.url,
+        width: 300
+      }
+    ],
     options: [],
     priceRange: {
       maxVariantPrice: {
@@ -310,12 +317,12 @@ export async function getCollectionProducts({
       }
     },
     seo: {
-      description: 'asdf',
-      title: 'asdf'
+      description: product.description ?? '',
+      title: product.name
     },
-    tags: ['adsf'],
+    tags: [],
     title: product.name,
-    updatedAt: 'asdf',
+    updatedAt: '',
     variants: []
   }));
 }
@@ -384,27 +391,63 @@ export async function getPages(): Promise<Page[]> {
 }
 
 export async function getProduct(handle: string): Promise<Product | undefined> {
-  const res = await shopifyFetch<ShopifyProductOperation>({
-    query: getProductQuery,
-    tags: [TAGS.products],
-    variables: {
-      handle
-    }
+  const response = await fetch(`${serverHost}/api/v1/products/${handle}`, {
+    cache: 'no-store'
   });
-
-  return reshapeProduct(res.body.data.product, false);
+  const product: ServerProduct = await response.json();
+  return {
+    id: product.id,
+    availableForSale: true,
+    descriptionHtml: `<p>${product.description ?? ''}</p>`,
+    description: product.description ?? '',
+    featuredImage: {
+      altText: '',
+      height: 200,
+      url: product.featuredImage.url,
+      width: 300
+    },
+    handle: product.id,
+    images: [
+      {
+        altText: '',
+        height: 200,
+        url: product.featuredImage.url,
+        width: 300
+      }
+    ],
+    options: [],
+    priceRange: {
+      maxVariantPrice: {
+        amount: product.priceRange.maxVariantPrice.amount,
+        currencyCode: 'NZD'
+      },
+      minVariantPrice: {
+        amount: product.priceRange.minVariantPrice.amount,
+        currencyCode: 'NZD'
+      }
+    },
+    seo: {
+      description: 'asdf',
+      title: 'asdf'
+    },
+    tags: [],
+    title: product.name,
+    updatedAt: '',
+    variants: []
+  };
 }
 
 export async function getProductRecommendations(productId: string): Promise<Product[]> {
-  const res = await shopifyFetch<ShopifyProductRecommendationsOperation>({
-    query: getProductRecommendationsQuery,
-    tags: [TAGS.products],
-    variables: {
-      productId
-    }
-  });
+  return [];
+  // const res = await shopifyFetch<ShopifyProductRecommendationsOperation>({
+  //   query: getProductRecommendationsQuery,
+  //   tags: [TAGS.products],
+  //   variables: {
+  //     productId
+  //   }
+  // });
 
-  return reshapeProducts(res.body.data.productRecommendations);
+  // return reshapeProducts(res.body.data.productRecommendations);
 }
 
 export async function getProducts({
