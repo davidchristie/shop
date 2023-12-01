@@ -1,3 +1,4 @@
+import { Product as ServerProduct } from '@shop/server';
 import { HIDDEN_PRODUCT_TAG, SHOPIFY_GRAPHQL_API_ENDPOINT, TAGS } from 'lib/constants';
 import { ensureStartsWith } from 'lib/utils';
 import { revalidateTag } from 'next/cache';
@@ -10,10 +11,7 @@ import {
   removeFromCartMutation
 } from './mutations/cart';
 import { getCartQuery } from './queries/cart';
-import {
-  getCollectionQuery,
-  getCollectionsQuery
-} from './queries/collection';
+import { getCollectionQuery, getCollectionsQuery } from './queries/collection';
 import { getPageQuery, getPagesQuery } from './queries/page';
 import {
   getProductQuery,
@@ -45,7 +43,7 @@ import {
   ShopifyUpdateCartOperation
 } from './types';
 
-const serverHost = process.env.SERVER_HOST ?? "http://localhost:4000"
+const serverHost = process.env.SERVER_HOST ?? 'http://localhost:4000';
 
 type ExtractVariables<T> = T extends { variables: object } ? T['variables'] : never;
 
@@ -62,7 +60,7 @@ export async function shopifyFetch<T>({
   tags?: string[];
   variables?: ExtractVariables<T>;
 }): Promise<{ status: number; body: T } | never> {
-  throw new Error("Not implemented")
+  throw new Error('Not implemented');
   // try {
   //   const result = await fetch(endpoint, {
   //     method: 'POST',
@@ -283,46 +281,43 @@ export async function getCollectionProducts({
   reverse?: boolean;
   sortKey?: string;
 }): Promise<Product[]> {
-  const response = await fetch(`${serverHost}/api/v1/products`)
-  const products = await response.json();
-  console.log('>>> products:', products)
-  return products.map((product: any) => (
-    {
-      id: product.id,
-      availableForSale: true,
-      descriptionHtml: `<p>${product.description}</p>`,
-      description: product.description,
-      featuredImage: {
-        altText: 'asdf',
-        height: 200,
-        url: 'https://picsum.photos/id/123/300/200',
-        width: 300
+  const response = await fetch(`${serverHost}/api/v1/products`, {
+    cache: 'no-store'
+  });
+  const products: ServerProduct[] = await response.json();
+  return products.map((product) => ({
+    id: product.id,
+    availableForSale: true,
+    descriptionHtml: `<p>${product.description ?? ''}</p>`,
+    description: product.description ?? '',
+    featuredImage: {
+      altText: 'asdf',
+      height: 200,
+      url: 'https://picsum.photos/id/123/300/200',
+      width: 300
+    },
+    handle: 'asdf',
+    images: [],
+    options: [],
+    priceRange: {
+      maxVariantPrice: {
+        amount: product.priceRange.maxVariantPrice.amount,
+        currencyCode: 'NZD'
       },
-      handle: 'asdf',
-      images: [],
-      options: [],
-      priceRange: {
-        maxVariantPrice: {
-          amount: '456',
-          currencyCode: 'NZD'
-        },
-        minVariantPrice: {
-          amount: '123',
-          currencyCode: 'NZD'
-        },
-      },
-      seo: {
-        description: 'asdf',
-        title: 'asdf'
-      },
-      tags: [
-        'adsf'
-      ],
-      title: product.name,
-      updatedAt: 'asdf',
-      variants: []
-    }
-  ));
+      minVariantPrice: {
+        amount: product.priceRange.minVariantPrice.amount,
+        currencyCode: 'NZD'
+      }
+    },
+    seo: {
+      description: 'asdf',
+      title: 'asdf'
+    },
+    tags: ['adsf'],
+    title: product.name,
+    updatedAt: 'asdf',
+    variants: []
+  }));
 }
 
 export async function getCollections(): Promise<Collection[]> {
@@ -354,7 +349,7 @@ export async function getCollections(): Promise<Collection[]> {
 }
 
 export async function getMenu(handle: string): Promise<Menu[]> {
-  return []
+  return [];
   // const res = await shopifyFetch<ShopifyMenuOperation>({
   //   query: getMenuQuery,
   //   tags: [TAGS.collections],
