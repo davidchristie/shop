@@ -6,7 +6,7 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "generate": "turbo run generate",
-    "migrate": "turbo run migrate",
+    "migrate": "npm --workspace @shop/server run migrate",
     "seed": "turbo run seed",
     "test:integration": "turbo run test:integration",
     "test:system": "turbo run test:system",

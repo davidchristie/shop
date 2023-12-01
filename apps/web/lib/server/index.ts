@@ -291,9 +291,9 @@ export async function getCollectionProducts({
     descriptionHtml: `<p>${product.description ?? ''}</p>`,
     description: product.description ?? '',
     featuredImage: {
-      altText: 'asdf',
+      altText: '',
       height: 200,
-      url: 'https://picsum.photos/id/123/300/200',
+      url: product.image.url,
       width: 300
     },
     handle: 'asdf',

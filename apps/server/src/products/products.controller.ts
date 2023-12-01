@@ -6,6 +6,9 @@ export type Product = {
   id: string;
   name: string;
   description: string | null;
+  image: {
+    url: string;
+  };
   priceRange: {
     maxVariantPrice: {
       amount: string;
@@ -41,6 +44,9 @@ export class ProductsController {
       id: product.id,
       name: product.name,
       description: product.description,
+      image: {
+        url: product.image.url,
+      },
       priceRange: {
         maxVariantPrice: {
           amount:
