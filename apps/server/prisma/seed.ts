@@ -30,15 +30,30 @@ async function seed(): Promise<void> {
     ],
   });
   const users = await prisma.user.findMany();
-  await prisma.product.createMany({
+  await prisma.image.createMany({
     data: Array(1000)
       .fill(null)
       .map(() => ({
         id: faker.string.uuid(),
         createdAt: new Date("2023-11-19T06:31:46.208Z"),
         updatedAt: new Date("2023-11-19T06:31:46.208Z"),
+        url: `https://picsum.photos/id/${faker.number.int({
+          min: 1,
+          max: 1000,
+        })}/300/200`,
+      })),
+  });
+  const images = await prisma.image.findMany();
+  await prisma.product.createMany({
+    data: Array(1000)
+      .fill(null)
+      .map((_, index) => ({
+        id: faker.string.uuid(),
+        createdAt: new Date("2023-11-19T06:31:46.208Z"),
+        updatedAt: new Date("2023-11-19T06:31:46.208Z"),
         name: faker.commerce.product(),
         description: faker.commerce.productDescription(),
+        imageId: images[index].id,
       })),
   });
   const products = await prisma.product.findMany();

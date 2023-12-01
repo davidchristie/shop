@@ -23,43 +23,43 @@ describe(`POST ${baseUrl}`, () => {
       {
         "cartLines": [
           {
-            "id": "174c7683-63c4-484d-818f-df415ff244c8",
+            "id": "3fb67158-61b7-499d-b01f-354bdedecb68",
             "product": {
-              "id": "89bd9d8d-69a6-474e-80f4-67cc8796ed15",
-              "name": "Tuna",
+              "id": "61de2f49-1c57-4077-81f4-f473b36ebe19",
+              "name": "Fish",
               "variant": {
-                "id": "45f9486c-a152-48ed-b188-659b43f51c85",
-                "name": "Tasty",
+                "id": "279faf6b-c6cb-4800-999d-4d32ce8afc37",
+                "name": "Recycled",
               },
             },
             "quantity": 1,
           },
           {
-            "id": "f3dd7571-0ee5-4099-8cf1-5abf98fbfe8e",
+            "id": "b42e58cd-c37c-4643-be61-9de26fd7ee02",
             "product": {
-              "id": "89bd9d8d-69a6-474e-80f4-67cc8796ed15",
-              "name": "Tuna",
+              "id": "61de2f49-1c57-4077-81f4-f473b36ebe19",
+              "name": "Fish",
               "variant": {
-                "id": "eb2f9126-d4d7-4408-977a-471599a0767e",
-                "name": "Ergonomic",
+                "id": "72a2b2ed-4474-49d1-9418-585664155a42",
+                "name": "Incredible",
               },
             },
             "quantity": 2,
           },
           {
-            "id": "aa5d3f2a-7f0a-447d-a028-9f7d64867394",
+            "id": "122d05bc-c17c-4a33-a87f-a05d6ab621b5",
             "product": {
-              "id": "89bd9d8d-69a6-474e-80f4-67cc8796ed15",
-              "name": "Tuna",
+              "id": "61de2f49-1c57-4077-81f4-f473b36ebe19",
+              "name": "Fish",
               "variant": {
-                "id": "8a862e14-6483-4750-b0c4-e6dc8ae8b072",
-                "name": "Ergonomic",
+                "id": "ef66dedc-ed18-460d-b1a5-e6b04a7ce6bf",
+                "name": "Recycled",
               },
             },
             "quantity": 3,
           },
         ],
-        "id": "fc778083-0af1-423a-98c4-3f9d077c960c",
+        "id": "48b878ef-bd16-4c12-8b98-fff2515e44b3",
       }
     `);
   });

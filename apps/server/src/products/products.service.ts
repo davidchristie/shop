@@ -1,8 +1,9 @@
-import { Product, Variant } from "@prisma/client";
+import { Image, Product, Variant } from "@prisma/client";
 import { Injectable } from "@nestjs/common";
 import { PrismaService } from "../prisma.service.js";
 
 export type ProductWithVariants = Product & {
+  image: Image;
   variants: Variant[];
 };
 
@@ -16,6 +17,7 @@ export class ProductsService {
   }): Promise<ProductWithVariants[]> {
     return this.prismaService.product.findMany({
       include: {
+        image: true,
         variants: true,
       },
       skip: input.offset,
