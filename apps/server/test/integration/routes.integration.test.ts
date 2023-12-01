@@ -37,6 +37,10 @@ it("only exposes expected routes", () => {
         "method": "get",
         "path": "/api/v1/products",
       },
+      {
+        "method": "get",
+        "path": "/api/v1/products/:productId",
+      },
     ]
   `);
 });
